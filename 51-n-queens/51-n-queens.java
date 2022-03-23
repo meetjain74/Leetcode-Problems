@@ -5,22 +5,18 @@ class Solution {
         // Chess board - true representing queen exists
         boolean chess[][] = new boolean[n+1][n+1];
         
-        placeQueens(ans,chess,n,1,0);
+        placeQueens(ans,chess,n,1);
         
         return ans;
     }
     
     // Placing queens row wise
     public void placeQueens(List<List<String>> ans,boolean[][] chess,
-                            int n,int rowNum,int queensCount) {
+                            int n,int rowNum) {
         
         // Base case
-        if (queensCount==n) {
-            ans.add(getStringList(chess,n));
-            return;
-        }
-        
         if (rowNum>n) {
+            ans.add(getStringList(chess,n));
             return;
         }
         
@@ -29,7 +25,7 @@ class Solution {
             if (!isConflict(chess,rowNum,i,n)) {
                 System.out.println("f"+rowNum+" "+i);
                 chess[rowNum][i]=true;
-                placeQueens(ans,chess,n,rowNum+1,queensCount+1);
+                placeQueens(ans,chess,n,rowNum+1);
                 chess[rowNum][i]=false;
             }
         }
