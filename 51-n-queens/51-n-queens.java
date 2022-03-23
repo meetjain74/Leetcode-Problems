@@ -23,7 +23,6 @@ class Solution {
         // Placing one by one at each column
         for (int i=1;i<=n;i++) {
             if (!isConflict(chess,rowNum,i,n)) {
-                System.out.println("f"+rowNum+" "+i);
                 chess[rowNum][i]=true;
                 placeQueens(ans,chess,n,rowNum+1);
                 chess[rowNum][i]=false;
@@ -35,13 +34,15 @@ class Solution {
     public boolean isConflict(boolean[][] chess,int x,int y,int n) {
         
         // Check if queen exist in the given row
-        for (int i=1;i<=n;i++) {
-            if (chess[x][i])
-                return true;
-        }
+        // Not required - as we place only one in a row
+        // for (int i=1;i<=n;i++) {
+        //     if (chess[x][i])
+        //         return true;
+        // }
         
         // Check if queen exist in the given column
-        for (int i=1;i<=n;i++) {
+        // Upto x only 
+        for (int i=1;i<=x;i++) {
             if (chess[i][y])
                 return true;
         }
@@ -53,12 +54,13 @@ class Solution {
                 return true;
         }
         
-        row=x+1;
-        col=y+1;
-        while(row<=n && col<=n) {
-            if (chess[row++][col++])
-                return true;
-        }
+        // Not required
+        // row=x+1;
+        // col=y+1;
+        // while(row<=n && col<=n) {
+        //     if (chess[row++][col++])
+        //         return true;
+        // }
         
         // Check if queen exist in the +ve slope diagonal
         row=x-1;
@@ -68,12 +70,13 @@ class Solution {
                 return true;
         }
         
-        row=x+1;
-        col=y-1;
-        while(row<=n && col>0) {
-            if (chess[row++][col--])
-                return true;
-        }
+        // Not required
+        // row=x+1;
+        // col=y-1;
+        // while(row<=n && col>0) {
+        //     if (chess[row++][col--])
+        //         return true;
+        // }
         
         return false;
     }
