@@ -29,12 +29,9 @@ class Rat {
 // } Driver Code Ends
 
 
-// User function Template for Java
-
 // m is the given matrix and n is the order of matrix
 class Solution {
     public static ArrayList<String> findPath(int[][] m, int n) {
-        // Your code here
         boolean visited[][] = new boolean[n][n]; // Matrix with default value false
         ArrayList<String> ans = new ArrayList<>();
         
