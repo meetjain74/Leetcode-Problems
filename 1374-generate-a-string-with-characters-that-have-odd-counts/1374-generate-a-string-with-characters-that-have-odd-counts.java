@@ -1,17 +1,10 @@
 class Solution {
     public String generateTheString(int n) {
-        String ans = "";
-        int i=0;
-        if (n%2==0) {
-            ans+="a";
-            i=1;
-        }
+        char [] arr = new char [n];
+        Arrays.fill(arr, 'a');
+        if(n%2==0)
+            arr[0]='b';
         
-        while (i<n) {
-            ans+="b";
-            i++;
-        }
-        
-        return ans;
+        return new String(arr);
     }
 }
