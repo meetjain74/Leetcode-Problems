@@ -16,6 +16,9 @@ class Solution {
 			if (n<=num) {
 				getNums(res,n,num);
 			}
+            else {
+                return;
+            }
 		}
 	}
 }
