@@ -3,7 +3,6 @@ class Solution {
         List<Integer> ans = new ArrayList<>();
         
         List<Integer> tempMax = findElement(nums);
-        System.out.println(tempMax);
         if (count(nums,tempMax.get(0))>nums.length/3)
             ans.add(tempMax.get(0));
         if (tempMax.get(1)!=tempMax.get(0) && count(nums,tempMax.get(1))>nums.length/3)
