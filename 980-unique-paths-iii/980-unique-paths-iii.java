@@ -22,10 +22,6 @@ class Solution {
                     emptySquares++;
             }
         }
-        
-        // System.out.println(startX+" "+startY+" "+endX+" "+endY+" "+m+" "+n);
-        // System.out.println(emptySquares);
-        
         return getCount(visited,grid,startX,startY,endX,endY,m,n,emptySquares);
     }
     
