@@ -2,7 +2,7 @@ class Solution {
     public int uniquePaths(int m, int n) {
         boolean visited[][] = new boolean[m][n];
         
-        // Dp array representing no of paths from that point to finish
+        // Dp array representing no of paths starting from that point (i,j) to finish
         int dp[][] = new int[m][n];
         
         for (int i=m-1;i>=0;i--) {
