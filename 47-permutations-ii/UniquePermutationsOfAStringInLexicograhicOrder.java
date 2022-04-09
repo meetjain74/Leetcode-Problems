@@ -1,7 +1,7 @@
 import java.util.*;
 public class Main {
 	static List<String> ans = new ArrayList<>();
-    public static void main(String args[]) {
+	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
 		boolean visited[] = new boolean[26];
@@ -10,7 +10,7 @@ public class Main {
 		for (int i=0;i<ans.size();i++) {
 			System.out.println(ans.get(i));
 		}
-    }
+	}
 
 	public static void getUniquePermutations(char str[],boolean[] visited,int i) {
 		if (i==str.length) {
