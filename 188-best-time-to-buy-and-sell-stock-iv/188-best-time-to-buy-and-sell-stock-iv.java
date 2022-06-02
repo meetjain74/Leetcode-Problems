@@ -12,19 +12,16 @@ class Solution {
         // dp[i][0] will be 0 as profit upto first day is 0
         
         for (int i=1;i<=k;i++) {
+            int temp = dp[i-1][0]-prices[0];
+                
             for (int j=1;j<days;j++) {
                 // dp[i][day] will be maximum of dp[i][day-1] and
                 // dp[i-1][j]+new tx i.e max profit upto transaction i-1 and j<day
                 
                 int max = dp[i][j-1];
                 
-                for (int past=0;past<j;past++) {
-                    int profitTillOneLessTransaction = dp[i-1][past];
-                    int finalTransaction = prices[j]-prices[past];
-                    
-                    max = Math.max(max,
-                                   profitTillOneLessTransaction+finalTransaction);
-                }
+                temp = Math.max(dp[i-1][j-1]-prices[j-1],temp);
+                max = Math.max(max,temp+prices[j]);
                 
                 dp[i][j] = max;
             }
