@@ -11,6 +11,7 @@ Collection of Standard Problems and my solutions
 
 ## Linked list 
 
+[Reverse linked list](https://github.com/meetjain74/Leetcode-Problems/tree/main/206-reverse-linked-list)  
 [Delete node in a linked list](https://github.com/meetjain74/Leetcode-Problems/tree/main/237-delete-node-in-a-linked-list)  
 [Swap nodes in pairs](https://github.com/meetjain74/Leetcode-Problems/tree/main/24-swap-nodes-in-pairs)  
 [Reverse node in k group](https://github.com/meetjain74/Leetcode-Problems/tree/main/25-reverse-nodes-in-k-group)  
