@@ -28,7 +28,6 @@ class Solution {
             List<Integer> temp = new ArrayList<>();
             
             while(current!=null) {
-                printQueue(q);
                 temp.add(current.val);
                 if (current.left!=null) 
                     q.add(current.left);
@@ -40,12 +39,5 @@ class Solution {
         }
         
         return ans;
-    }
-    
-    public void printQueue(Queue<TreeNode> q) {
-        for (TreeNode x: q) {
-            System.out.print( x==null? "null ": (x.val+" ") );
-        }
-        System.out.println();
     }
 }
