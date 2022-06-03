@@ -17,6 +17,10 @@ Collection of Standard Problems and my solutions
 [Reverse node in k group](https://github.com/meetjain74/Leetcode-Problems/tree/main/25-reverse-nodes-in-k-group)  
 [Merge k sorted lists](https://github.com/meetjain74/Leetcode-Problems/tree/main/23-merge-k-sorted-lists)  
 
+## Tree
+
+[Binary tree inorder traversal](https://github.com/meetjain74/Leetcode-Problems/tree/main/94-binary-tree-inorder-traversal)
+
 ## Backtracking
 
 [Rat in a maze](https://github.com/meetjain74/Leetcode-Problems/tree/main/Rat%20in%20a%20Maze%20Problem%20-%20I%20-%20GFG)  
