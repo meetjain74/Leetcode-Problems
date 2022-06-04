@@ -72,6 +72,6 @@ Collection of Standard Problems and my solutions
 [Next permutation](https://github.com/meetjain74/Leetcode-Problems/tree/main/31-next-permutation)  
 [Majority element](https://github.com/meetjain74/Leetcode-Problems/tree/main/169-majority-element)  
 [Majority element II](https://github.com/meetjain74/Leetcode-Problems/tree/main/229-majority-element-ii)  
-[Median of two sorted arrays](https://github.com/meetjain74/Leetcode-Problems/tree/main/4-median-of-two-sorted-arrays)  
-
+[Median of two sorted arrays](https://github.com/meetjain74/Leetcode-Problems/tree/main/4-median-of-two-sorted-arrays)    
+[Trapping rainwater](https://github.com/meetjain74/Leetcode-Problems/tree/main/42-trapping-rain-water)  
 
