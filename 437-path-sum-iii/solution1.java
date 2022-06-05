@@ -14,6 +14,7 @@
  * }
  */
 class Solution {
+    // Time complexity - O(N^2)
     public int pathSum(TreeNode root, int targetSum) {
         if (root==null) {
             return 0;
