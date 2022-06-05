@@ -14,27 +14,31 @@
  * }
  */
 class Solution {
+    int count = 0;
     public int pathSum(TreeNode root, int targetSum) {
         if (root==null) {
             return 0;
         }
         
-        int count = countPaths(root, targetSum) + 
-            pathSum(root.left, targetSum) + 
-            pathSum(root.right, targetSum);
-        
+        HashMap<Integer,Integer> possibleSums = new HashMap<>();
+        possibleSums.put(0,1);
+        countPaths(possibleSums,root,targetSum,0);
         return count;
     }
     
-    public int countPaths(TreeNode root, int targetSum) {
+    public void countPaths(HashMap<Integer,Integer> possibleSums, TreeNode root, 
+                           int targetSum, int currentSum) {
         if (root==null)
-            return 0;
+            return;
         
-        int count = 0;
-        if (root.val==targetSum)
-            count++;
+        currentSum += root.val;
+        if (possibleSums.containsKey(currentSum-targetSum)) {
+            count += possibleSums.get(currentSum-targetSum);
+        }
         
-        targetSum = targetSum - root.val;
-        return count+countPaths(root.left, targetSum)+countPaths(root.right, targetSum);
+        possibleSums.put(currentSum, possibleSums.getOrDefault(currentSum,0)+1); // Add sum to map
+        countPaths(possibleSums, root.left, targetSum, currentSum);
+        countPaths(possibleSums, root.right, targetSum, currentSum);
+        possibleSums.put(currentSum, possibleSums.getOrDefault(currentSum,0)-1); // Remove sum from map
     }
 }
