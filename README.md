@@ -42,6 +42,7 @@ Collection of Standard Problems and my solutions
 ## Dynamic programming
 
 [Min cost climbing stairs](https://github.com/meetjain74/Leetcode-Problems/tree/main/746-min-cost-climbing-stairs)  
+[House Robber](https://github.com/meetjain74/Leetcode-Problems/tree/main/198-house-robber)  
 [Unique paths](https://github.com/meetjain74/Leetcode-Problems/tree/main/62-unique-paths)  
 [Unique paths II](https://github.com/meetjain74/Leetcode-Problems/tree/main/63-unique-paths-ii)  
 [Word Break](https://github.com/meetjain74/Leetcode-Problems/tree/main/139-word-break)   
