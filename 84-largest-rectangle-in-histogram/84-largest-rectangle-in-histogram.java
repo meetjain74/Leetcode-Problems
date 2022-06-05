@@ -11,7 +11,6 @@ class Solution {
             
             int width = nextSmaller[i]-prevSmaller[i]-1;
             int currentArea = heights[i]*width;
-            System.out.println(currentArea+" -> "+prevSmaller[i]+" "+nextSmaller[i]);
             maxArea = Math.max(maxArea,currentArea);
         }
         return maxArea;
