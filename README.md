@@ -22,6 +22,7 @@ Collection of Standard Problems and my solutions
 [Binary tree inorder traversal](https://github.com/meetjain74/Leetcode-Problems/tree/main/94-binary-tree-inorder-traversal)   
 [Binary tree level order traversal](https://github.com/meetjain74/Leetcode-Problems/tree/main/102-binary-tree-level-order-traversal)   
 [Convert Sorted Array to Binary Search Tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/108-convert-sorted-array-to-binary-search-tree)  
+[Diameter of binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/543-diameter-of-binary-tree)   
 
 ## Backtracking
 
