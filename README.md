@@ -49,6 +49,10 @@ Collection of Standard Problems and my solutions
 [Partition equal subset sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/416-partition-equal-subset-sum)  
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 
+## Binary search
+
+[Guess number higher or lower](https://github.com/meetjain74/Leetcode-Problems/tree/main/374-guess-number-higher-or-lower)  
+
 ## Bit manipulation
 
 [Single number](https://github.com/meetjain74/Leetcode-Problems/tree/main/136-single-number)   
