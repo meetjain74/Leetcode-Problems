@@ -62,7 +62,8 @@ Collection of Standard Problems and my solutions
 
 [Single number](https://github.com/meetjain74/Leetcode-Problems/tree/main/136-single-number)   
 [Single number II](https://github.com/meetjain74/Leetcode-Problems/tree/main/137-single-number-ii)  
-[Single number III](https://github.com/meetjain74/Leetcode-Problems/tree/main/260-single-number-iii)  
+[Single number III](https://github.com/meetjain74/Leetcode-Problems/tree/main/260-single-number-iii)    
+[Counting bits](https://github.com/meetjain74/Leetcode-Problems/tree/main/338-counting-bits)  
 [Subsets](https://github.com/meetjain74/Leetcode-Problems/tree/main/78-subsets)  
 [Divide two integers](https://github.com/meetjain74/Leetcode-Problems/tree/main/29-divide-two-integers)  
 [Reverse bits](https://github.com/meetjain74/Leetcode-Problems/blob/main/190-reverse-bits/190-reverse-bits.java)  
