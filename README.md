@@ -52,6 +52,7 @@ Collection of Standard Problems and my solutions
 ## Binary search
 
 [Guess number higher or lower](https://github.com/meetjain74/Leetcode-Problems/tree/main/374-guess-number-higher-or-lower)  
+[Search insert position](https://github.com/meetjain74/Leetcode-Problems/tree/main/35-search-insert-position)  
 
 ## Bit manipulation
 
