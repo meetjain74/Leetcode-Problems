@@ -63,6 +63,7 @@ Collection of Standard Problems and my solutions
 
 [Rotate image](https://github.com/meetjain74/Leetcode-Problems/tree/main/48-rotate-image)  
 [Spiral matrix](https://github.com/meetjain74/Leetcode-Problems/tree/main/54-spiral-matrix)  
+[Diagonal traverse](https://github.com/meetjain74/Leetcode-Problems/tree/main/498-diagonal-traverse)  
 
 ## Buy and sell stock Problems
 
