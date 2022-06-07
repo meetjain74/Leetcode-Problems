@@ -1,19 +1,23 @@
 class Solution {
     public int[] countBits(int n) {
-        int ans[] = new int[n+1];
-        for (int i=0;i<=n;i++) {
-            ans[i]=count(i);
+        // dp[i] represents the number of set bits in i
+        int dp[] = new int[n+1];
+        
+        for (int i=1;i<=n;i++) {
+            dp[i] = ((i%2==0) ? 0 : 1) + dp[i/2];
         }
-        return ans;
+        
+        return dp;
     }
-    
-    public int count(int num) {
-        int ans = 0;
-        while (num>0) {
-            num = num&(num-1); // Removes the last set bit 
-            ans++;
-        }
-        return ans;
-    }
-
 }
+
+/* 
+Explanation of the logic -
+15 -> 1111 
+lastBit -> 1 for odd numbers and 0 for even numbers 
+Exclude last bit -> Number becomes 15/2
+
+i.e
+countSetBits[n] = lastBit(1 if set, 0 if unset) + countBits[n/2]
+
+*/
