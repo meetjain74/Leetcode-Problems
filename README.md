@@ -59,6 +59,7 @@ Collection of Standard Problems and my solutions
 [Find first position and last position of element in sorted array](https://github.com/meetjain74/Leetcode-Problems/tree/main/34-find-first-and-last-position-of-element-in-sorted-array)  
 [Count the number of occurences of an element in a sorted array](https://github.com/meetjain74/Leetcode-Problems/tree/main/Number%20of%20occurrence%20-%20GFG)  
 [Find minimum in rotated sorted array / No of times a sorted array is rotated](https://github.com/meetjain74/Leetcode-Problems/tree/main/153-find-minimum-in-rotated-sorted-array)  
+[Find minimum in rotated sorted array II](https://github.com/meetjain74/Leetcode-Problems/tree/main/154-find-minimum-in-rotated-sorted-array-ii)  
 [Search in rotated sorted array](https://github.com/meetjain74/Leetcode-Problems/tree/main/33-search-in-rotated-sorted-array)   
 [Kth missing positive number](https://github.com/meetjain74/Leetcode-Problems/tree/main/1539-kth-missing-positive-number)   
 
