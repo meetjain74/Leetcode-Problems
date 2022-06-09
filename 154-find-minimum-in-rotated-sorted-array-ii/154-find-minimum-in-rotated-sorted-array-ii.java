@@ -18,9 +18,9 @@ class Solution {
             if (nums[mid]<nums[prev] && nums[mid]<nums[next])
                 return nums[mid];
             
-            if (low<high && nums[low]==nums[low+1])
-                low++;
-            else if (low<high && nums[high]==nums[high-1])
+            // if (low<high && nums[low]==nums[low+1])
+            //     low++;
+            if (low<high && nums[high]==nums[high-1])
                 high--;
             
             // Move to the unsorted array
