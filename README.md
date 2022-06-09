@@ -104,4 +104,5 @@ Collection of Standard Problems and my solutions
 
 ## Extras
 
+[Implement queue using stack](https://github.com/meetjain74/Leetcode-Problems/tree/main/232-implement-queue-using-stacks)  
 [Remove palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/1332-remove-palindromic-subsequences)  
