@@ -13,13 +13,10 @@ class Solution {
             int mid = low + (high-low)/2;
             int prev = (mid+n-1)%n; // mid-1
             int next = (mid+1)%n; // mid+1
-            
-            //System.out.println(low+" "+high+" "+mid);
 
             // Mid is min element if minimum than both mid+1 and mid-1
             if (nums[mid]<nums[prev] && nums[mid]<nums[next])
                 return nums[mid];
-            
             
             if (low<high && nums[low]==nums[low+1])
                 low++;
