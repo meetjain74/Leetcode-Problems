@@ -10,7 +10,7 @@
 class Solution {
     public int findInMountainArray(int target, MountainArray mountainArr) {
         
-        int peakIndex = findPeakIndex(mountainArr, 0, mountainArr.length()-1);
+        int peakIndex = findPeakIndex(mountainArr);
         
         int result = orderAgnosticBinarySearch(mountainArr, target, 0, peakIndex);
         
@@ -22,7 +22,10 @@ class Solution {
         return result;
     }
     
-    private int findPeakIndex(MountainArray mountainArr, int low, int high) {
+    private int findPeakIndex(MountainArray mountainArr) {
+        int low = 0;
+        int high = mountainArr.length()-1;
+        
         while (low<=high) {
             int mid = low + (high-low)/2;
             
