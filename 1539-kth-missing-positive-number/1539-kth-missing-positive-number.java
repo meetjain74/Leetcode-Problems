@@ -1,27 +1,54 @@
 class Solution {
     public int findKthPositive(int[] arr, int k) {
         int n = arr.length;
-        int diffs[] = new int[n];
-		diffs[0] = arr[0]-1;
-		for (int i=1;i<n;i++) {
-		    diffs[i]= (arr[i]==arr[i-1]) ? 0 : arr[i]-arr[i-1]-1;
-		}
+        int low = 0;
+        int high = n-1;
         
-        int currSum = 0;
-        int p = -1;
-        while (currSum<k && p<n-1) {
-            currSum += diffs[++p];
+        while (low<=high) {
+            int mid = low + (high-low)/2;
+            
+            int expectedNumber = mid+1; //If no numbers were missing
+            int numbersMissing = arr[mid]-expectedNumber;
+            
+            if (numbersMissing>=k)
+                high=mid-1;
+            else
+                low=mid+1;
         }
-
-        int num = 0;
-        if (currSum<k) {
-            num = arr[p]+(k-currSum);
-        }
+        
+        if (high==-1)
+            return k;
         else {
-            currSum = currSum - diffs[p];
-            num = (p==0 ? 0 : arr[p-1]) + (k-currSum); 
+            int missing = arr[high]-(high+1);
+            return arr[high]+(k-missing);
         }
-        
-        return num;
     }
 }
+
+/*
+
+Explanation - 
+
+If array does not had any missing numbers, array would be like 1,2,3,4,5,6,....
+If array has missing numbers, missing numbers upto any index can be directly 
+calculated by value at that index in array minus expected value
+i.e
+For position i in array(0 indexed array), we have
+missingNumbers till i = arr[i]-(i+1) as i+1 is the expected value at that point
+
+If missingNumbers >= k in an array, kth element lies between elements inside the list
+If missingNumbers < k in an array, kth element lies outside of the list which can 
+be directly determined by arr[end] + (k - missingNumbers)
+
+Algorithm -> 
+Apply Binary search
+Calculate missing numbers upto mid
+If missing numbers here greater than or equal to k, answer lies in left part of array
+Else lies in right part of array
+
+When low>high - 
+High stores the nearest index where less than k elements are missing
+The answer can be directly calculated by arr[high] + (k - missing)
+
+
+*/
