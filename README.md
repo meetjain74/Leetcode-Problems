@@ -55,6 +55,7 @@ Collection of Standard Problems and my solutions
 [Search insert position](https://github.com/meetjain74/Leetcode-Problems/tree/main/35-search-insert-position)  
 [Sqrt(x)](https://github.com/meetjain74/Leetcode-Problems/tree/main/69-sqrtx)   
 [Peak index in a mountain array](https://github.com/meetjain74/Leetcode-Problems/tree/main/852-peak-index-in-a-mountain-array)   
+[Find in mountain array](https://github.com/meetjain74/Leetcode-Problems/tree/main/1095-find-in-mountain-array)   
 [Search in rotated sorted array](https://github.com/meetjain74/Leetcode-Problems/tree/main/33-search-in-rotated-sorted-array)   
 [Kth missing positive number](https://github.com/meetjain74/Leetcode-Problems/tree/main/1539-kth-missing-positive-number)   
 
