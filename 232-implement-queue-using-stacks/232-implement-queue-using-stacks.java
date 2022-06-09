@@ -1,33 +1,29 @@
 class MyQueue {
-    Stack<Integer> queue;
-
-    public MyQueue() {
-        queue = new Stack<>();
-    }
+    Stack<Integer> input = new Stack();
+    Stack<Integer> output = new Stack();
     
+    // Time complexity - O(1)
     public void push(int x) {
-        Stack<Integer> temp = new Stack<>();
-        while (!queue.isEmpty()) {
-            int num = queue.pop();
-            temp.push(num);
-        }
-        queue.push(x);
-        while (!temp.isEmpty()) {
-            int num = temp.pop();
-            queue.push(num);
-        }
+        input.push(x);
     }
-    
+
+    // Time complexity - O(1) amortized
     public int pop() {
-        return queue.pop();
+        peek();
+        return output.pop();
     }
-    
+
+    // Time complexity - O(1) amortized
     public int peek() {
-        return queue.peek();
+        if (output.isEmpty())
+            while (!input.isEmpty())
+                output.push(input.pop());
+        return output.peek();
     }
-    
+
+    // Time complexity - O(1)
     public boolean empty() {
-        return queue.isEmpty();
+        return input.isEmpty() && output.isEmpty();
     }
 }
 
