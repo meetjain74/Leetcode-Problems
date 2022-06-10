@@ -105,5 +105,6 @@ Collection of Standard Problems and my solutions
 ## Extras
 
 [Implement queue using stack](https://github.com/meetjain74/Leetcode-Problems/tree/main/232-implement-queue-using-stacks)  
+[Implement stack using queue](https://github.com/meetjain74/Leetcode-Problems/tree/main/225-implement-stack-using-queues)   
 [Remove palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/1332-remove-palindromic-subsequences)  
 [Longest substring without repeating characters](https://github.com/meetjain74/Leetcode-Problems/tree/main/3-longest-substring-without-repeating-characters)   
