@@ -62,7 +62,7 @@ Collection of Standard Problems and my solutions
 [Find minimum in rotated sorted array II](https://github.com/meetjain74/Leetcode-Problems/tree/main/154-find-minimum-in-rotated-sorted-array-ii)  
 [Search in rotated sorted array](https://github.com/meetjain74/Leetcode-Problems/tree/main/33-search-in-rotated-sorted-array)   
 [Kth missing positive number](https://github.com/meetjain74/Leetcode-Problems/tree/main/1539-kth-missing-positive-number)   
-
+[Find peak element](https://github.com/meetjain74/Leetcode-Problems/tree/main/162-find-peak-element)  
 
 ## Bit manipulation
 
