@@ -5,21 +5,22 @@ class MyStack {
         stack = new LinkedList<>();
     }
     
+    // Using a single queue
+    // Time complexity - O(N)
     public void push(int x) {
-        Queue<Integer> temp = new LinkedList<>();
-        while(!stack.isEmpty()) {
-            temp.add(stack.remove());
-        }
         stack.add(x);
-        while(!temp.isEmpty()) {
-            stack.add(temp.remove());
+        for (int i=0;i<stack.size()-1;i++) {
+            int num = stack.remove();
+            stack.add(num);
         }
     }
-    
+
+    // Time complexity - O(1)
     public int pop() {
         return stack.remove();
     }
     
+    // Time complexity - O(1)
     public int top() {
         return stack.peek();
     }
