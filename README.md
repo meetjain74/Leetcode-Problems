@@ -110,3 +110,4 @@ Collection of Standard Problems and my solutions
 [Implement stack using queue](https://github.com/meetjain74/Leetcode-Problems/tree/main/225-implement-stack-using-queues)   
 [Remove palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/1332-remove-palindromic-subsequences)  
 [Longest substring without repeating characters](https://github.com/meetjain74/Leetcode-Problems/tree/main/3-longest-substring-without-repeating-characters)   
+[Capacity to ship packages within d days](https://github.com/meetjain74/Leetcode-Problems/tree/main/1011-capacity-to-ship-packages-within-d-days)  
