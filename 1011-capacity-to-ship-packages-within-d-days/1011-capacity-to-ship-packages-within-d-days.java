@@ -8,7 +8,7 @@ class Solution {
         // Maximum weight of container is equal to sum of weights of all packages
         int high = getSum(weights);
         
-        int ans = high;
+        int ans = -1;
         while (low<=high) {
             int mid = low + (high-low)/2;
             int daysRequired = getNumberOfDays(weights,mid);
