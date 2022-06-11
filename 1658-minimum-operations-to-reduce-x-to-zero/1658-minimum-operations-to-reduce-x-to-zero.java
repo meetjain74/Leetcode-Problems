@@ -48,3 +48,32 @@ class Solution {
         return maxLen;
     }
 }
+
+/*
+
+Explanation - 
+
+The minimum operations to reduce X to 0 is a similar problem to have a 
+minimum length subarray (something in the end right and start left) with sum X.
+(Consider circular array)
+
+It is equal to finding the maximum length subarray anywhere in the array with sum 
+equal to prefixsum of array minus X.
+
+This is because consider the array
+
+      - - - - - - - - - - - -                           - - - - - - - - - - 
+                            |   - - - - - - - - - - -   |
+                            |   |                   |   |
+         1  2   3   ..  ..  |   |   5   6   ..   8  |   |   9   10  11  ..  ..
+                            |   |                   |   |
+                            |   - - - - - - - - - - -   |
+      - - - - - - - - - - - -                           - - - - - - - - - -             
+     
+
+To find minimum length subarray with sum including elements 1,2,3,..,9,10,11,..,..
+It is equivalent to finding subarray with sum k= TotalSumOfArray-X i.e 
+maximum length subarray with sum k including elements 5,6,..,8,..,..
+
+
+*/
