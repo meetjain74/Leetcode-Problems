@@ -102,6 +102,7 @@ Collection of Standard Problems and my solutions
 [Trapping rainwater](https://github.com/meetjain74/Leetcode-Problems/tree/main/42-trapping-rain-water)  
 [Largest Rectangle in Histogram](https://github.com/meetjain74/Leetcode-Problems/tree/main/84-largest-rectangle-in-histogram)  
 [Koko eating bananas](https://github.com/meetjain74/Leetcode-Problems/tree/main/875-koko-eating-bananas)  
+[Find all duplicates in an array](https://github.com/meetjain74/Leetcode-Problems/tree/main/442-find-all-duplicates-in-an-array)  
 
 
 ## Extras
