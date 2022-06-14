@@ -115,6 +115,7 @@ Collection of Standard Problems and my solutions
 [Implement stack using queue](https://github.com/meetjain74/Leetcode-Problems/tree/main/225-implement-stack-using-queues)   
 [Remove palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/1332-remove-palindromic-subsequences)  
 [Longest substring without repeating characters](https://github.com/meetjain74/Leetcode-Problems/tree/main/3-longest-substring-without-repeating-characters)   
+[Longest subarray with sum K](https://github.com/meetjain74/Leetcode-Problems/tree/main/Longest%20Sub-Array%20with%20Sum%20K%20-%20GFG)  
 [Minimum operations to reduce X to zero](https://github.com/meetjain74/Leetcode-Problems/tree/main/1658-minimum-operations-to-reduce-x-to-zero)  
 [Capacity to ship packages within d days](https://github.com/meetjain74/Leetcode-Problems/tree/main/1011-capacity-to-ship-packages-within-d-days)  
 [Find minimum time to finish all jobs](https://github.com/meetjain74/Leetcode-Problems/tree/main/1723-find-minimum-time-to-finish-all-jobs)  
