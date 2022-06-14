@@ -119,3 +119,13 @@ Collection of Standard Problems and my solutions
 [Minimum operations to reduce X to zero](https://github.com/meetjain74/Leetcode-Problems/tree/main/1658-minimum-operations-to-reduce-x-to-zero)  
 [Capacity to ship packages within d days](https://github.com/meetjain74/Leetcode-Problems/tree/main/1011-capacity-to-ship-packages-within-d-days)  
 [Find minimum time to finish all jobs](https://github.com/meetjain74/Leetcode-Problems/tree/main/1723-find-minimum-time-to-finish-all-jobs)  
+
+## Group of Questions
+
+### Subarray sum
+
+Subarray sum equals K  
+Maximum sum subarray of size K  
+Longest subarray with sum K with array containing only positive numbers    
+Longest subarray with sum K with array containing both positive and negative numbers   
+Maximum sum subarray in an array   
