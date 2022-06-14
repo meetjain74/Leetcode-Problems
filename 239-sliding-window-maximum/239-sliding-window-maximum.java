@@ -9,7 +9,8 @@ class Solution {
         while (end<n) {
             // Add element to queue accordingly
             
-            // If current element greater than values.peek() remove all of them
+            // If current element greater than values.peekLast() remove all of them
+            // i.e queue already contains smaller elements than current remove them
             while (values.size()!=0 && values.peekLast()<nums[end]) {
                 values.pollLast();
             }
