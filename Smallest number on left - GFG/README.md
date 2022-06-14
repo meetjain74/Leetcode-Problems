@@ -1,4 +1,4 @@
-# Smallest number on left
+# [Smallest number on left](https://practice.geeksforgeeks.org/problems/smallest-number-on-left3403/1)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:20px">Given an array <strong>a&nbsp;</strong>of integers of length <strong>n</strong>, find the nearest smaller number for every element such that the smaller element is on left side.If no small element present on the left print -1.</span></p>
