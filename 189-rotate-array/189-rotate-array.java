@@ -14,13 +14,12 @@ class Solution {
     }
     
     public void reverseArray(int[] nums,int startIndex,int endIndex) {
-        int reverseEnd = (endIndex-startIndex)/2;
-        for (int i=0;i<=reverseEnd;i++) {
-            // swap nums[startIndex] and nums[endIndex-i]
-            int temp=nums[startIndex];
-            nums[startIndex]=nums[endIndex-i];
-            nums[endIndex-i]=temp;
+        while(startIndex<endIndex){
+            int temp = nums[startIndex];
+            nums[startIndex] = nums[endIndex];
+            nums[endIndex] = temp;
             startIndex++;
+            endIndex--;
         }
     }
 }
