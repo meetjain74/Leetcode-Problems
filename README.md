@@ -112,6 +112,7 @@ Collection of Standard Problems and my solutions
 
 ## Extras
 
+[Rotate array](https://github.com/meetjain74/Leetcode-Problems/tree/main/189-rotate-array)  
 [Implement queue using stack](https://github.com/meetjain74/Leetcode-Problems/tree/main/232-implement-queue-using-stacks)  
 [Implement stack using queue](https://github.com/meetjain74/Leetcode-Problems/tree/main/225-implement-stack-using-queues)   
 [Remove palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/1332-remove-palindromic-subsequences)  
