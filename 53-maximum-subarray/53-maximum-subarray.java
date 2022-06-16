@@ -5,7 +5,6 @@ class Solution {
         for (int i: nums) {
             tempSum = Math.max(tempSum+i,i);
             maxSum = Math.max(maxSum,tempSum);
-            System.out.println(tempSum+" "+maxSum);
         }
         return maxSum;
     }
