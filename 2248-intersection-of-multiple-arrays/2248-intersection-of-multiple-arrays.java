@@ -1,5 +1,9 @@
 class Solution {
     public List<Integer> intersection(int[][] nums) {
+        return method2(nums);
+    }
+    
+    private List<Integer> method1(int[][] nums) {
         int noOfArrays = nums.length;
         int[] res;
         if (noOfArrays==1)
@@ -41,6 +45,21 @@ class Solution {
             ans[j++] = i;
         }
         
+        return ans;
+    }
+    
+    private List<Integer> method2(int[][] nums) {
+        int noOfArrays = nums.length;
+        int[] counts = new int[1001];
+        for (int[] arr : nums) {
+        	for (int i: arr) 
+                counts[i]++;
+        }
+        List<Integer> ans = new ArrayList<Integer>();
+        for (int i=0,len=counts.length;i<len;i++) {
+        	if (counts[i]==noOfArrays) 
+                ans.add(i);
+        }
         return ans;
     }
 }
