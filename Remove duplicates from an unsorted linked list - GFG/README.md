@@ -1,4 +1,4 @@
-# Remove duplicates from an unsorted linked list
+# [Remove duplicates from an unsorted linked list](https://practice.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1)
 ## Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given an unsorted linked list of <strong>N</strong> nodes. The task is to remove duplicate&nbsp;elements from this&nbsp;unsorted Linked List. When a value appears in multiple nodes, the node which appeared first should be kept, all others duplicates are to be removed.</span></p>
