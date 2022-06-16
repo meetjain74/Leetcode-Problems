@@ -7,6 +7,7 @@ Collection of Standard Problems and my solutions
 [Removing minimum and maximum from array](https://github.com/meetjain74/Leetcode-Problems/tree/main/2091-removing-minimum-and-maximum-from-array)  
 [Sort colors](https://github.com/meetjain74/Leetcode-Problems/tree/main/75-sort-colors)  
 [First missing positive](https://github.com/meetjain74/Leetcode-Problems/tree/main/41-first-missing-positive)   
+[Maximum subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/53-maximum-subarray)  
 
 ## Two pointer approach / Sliding window
 
