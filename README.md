@@ -78,7 +78,6 @@ Collection of Standard Problems and my solutions
 [Search in rotated sorted array](https://github.com/meetjain74/Leetcode-Problems/tree/main/33-search-in-rotated-sorted-array)   
 [Kth missing positive number](https://github.com/meetjain74/Leetcode-Problems/tree/main/1539-kth-missing-positive-number)   
 [Find peak element](https://github.com/meetjain74/Leetcode-Problems/tree/main/162-find-peak-element)  
-[Search a 2d matrix](https://github.com/meetjain74/Leetcode-Problems/tree/main/74-search-a-2d-matrix)  
 
 ## Bit manipulation
 
@@ -96,6 +95,8 @@ Collection of Standard Problems and my solutions
 [Rotate image](https://github.com/meetjain74/Leetcode-Problems/tree/main/48-rotate-image)  
 [Spiral matrix](https://github.com/meetjain74/Leetcode-Problems/tree/main/54-spiral-matrix)  
 [Diagonal traverse](https://github.com/meetjain74/Leetcode-Problems/tree/main/498-diagonal-traverse)  
+[Search a 2d matrix](https://github.com/meetjain74/Leetcode-Problems/tree/main/74-search-a-2d-matrix)  
+[Search in a 2d matrix II](https://github.com/meetjain74/Leetcode-Problems/tree/main/240-search-a-2d-matrix-ii)  
   
 ## Buy and sell stock Problems
 
