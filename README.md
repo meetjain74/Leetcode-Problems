@@ -8,6 +8,7 @@ Collection of Standard Problems and my solutions
 [Sort colors](https://github.com/meetjain74/Leetcode-Problems/tree/main/75-sort-colors)  
 [First missing positive](https://github.com/meetjain74/Leetcode-Problems/tree/main/41-first-missing-positive)   
 [Maximum subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/53-maximum-subarray)  
+[Smallest range II](https://github.com/meetjain74/Leetcode-Problems/tree/main/910-smallest-range-ii)  
 
 ## Two pointer approach / Sliding window
 
