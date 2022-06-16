@@ -1,4 +1,4 @@
-# Add 1 to a number represented as linked list
+# [Add 1 to a number represented as linked list](https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1#)
 ## Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">A number&nbsp;<strong>N</strong>&nbsp;is represented in Linked List such that each digit corresponds to a node in linked list. You need to add 1 to it.</span></p>
