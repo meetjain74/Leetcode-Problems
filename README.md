@@ -30,6 +30,7 @@ Collection of Standard Problems and my solutions
 [Linked list cycle](https://github.com/meetjain74/Leetcode-Problems/tree/main/141-linked-list-cycle)  
 [Linked list cycle II](https://github.com/meetjain74/Leetcode-Problems/tree/main/142-linked-list-cycle-ii)  
 [Remove Nth node from end of list](https://github.com/meetjain74/Leetcode-Problems/tree/main/19-remove-nth-node-from-end-of-list)  
+[Palindrome linked list](https://github.com/meetjain74/Leetcode-Problems/tree/main/234-palindrome-linked-list)  
 [Add 1 to a number represented as linked list](https://github.com/meetjain74/Leetcode-Problems/tree/main/Add%201%20to%20a%20number%20represented%20as%20linked%20list%20-%20GFG)   
 [Add two numbers](https://github.com/meetjain74/Leetcode-Problems/tree/main/2-add-two-numbers)   
 [Intersection of two linked lists](https://github.com/meetjain74/Leetcode-Problems/tree/main/160-intersection-of-two-linked-lists)  
