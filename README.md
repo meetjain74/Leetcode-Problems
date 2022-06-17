@@ -39,6 +39,12 @@ Collection of Standard Problems and my solutions
 [Reverse node in k group](https://github.com/meetjain74/Leetcode-Problems/tree/main/25-reverse-nodes-in-k-group)  
 [Merge k sorted lists](https://github.com/meetjain74/Leetcode-Problems/tree/main/23-merge-k-sorted-lists)  
 
+## Stack and Queues
+
+[Implement queue using stack](https://github.com/meetjain74/Leetcode-Problems/tree/main/232-implement-queue-using-stacks)  
+[Implement stack using queue](https://github.com/meetjain74/Leetcode-Problems/tree/main/225-implement-stack-using-queues)   
+[Min stack](https://github.com/meetjain74/Leetcode-Problems/tree/main/155-min-stack)  
+
 ## Tree
 
 [Binary tree inorder traversal](https://github.com/meetjain74/Leetcode-Problems/tree/main/94-binary-tree-inorder-traversal)   
@@ -130,8 +136,6 @@ Collection of Standard Problems and my solutions
 
 ## Extras
 
-[Implement queue using stack](https://github.com/meetjain74/Leetcode-Problems/tree/main/232-implement-queue-using-stacks)  
-[Implement stack using queue](https://github.com/meetjain74/Leetcode-Problems/tree/main/225-implement-stack-using-queues)   
 [Remove palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/1332-remove-palindromic-subsequences)  
 [Longest substring without repeating characters](https://github.com/meetjain74/Leetcode-Problems/tree/main/3-longest-substring-without-repeating-characters)   
 [Longest subarray with sum K](https://github.com/meetjain74/Leetcode-Problems/tree/main/Longest%20Sub-Array%20with%20Sum%20K%20-%20GFG)  
