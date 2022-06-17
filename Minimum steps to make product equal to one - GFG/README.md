@@ -1,4 +1,4 @@
-# Minimum steps to make product equal to one
+# [Minimum steps to make product equal to one](https://practice.geeksforgeeks.org/problems/minimum-steps-to-make-product-equal-to-one/1#)
 ## Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given an array <strong>arr[]</strong> containing <strong>N</strong> integers. In one step, any element of the array can either be increased or decreased by one. Find minimum steps required such that the product of the array elements becomes <strong>1</strong>. </span></p>
