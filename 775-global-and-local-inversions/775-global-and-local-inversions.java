@@ -1,5 +1,9 @@
 class Solution {
     public boolean isIdealPermutation(int[] nums) {
+        return method2(nums);
+    }
+    
+    private boolean method1(int[] nums) {
         return localInversions(nums) == globalInversions(nums);
     }
     
@@ -80,5 +84,16 @@ class Solution {
 		}
         
         return mergeInversions;
+    }
+    
+    private boolean method2(int[] nums) {
+        // All local inversions are global inversions
+        int max = -1;
+        for (int i=0,len=nums.length;i<len-2;i++) {
+            max = Math.max(max,nums[i]);
+            if (max > nums[i+2])
+                return false; // Return false if found any one global inversion
+        }
+        return true;
     }
 }
