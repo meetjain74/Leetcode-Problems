@@ -30,9 +30,8 @@ class GFG{
 class Solution
 { 
     //Function to find if there is a celebrity in the party or not.
-    int celebrity(int M[][], int n)
-    {
-    	return method1(M,n);
+    int celebrity(int M[][], int n) {
+    	return method2(M,n);
     }
     
     
@@ -67,6 +66,35 @@ class Solution
             }
             
             if (knowNobody && knownByAll)
+                return i;
+        }
+        
+        return -1;
+    }
+    
+    // Method 2
+    // Time complexity - O(N^2)
+    // Space complexity - O(N)
+    private int method2(int M[][],int n) {
+        // Create a graph of n persons as vertices
+        // ans store its indegree and outdegree
+        
+        int indegree[] = new int[n]; // No of persons ith person is known by
+        int outdegree[] = new int[n]; // No of persons ith person knows
+        
+        for (int i=0;i<n;i++) {
+            for (int j=0;j<n;j++) {
+                if (M[i][j]==1) {
+                    // Person i knows person j
+                    outdegree[i]++;
+                    // Person j is known by person i
+                    indegree[j]++;
+                }
+            }
+        }
+        
+        for (int i=0;i<n;i++) {
+            if (indegree[i]==n-1 && outdegree[i]==0)
                 return i;
         }
         
