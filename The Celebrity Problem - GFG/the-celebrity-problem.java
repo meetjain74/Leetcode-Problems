@@ -173,7 +173,7 @@ class Solution
         return celeb;
     }
     
-    // Method 4: Using two pointers
+    // Method 5: Using two pointers
     // Time complexity - O(N)
     // Space complexity - O(1)
     private int method5(int M[][],int n) {
