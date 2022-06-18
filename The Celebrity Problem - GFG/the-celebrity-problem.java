@@ -31,7 +31,7 @@ class Solution
 { 
     //Function to find if there is a celebrity in the party or not.
     int celebrity(int M[][], int n) {
-    	return method3(M,n);
+    	return method4(M,n);
     }
     
     
@@ -115,6 +115,52 @@ class Solution
                 celeb = i;
             }
         }
+        
+        // Now check if celeb is really a celeb
+        for (int i=0;i<n;i++) {
+            if (M[celeb][i]==1) // If celeb knows ith person
+                return -1;
+            if (i!=celeb && M[i][celeb]==0) // If celeb is not known by ith person
+                return -1;
+        }
+        
+        return celeb;
+    }
+    
+    // Method 4: Using stack
+    // Time complexity - O(N)
+    // Space complexity - O(1)
+    private int method4(int M[][],int n) {
+        Stack<Integer> celebs = new Stack<>();
+        
+        // Push all persons to stack first
+        for (int i=0;i<n;i++) {
+            celebs.push(i);
+        }
+        
+        // Remove persons from stack until one potential celeb remains on stack
+        while (celebs.size()>1) {
+            // Pop the top persons from stack
+            int first = celebs.pop();
+            int second = celebs.pop();
+            
+            // If first knows second as well as second knows first
+            // Both are invalid - Do not push anyone again
+            
+            // If first knows second - First can't be valid celeb
+            // Push second again to stack if second do not know first 
+            if (M[first][second]==1 && M[second][first]!=1) {
+                celebs.push(second);
+            }
+            
+            // Else second knows first - second can't be valid celeb
+            // Push first again to stack
+            else {
+                celebs.push(first);
+            }
+        }
+        
+        int celeb = celebs.pop(); // Potential candidate for celeb
         
         // Now check if celeb is really a celeb
         for (int i=0;i<n;i++) {
