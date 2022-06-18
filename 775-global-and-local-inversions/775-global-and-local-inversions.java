@@ -1,6 +1,6 @@
 class Solution {
     public boolean isIdealPermutation(int[] nums) {
-        return method2(nums);
+        return method1(nums);
     }
     
     private boolean method1(int[] nums) {
