@@ -10,6 +10,7 @@ Collection of Standard Problems and my solutions
 [Maximum subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/53-maximum-subarray)  
 [Smallest range II](https://github.com/meetjain74/Leetcode-Problems/tree/main/910-smallest-range-ii)  
 [Merge intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/56-merge-intervals)  
+[Global and local inversions](https://github.com/meetjain74/Leetcode-Problems/tree/main/775-global-and-local-inversions)  
 
 ## Two pointer approach / Sliding window
 
