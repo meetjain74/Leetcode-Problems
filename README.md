@@ -11,6 +11,7 @@ Collection of Standard Problems and my solutions
 [Smallest range II](https://github.com/meetjain74/Leetcode-Problems/tree/main/910-smallest-range-ii)  
 [Merge intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/56-merge-intervals)  
 [Global and local inversions](https://github.com/meetjain74/Leetcode-Problems/tree/main/775-global-and-local-inversions)  
+[Reverse pairs](https://github.com/meetjain74/Leetcode-Problems/tree/main/493-reverse-pairs)   
 
 ## Two pointer approach / Sliding window
 
