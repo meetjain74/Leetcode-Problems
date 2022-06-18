@@ -1,4 +1,4 @@
-# The Celebrity Problem
+# [The Celebrity Problem](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1#)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">A celebrity is a person who is known to all but does not know anyone at a party. If you go to a party of N people, find if there is a celebrity in the party or not.<br>
