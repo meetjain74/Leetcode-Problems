@@ -31,7 +31,7 @@ class Solution
 { 
     //Function to find if there is a celebrity in the party or not.
     int celebrity(int M[][], int n) {
-    	return method2(M,n);
+    	return method3(M,n);
     }
     
     
@@ -99,5 +99,31 @@ class Solution
         }
         
         return -1;
+    }
+    
+    // Method 3
+    // Time complexity - O(N)
+    // Space complexity - O(1)
+    private int method3(int M[][],int n) {
+        // Assume person 0 is a potential celebrity candidate
+        int celeb = 0;
+        
+        for (int i=1;i<n;i++) {
+            if (M[celeb][i]==1) {
+                // Celeb c knows person i - can't be celeb
+                // Update the celeb
+                celeb = i;
+            }
+        }
+        
+        // Now check if celeb is really a celeb
+        for (int i=0;i<n;i++) {
+            if (M[celeb][i]==1) // If celeb knows ith person
+                return -1;
+            if (i!=celeb && M[i][celeb]==0) // If celeb is not known by ith person
+                return -1;
+        }
+        
+        return celeb;
     }
 }
