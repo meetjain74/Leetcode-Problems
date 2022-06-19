@@ -43,11 +43,13 @@ Collection of Standard Problems and my solutions
 
 ## Stack and Queues
 
+[Valid parentheses](https://github.com/meetjain74/Leetcode-Problems/tree/main/20-valid-parentheses)  
 [Implement queue using stack](https://github.com/meetjain74/Leetcode-Problems/tree/main/232-implement-queue-using-stacks)  
 [Implement stack using queue](https://github.com/meetjain74/Leetcode-Problems/tree/main/225-implement-stack-using-queues)   
 [Min stack](https://github.com/meetjain74/Leetcode-Problems/tree/main/155-min-stack)  
 [Sort a stack](https://github.com/meetjain74/Leetcode-Problems/tree/main/Sort%20a%20stack%20-%20GFG)   
 [LRU Cache](https://github.com/meetjain74/Leetcode-Problems/tree/main/146-lru-cache)  
+[Basic calculator](https://github.com/meetjain74/Leetcode-Problems/tree/main/224-basic-calculator)   
 
 ## Tree
 
