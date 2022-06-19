@@ -224,8 +224,7 @@ class Solution {
         if (r<n && arr[r]>arr[largest]) 
             largest=r; 
 
-        if (largest!=i) 
-        { 
+        if (largest!=i) { 
             int swap=arr[i]; 
             arr[i]=arr[largest]; 
             arr[largest]=swap; 
