@@ -1,6 +1,6 @@
 class Solution {
     public int[] sortArray(int[] nums) {
-        quickSort(nums);
+        quickSort_3way(nums);
         return nums;
     }
     
@@ -84,5 +84,37 @@ class Solution {
         }
         swapAtIndex(array,++i,r);
         return i;
+    }
+    
+    /******************************QUICK SORT 3 WAY**********************************/
+    
+    public void quickSort_3way(int array[]) {
+        quickSort_3way(array,0,array.length-1);
+    }
+
+    public void quickSort_3way(int array[],int p,int r) {
+        if (p<r) {
+            int q[]=partition_3way(array,p,r);
+            quickSort_3way(array,p,q[0]-1);
+            quickSort_3way(array,q[1]+1,r);	
+        }
+    }
+
+    public int[] partition_3way(int array[],int p,int r) {
+        int pivot=array[r];
+        int i=p;
+        int k=r;
+        for (int j=p;j<k;j++) {
+            if (array[j]<pivot) {
+                swapAtIndex(array,i++,j);
+            }
+            else if (array[j]>pivot) {
+                swapAtIndex(array,--k,j);
+                j--;
+            }
+        }
+        swapAtIndex(array,k,r);
+        int indexes[]=new int[] {i,k};
+        return indexes;
     }
 }
