@@ -3,6 +3,7 @@ Collection of Standard Problems and my solutions
 
 ## Arrays
 
+[Sort an array](https://github.com/meetjain74/Leetcode-Problems/tree/main/912-sort-an-array)  
 [Rotate array](https://github.com/meetjain74/Leetcode-Problems/tree/main/189-rotate-array)  
 [Removing minimum and maximum from array](https://github.com/meetjain74/Leetcode-Problems/tree/main/2091-removing-minimum-and-maximum-from-array)  
 [Sort colors](https://github.com/meetjain74/Leetcode-Problems/tree/main/75-sort-colors)  
