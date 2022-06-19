@@ -1,6 +1,6 @@
 class Solution {
     public int[] sortArray(int[] nums) {
-        quickSort_3way(nums);
+        randomised_QuickSort(nums);
         return nums;
     }
     
@@ -116,5 +116,26 @@ class Solution {
         swapAtIndex(array,k,r);
         int indexes[]=new int[] {i,k};
         return indexes;
+    }
+    
+    /******************************RANDOMISED QUICK SORT***************************/
+    
+    public void randomised_QuickSort(int array[]) {
+        randomised_QuickSort(array,0,array.length-1);
+    }
+
+    public void randomised_QuickSort(int array[],int p,int r) {
+        if (p<r) {
+            int q[]=randomised_partition(array,p,r);
+            randomised_QuickSort(array,p,q[0]-1);
+            randomised_QuickSort(array,q[1]+1,r);	
+        }
+    }
+
+    public int[] randomised_partition(int array[],int p,int r) {
+        Random rand=new Random();
+        int swap_index=p+rand.nextInt(r-p);
+        swapAtIndex(array,swap_index,r);
+        return partition_3way(array,p,r);
     }
 }
