@@ -14,7 +14,7 @@ class Solution {
                 stack.push(num);
                 num="";
             }
-            else if (Character.isLowerCase(ch)) {
+            else if (Character.isLetter(ch)) {
                 stack.push(Character.toString(ch));
             }
             else { // ch is ]
