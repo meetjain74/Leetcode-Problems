@@ -127,6 +127,8 @@ Collection of Standard Problems and my solutions
 [Diagonal traverse](https://github.com/meetjain74/Leetcode-Problems/tree/main/498-diagonal-traverse)  
 [Search a 2d matrix](https://github.com/meetjain74/Leetcode-Problems/tree/main/74-search-a-2d-matrix)  
 [Search in a 2d matrix II](https://github.com/meetjain74/Leetcode-Problems/tree/main/240-search-a-2d-matrix-ii)  
+[Frequency sort](https://github.com/meetjain74/Leetcode-Problems/tree/main/1636-sort-array-by-increasing-frequency)   
+[K closest points to origin](https://github.com/meetjain74/Leetcode-Problems/tree/main/973-k-closest-points-to-origin)  
   
 ## Buy and sell stock Problems
 
