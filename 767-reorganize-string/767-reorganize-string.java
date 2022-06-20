@@ -9,10 +9,8 @@ class Solution {
             this.count=count;
         }
         
-        // Descending on count and ascending on ch
+        // Descending on count
         public int compareTo(Element x) {
-            if (x.count==this.count)
-                return this.ch-x.ch;
             return x.count-this.count;
         }
         
@@ -35,29 +33,24 @@ class Solution {
         }
         
         String ans = "";
-        while(pq.size()!=0) {
+        
+        Element block = pq.poll(); // Current blocking element
+        ans += block.ch;
+        block.count--;
+        
+        while (pq.size()!=0) {
             Element x = pq.poll();
-            if (x.count==1) {
-                ans=ans+x.ch;
+            ans += x.ch;
+            x.count--;
+            
+            if (block.count>0) {
+                pq.add(block);
             }
-            else {
-                if (pq.size()==0) {
-                    // Not possible to reorganize string
-                    return "";
-                }
-                Element y = pq.poll();
-                ans=ans+x.ch+y.ch;
-                y.count-=1;
-                x.count-=1;
-                
-                if (y.count>0) {
-                    pq.add(y);
-                }
-                
-                if (x.count>0) {
-                    pq.add(x);
-                }
-            }
+            block = x;
+        }
+        
+        if (block.count>0) {
+            return "";
         }
         
         return ans;
