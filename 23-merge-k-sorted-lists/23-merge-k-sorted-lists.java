@@ -10,69 +10,40 @@
  */
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        ListNode mergedList = null;
-        int length = lists.length;
-        if (length==0)
-            return null;
-        else if (length==1)
-            return lists[0];
+        int k = lists.length;
         
-        mergedList = mergeTwoLists(lists[0],lists[1]);
+        // Store all current first candidate of all the lists
+        PriorityQueue<ListNode> pq = new PriorityQueue<>(new Comparator<ListNode>(){
+            public int compare(ListNode node1,ListNode node2) {
+                return node1.val-node2.val; // Ascending
+            }
+        });
         
-        for (int i=2;i<length;i++) {
-            mergedList = mergeTwoLists(mergedList,lists[i]);
+        // Add first element of all lists
+        for (int i=0;i<k;i++) {
+            if (lists[i]!=null)
+                pq.add(lists[i]);
         }
         
-        return mergedList;
-    }
-    
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode mergedList = null;
-        ListNode current = null;
+        ListNode ans = null;
+        ListNode tail = ans;
         
-        if (l1==null)
-            return l2;
-        else if (l2==null)
-            return l1;
-        
-        while (l1!=null && l2!=null) {
+        while (pq.size()!=0) {
+            ListNode temp = pq.poll();
+            if (temp.next!=null) {
+                pq.add(temp.next);
+            }
             
-            if (l1.val<l2.val) {
-                if (mergedList==null) {
-                    mergedList = new ListNode(l1.val);
-                    current=mergedList;
-                }
-                else {
-                    current.next = new ListNode(l1.val); 
-                    current = current.next;
-                }
-                l1=l1.next;
+            if (ans==null) {
+                tail=temp;
+                ans=tail;
             }
             else {
-                if (mergedList==null) {
-                    mergedList = new ListNode(l2.val);
-                    current=mergedList;
-                }
-                else {
-                    current.next = new ListNode(l2.val);
-                    current = current.next;
-                }
-                l2=l2.next;
-            }
+                tail.next=temp;
+                tail=tail.next;
+            }    
         }
         
-        while (l1!=null) {
-            current.next = new ListNode(l1.val);
-            current = current.next;
-            l1=l1.next;
-        }
-        
-        while (l2!=null) {
-            current.next = new ListNode(l2.val);
-            current = current.next;
-            l2=l2.next;
-        }
-        
-        return mergedList;
+        return ans;
     }
 }
