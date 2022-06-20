@@ -54,7 +54,7 @@ class Solution {
             return kthSmallest(nums,k,left,p-1);
         }
         else {
-            // Find (k-(p+1)+left)th element in right array
+            // Find kth element in right array
             return kthSmallest(nums,k,p+1,right);
         }
     }
