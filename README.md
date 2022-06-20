@@ -57,7 +57,7 @@ Collection of Standard Problems and my solutions
 
 ## Heap
 
-[kth largest element in an array](https://github.com/meetjain74/Leetcode-Problems/tree/main/215-kth-largest-element-in-an-array)  
+[Kth largest element in an array](https://github.com/meetjain74/Leetcode-Problems/tree/main/215-kth-largest-element-in-an-array)  
 
 ## Tree
 
