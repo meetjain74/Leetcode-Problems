@@ -1,4 +1,4 @@
-# Nearly sorted
+# [Nearly sorted](https://practice.geeksforgeeks.org/problems/nearly-sorted-1587115620/1/#)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given an array of <strong>n</strong> elements, where each element is at most <strong>k</strong> away from its target position, you need to sort the array optimally.</span></p>
