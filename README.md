@@ -53,7 +53,11 @@ Collection of Standard Problems and my solutions
 [Basic calculator](https://github.com/meetjain74/Leetcode-Problems/tree/main/224-basic-calculator)   
 [Online stock span](https://github.com/meetjain74/Leetcode-Problems/tree/main/901-online-stock-span)  
 [Maximal rectangle](https://github.com/meetjain74/Leetcode-Problems/tree/main/85-maximal-rectangle)  
-[Smallest subsequence of distinct characters](https://github.com/meetjain74/Leetcode-Problems/tree/main/1081-smallest-subsequence-of-distinct-characters)  
+[Smallest subsequence of distinct characters](https://github.com/meetjain74/Leetcode-Problems/tree/main/1081-smallest-subsequence-of-distinct-characters)   
+
+## Heap
+
+[kth largest element in an array](https://github.com/meetjain74/Leetcode-Problems/tree/main/215-kth-largest-element-in-an-array)  
 
 ## Tree
 
