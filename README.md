@@ -64,6 +64,7 @@ Collection of Standard Problems and my solutions
 [Frequency sort](https://github.com/meetjain74/Leetcode-Problems/tree/main/1636-sort-array-by-increasing-frequency)   
 [K closest points to origin](https://github.com/meetjain74/Leetcode-Problems/tree/main/973-k-closest-points-to-origin)  
 [Merge k sorted lists](https://github.com/meetjain74/Leetcode-Problems/tree/main/23-merge-k-sorted-lists)  
+[Reorganize string](https://github.com/meetjain74/Leetcode-Problems/tree/main/767-reorganize-string)   
 
 ## Tree
 
