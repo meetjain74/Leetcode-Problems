@@ -58,6 +58,7 @@ Collection of Standard Problems and my solutions
 ## Heap
 
 [Kth largest element in an array](https://github.com/meetjain74/Leetcode-Problems/tree/main/215-kth-largest-element-in-an-array)  
+[Sort a K nearly sorted array](https://github.com/meetjain74/Leetcode-Problems/tree/main/Nearly%20sorted%20-%20GFG)   
 
 ## Tree
 
