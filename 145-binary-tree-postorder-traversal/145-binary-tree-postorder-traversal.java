@@ -17,7 +17,8 @@ class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
         //postorderRecursive(root,ans);
-        postorderIterative(root,ans);
+        //postorderIterative1(root,ans);
+        postorderIterative2(root,ans);
         return ans;
     }
     
@@ -26,17 +27,18 @@ class Solution {
         if (root==null) {
             return;
         }
-        //postorderRecursive(root.left,ans);
-        postorderIterative(root.right,ans);
+        postorderRecursive(root.left,ans);
+        postorderRecursive(root.right,ans);
         ans.add(root.val);
     }
     
     /*Iterative implementation using stack*/
     // Using two stacks
-    private void postorderIterative(TreeNode root, List<Integer> ans) {
+    private void postorderIterative1(TreeNode root, List<Integer> ans) {
         if (root==null) {
             return;
         }
+        
         Stack<TreeNode> s = new Stack<>();
         Stack<TreeNode> out = new Stack<>(); // Stores the postorder
         
@@ -54,6 +56,44 @@ class Solution {
         
         while (!out.isEmpty()) {
             ans.add(out.pop().val);
+        }
+    }
+    
+    /*Iterative implementation using stack*/
+    // Using one stack
+    private void postorderIterative2(TreeNode root, List<Integer> ans) {
+        if (root==null) {
+            return;
+        }
+        
+        Stack<TreeNode> s = new Stack<>();
+        TreeNode current = root;
+        
+        while (current!=null || !s.isEmpty()) {
+            if (current!=null) {
+                s.push(current);
+                current=current.left;
+            }
+            else {
+                // Current node is null - move to parent
+                TreeNode parent = s.peek();
+                
+                // First right part of parent is traversed
+                if (parent.right!=null) {
+                    current=parent.right;
+                }
+                else {
+                    // Parent has no right child
+                    parent = s.pop();
+                    ans.add(parent.val);
+                    
+                    // Move again top
+                    while (!s.isEmpty() && parent==s.peek().right) {
+                        parent = s.pop();
+                        ans.add(parent.val);
+                    }
+                }
+            }
         }
     }
 }
