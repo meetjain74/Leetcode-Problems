@@ -17,8 +17,8 @@ class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
         //preorderRecursive(root,ans);
-        //preorderIterative(root,ans);
-        preorderMorrisTraversal(root,ans);
+        preorderIterative(root,ans);
+        //preorderMorrisTraversal(root,ans);
         return ans;
     }
     
@@ -36,15 +36,20 @@ class Solution {
     private void preorderIterative(TreeNode root, List<Integer> ans) {
         Stack<TreeNode> s = new Stack<>();
         TreeNode current = root;
+        TreeNode prev = null;
         while (current!=null || !s.isEmpty()) {
-            while (current!=null) {
-                s.push(current);
+            if (current!=null) {
                 ans.add(current.val);
+                s.push(current);
                 current = current.left;
             }
-
-            current = s.pop();
-            current = current.right;
+            else {
+                // current == null here
+                // Reached the left most end of tree
+                // Move to parent by popping one element from stack
+                prev = s.pop();
+                current = prev.right;
+            }
         }
     }
     
