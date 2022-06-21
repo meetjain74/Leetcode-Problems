@@ -17,8 +17,8 @@ class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
         //inorderRecursive(root,ans);
-        //inorderIterative(root,ans);
-        inorderMorrisTraversal(root,ans);
+        inorderIterative(root,ans);
+        //inorderMorrisTraversal(root,ans);
         return ans;
     }
     
@@ -36,15 +36,20 @@ class Solution {
     private void inorderIterative(TreeNode root, List<Integer> ans) {
         Stack<TreeNode> s = new Stack<>();
         TreeNode current = root;
+        TreeNode prev = null;
         while (current!=null || !s.isEmpty()) {
-            while (current!=null) {
+            if (current!=null) {
                 s.push(current);
                 current = current.left;
             }
-
-            current = s.pop();
-            ans.add(current.val);
-            current = current.right;
+            else {
+                // current == null here
+                // Reached the left most end of tree
+                // Move to parent by popping one element from stack
+                prev = s.pop();
+                ans.add(prev.val);
+                current = prev.right;
+            }
         }
     }
     
