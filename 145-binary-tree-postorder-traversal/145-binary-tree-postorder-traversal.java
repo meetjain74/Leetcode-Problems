@@ -18,7 +18,8 @@ class Solution {
         List<Integer> ans = new ArrayList<>();
         //postorderRecursive(root,ans);
         //postorderIterative1(root,ans);
-        postorderIterative2(root,ans);
+        //postorderIterative2(root,ans);
+        postorderMorrisTraversal(root,ans);
         return ans;
     }
     
@@ -95,5 +96,42 @@ class Solution {
                 }
             }
         }
+    }
+    
+    
+    /*Morris traversal*/
+    private void postorderMorrisTraversal(TreeNode root, List<Integer> ans) {
+        TreeNode current = root;
+        
+        while (current!=null) {
+            // If current does not have a right print current and move to left
+            if (current.right==null) {
+                ans.add(current.val);
+                current = current.left;
+            }
+            
+            // Else before moving to right make a threaded connection
+            else {
+                // Get leftmost node in right subtree
+                TreeNode prev = current.right;
+                while (prev.left!=null && prev.left!=current) {
+                    prev = prev.left;
+                }
+                
+                if (prev.left==null) {
+                    // Make threaded connection
+                    prev.left = current;
+                    ans.add(current.val);
+                    current = current.right;
+                }
+                else {
+                    // Remove threaded connection - Restore tree
+                    prev.left = null;
+                    current = current.left;
+                }
+            }
+        }
+        
+        Collections.reverse(ans);
     }
 }
