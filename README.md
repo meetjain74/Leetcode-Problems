@@ -98,6 +98,7 @@ Collection of Standard Problems and my solutions
 [House Robber](https://github.com/meetjain74/Leetcode-Problems/tree/main/198-house-robber)  
 [Unique paths](https://github.com/meetjain74/Leetcode-Problems/tree/main/62-unique-paths)  
 [Unique paths II](https://github.com/meetjain74/Leetcode-Problems/tree/main/63-unique-paths-ii)  
+[Decode ways](https://github.com/meetjain74/Leetcode-Problems/tree/main/91-decode-ways)   
 [Word Break](https://github.com/meetjain74/Leetcode-Problems/tree/main/139-word-break)   
 [Partition equal subset sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/416-partition-equal-subset-sum)  
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
