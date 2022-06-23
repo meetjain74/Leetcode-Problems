@@ -7,14 +7,14 @@ class Solution {
     
     private void getCombinations(List<List<Integer>> ans,int n,
                                 int index,int k,List<Integer> temp) {
-        if (temp.size()==k) {
+        if (k==0) {
             ans.add(temp);
             return;
         }
         
-        for (int i=index;i<=n;i++) {
+        for (int i=index;i<=n-k+1;i++) {
             temp.add(i);
-            getCombinations(ans,n,i+1,k,new ArrayList<>(temp));
+            getCombinations(ans,n,i+1,k-1,new ArrayList<>(temp));
             temp.remove(temp.size()-1);
         }
     }
