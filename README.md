@@ -89,6 +89,7 @@ Collection of Standard Problems and my solutions
 [Generate parentheses](https://github.com/meetjain74/Leetcode-Problems/tree/main/22-generate-parentheses)  
 [Permutations](https://github.com/meetjain74/Leetcode-Problems/tree/main/46-permutations)  
 [Unique paths III](https://github.com/meetjain74/Leetcode-Problems/tree/main/980-unique-paths-iii)  
+[Combination sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/39-combination-sum)   
 [Word Break II](https://github.com/meetjain74/Leetcode-Problems/tree/main/140-word-break-ii)  
 [N queens](https://github.com/meetjain74/Leetcode-Problems/tree/main/51-n-queens)  
 [Sudoko solver](https://github.com/meetjain74/Leetcode-Problems/tree/main/37-sudoku-solver)  
