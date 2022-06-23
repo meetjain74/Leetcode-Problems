@@ -90,6 +90,7 @@ Collection of Standard Problems and my solutions
 [Permutations](https://github.com/meetjain74/Leetcode-Problems/tree/main/46-permutations)  
 [Unique paths III](https://github.com/meetjain74/Leetcode-Problems/tree/main/980-unique-paths-iii)  
 [Combination sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/39-combination-sum)   
+[Palindrome partitioning](https://github.com/meetjain74/Leetcode-Problems/tree/main/131-palindrome-partitioning)  
 [Word Break II](https://github.com/meetjain74/Leetcode-Problems/tree/main/140-word-break-ii)  
 [N queens](https://github.com/meetjain74/Leetcode-Problems/tree/main/51-n-queens)  
 [Sudoko solver](https://github.com/meetjain74/Leetcode-Problems/tree/main/37-sudoku-solver)  
