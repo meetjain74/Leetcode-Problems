@@ -16,7 +16,8 @@
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
-        iterativeMethod(ans,root);
+        //iterativeMethod(ans,root);
+        preorder(ans,root,0);
         return ans;
     }
     
@@ -43,5 +44,19 @@ class Solution {
                     q.add(current.left);
             }
         }
+    }
+    
+    // Recursive method
+    // Do reverse preorder i.e DRL (Data right left)
+    private void preorder(List<Integer> ans,TreeNode root,int level) {
+        if (root==null)
+            return;
+        
+        // Current value of this level not added yet
+        if (level==ans.size())
+            ans.add(root.val);
+        
+        preorder(ans,root.right,level+1);
+        preorder(ans,root.left,level+1);
     }
 }
