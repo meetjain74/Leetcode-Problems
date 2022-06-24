@@ -71,20 +71,29 @@ class Solution {
     /******************************************************************************/
     
     // Method 2 : Using BFS
+    // Accepted
     private int method2(int[][] grid, int k) {
         int m = grid.length;
         int n = grid[0].length;
-        boolean visited[][][] = new boolean[m][n][k+1];
+        
+        // Represents minimum no of obstacles to be passed to reach i,j
+        int obstacles[][] = new int[m][n];
+        for (int i=0;i<m;i++) {
+            for (int j=0;j<n;j++) {
+                obstacles[i][j]=Integer.MAX_VALUE;
+            }
+        }
         
         int[][] dir = {{0,1},{1,0},{0,-1},{-1,0}};
         
         Queue<Point> q = new LinkedList<>();
-        q.add(new Point(0,0,k));
+        q.add(new Point(0,0,0));
         int minSteps = 0;
+        obstacles[0][0]=0;
         
         while(!q.isEmpty()) {
             int size = q.size();
-            while (size-- > 0) {
+            for (int i=0;i<size;i++) {
                 Point p = q.poll();
                 
                 // If curr is destination
@@ -94,24 +103,18 @@ class Solution {
                 for (int[] d: dir) {
                     int currX = p.x+d[0];
                     int currY = p.y+d[1];
-                    int obstacles = p.k;
                     
                     if (currX<0 || currX>=m || currY<0 || currY>=n) {
                         continue;
                     }
                     else {
-                        // If cell is empty and not visited
-                        if (grid[currX][currY]==0 && 
-                            !visited[currX][currY][obstacles]) {
-                            q.add(new Point(currX,currY,obstacles));
-                            visited[currX][currY][obstacles]=true;
+                        int currObstacles = p.k+grid[currX][currY];
+                        if (currObstacles>=obstacles[currX][currY] ||
+                            currObstacles>k) {
+                            continue;
                         }
-                        
-                        else if (grid[currX][currY]==1 &&
-                                obstacles>0 && !visited[currX][currY][obstacles-1]) {
-                            q.add(new Point(currX,currY,obstacles-1));
-                            visited[currX][currY][obstacles-1]=true;
-                        }
+                        obstacles[currX][currY]=currObstacles;
+                        q.add(new Point(currX,currY,currObstacles));
                     }
                 }
             }
@@ -131,6 +134,10 @@ class Solution {
             this.x=x;
             this.y=y;
             this.k=k;
+        }
+        
+        public String toString() {
+            return x+" "+y+" "+k;
         }
     }
     
