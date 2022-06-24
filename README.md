@@ -78,6 +78,7 @@ Collection of Standard Problems and my solutions
 [Delete node in a BST](https://github.com/meetjain74/Leetcode-Problems/tree/main/450-delete-node-in-a-bst)   
 [Symmetric tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/101-symmetric-tree)  
 [Validate binary search tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/98-validate-binary-search-tree)   
+[Right view of a binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/199-binary-tree-right-side-view)   
 [Path sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/112-path-sum)  
 [Path sum II](https://github.com/meetjain74/Leetcode-Problems/tree/main/113-path-sum-ii)  
 [Path sum III](https://github.com/meetjain74/Leetcode-Problems/tree/main/437-path-sum-iii)  
