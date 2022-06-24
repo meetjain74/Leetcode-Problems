@@ -97,6 +97,7 @@ Collection of Standard Problems and my solutions
 [Word Break II](https://github.com/meetjain74/Leetcode-Problems/tree/main/140-word-break-ii)  
 [N queens](https://github.com/meetjain74/Leetcode-Problems/tree/main/51-n-queens)  
 [Sudoko solver](https://github.com/meetjain74/Leetcode-Problems/tree/main/37-sudoku-solver)  
+[Unique Binary search trees II](https://github.com/meetjain74/Leetcode-Problems/tree/main/95-unique-binary-search-trees-ii)   
 
 ## Dynamic programming
 
