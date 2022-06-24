@@ -1,5 +1,9 @@
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
+        return method2(g,s);
+    }
+    
+    private int method1(int[] g,int[] s) {
         PriorityQueue<Integer> cookies = new PriorityQueue<>();
         PriorityQueue<Integer> greeds = new PriorityQueue<>();
         
@@ -25,5 +29,17 @@ class Solution {
         }
         
         return children;
+    }
+    
+    private int method2(int[] g,int[] s) {
+        Arrays.sort(g);
+        Arrays.sort(s);
+        int childrenIndex=0;
+        for (int i=0;i<s.length && childrenIndex<g.length;i++) {
+            if (g[childrenIndex]<=s[i]) {
+                childrenIndex++;
+            }
+        }
+        return childrenIndex;
     }
 }
