@@ -123,6 +123,10 @@ Collection of Standard Problems and my solutions
 [Kth missing positive number](https://github.com/meetjain74/Leetcode-Problems/tree/main/1539-kth-missing-positive-number)   
 [Find peak element](https://github.com/meetjain74/Leetcode-Problems/tree/main/162-find-peak-element)  
 
+## BFS and DFS
+
+[Shortest path in a grid with obstacles elimination](https://github.com/meetjain74/Leetcode-Problems/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination)   
+
 ## Bit manipulation
 
 [Single number](https://github.com/meetjain74/Leetcode-Problems/tree/main/136-single-number)   
