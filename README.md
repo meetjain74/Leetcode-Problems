@@ -80,6 +80,7 @@ Collection of Standard Problems and my solutions
 [Symmetric tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/101-symmetric-tree)  
 [Validate binary search tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/98-validate-binary-search-tree)   
 [Right view of a binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/199-binary-tree-right-side-view)   
+[Boundary traversal of a binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/Boundary%20Traversal%20of%20binary%20tree%20-%20GFG)   
 [Path sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/112-path-sum)  
 [Path sum II](https://github.com/meetjain74/Leetcode-Problems/tree/main/113-path-sum-ii)  
 [Path sum III](https://github.com/meetjain74/Leetcode-Problems/tree/main/437-path-sum-iii)  
