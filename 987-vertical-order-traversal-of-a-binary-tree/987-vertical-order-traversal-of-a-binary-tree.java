@@ -25,12 +25,9 @@ class Solution {
         inorder(tm,root,0,0);
         
         // Creating ans from map
-        for (Map.Entry<Integer,TreeMap<Integer, 
-             PriorityQueue<Integer>>> entry: tm.entrySet()) {
+        for (TreeMap<Integer, PriorityQueue<Integer>> rowList: tm.values()) {
             List<Integer> temp = new ArrayList<>();
-            for (Map.Entry<Integer,PriorityQueue<Integer>> e: 
-                 entry.getValue().entrySet()) {
-                PriorityQueue<Integer> x = e.getValue();
+            for (PriorityQueue<Integer> x: rowList.values()) {
                 while (!x.isEmpty()) {
                     temp.add(x.poll());
                 }
