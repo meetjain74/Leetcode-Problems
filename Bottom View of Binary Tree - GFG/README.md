@@ -1,4 +1,4 @@
-# Bottom View of Binary Tree
+# [Bottom View of Binary Tree](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given a binary tree, print the bottom view from left to right.<br>
