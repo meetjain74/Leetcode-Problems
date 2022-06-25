@@ -200,15 +200,15 @@ Maximum sum subarray in an array
 
 ### Traversals and view of Binary Tree
 
-Inorder traversal
-Preorder traversal
-Postorder traversal
-Level order traversal
-Spiral traversal
-Left view of Binary tree
-Bottom view of Binary tree
-Top view of Binary tree
-Bottom view of Binary tree
-Boundary traversal of Binary tree
-Vertical order traversal of a Binary tree
-Diagonal traversal of a Binary tree
+Inorder traversal  
+Preorder traversal  
+Postorder traversal  
+Level order traversal  
+Spiral traversal  
+Left view of Binary tree  
+Bottom view of Binary tree  
+Top view of Binary tree  
+Bottom view of Binary tree  
+Boundary traversal of Binary tree  
+Vertical order traversal of a Binary tree  
+Diagonal traversal of a Binary tree  
