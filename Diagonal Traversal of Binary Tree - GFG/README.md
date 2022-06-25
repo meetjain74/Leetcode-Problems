@@ -1,4 +1,4 @@
-# Diagonal Traversal of Binary Tree
+# [Diagonal Traversal of Binary Tree](https://practice.geeksforgeeks.org/problems/diagonal-traversal-of-binary-tree/1/#)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given a Binary Tree, print the <strong>diagonal traversal</strong> of the binary tree.</span></p>
