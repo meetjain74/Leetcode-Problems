@@ -207,7 +207,6 @@ Level order traversal
 Spiral traversal  
 Left view of Binary tree  
 Right view of Binary tree   
-Bottom view of Binary tree  
 Top view of Binary tree  
 Bottom view of Binary tree  
 Boundary traversal of Binary tree  
