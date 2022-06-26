@@ -85,6 +85,8 @@ Collection of Standard Problems and my solutions
 [Top view of a Binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/Top%20View%20of%20Binary%20Tree%20-%20GFG)   
 [Bottom view of a Binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/Bottom%20View%20of%20Binary%20Tree%20-%20GFG)   
 [Diagonal traversal of Binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/Diagonal%20Traversal%20of%20Binary%20Tree%20-%20GFG)   
+[Lowest common ancestor of a binary search tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/235-lowest-common-ancestor-of-a-binary-search-tree)   
+[Lowest common ancestor of a binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/236-lowest-common-ancestor-of-a-binary-tree)   
 [Path sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/112-path-sum)  
 [Path sum II](https://github.com/meetjain74/Leetcode-Problems/tree/main/113-path-sum-ii)  
 [Path sum III](https://github.com/meetjain74/Leetcode-Problems/tree/main/437-path-sum-iii)  
