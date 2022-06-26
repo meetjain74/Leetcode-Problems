@@ -1,4 +1,4 @@
-# Children Sum Parent
+# [Children Sum Parent](https://practice.geeksforgeeks.org/problems/children-sum-parent/1/)
 ## Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given a Binary Tree. Check whether all of its nodes have the value equal to the sum of their child nodes.</span></p>
