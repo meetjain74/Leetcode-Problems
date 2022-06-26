@@ -41,6 +41,7 @@ Collection of Standard Problems and my solutions
 [Swap nodes in pairs](https://github.com/meetjain74/Leetcode-Problems/tree/main/24-swap-nodes-in-pairs)  
 [Reverse node in k group](https://github.com/meetjain74/Leetcode-Problems/tree/main/25-reverse-nodes-in-k-group)  
 [Merge k sorted lists](https://github.com/meetjain74/Leetcode-Problems/tree/main/23-merge-k-sorted-lists)  
+[Copy list with random pointer](https://github.com/meetjain74/Leetcode-Problems/tree/main/138-copy-list-with-random-pointer)   
 
 ## Stack and Queues
 
