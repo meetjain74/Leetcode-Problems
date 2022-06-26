@@ -33,15 +33,15 @@ class Solution {
         q.add(new indexedNode(root,1));
         while (!q.isEmpty()) {
             int size = q.size();
-            indexedNode start=null;
-            indexedNode end=null;
+            int startId=0;
+            int endId=0;
             for (int i=0;i<size;i++) {
                 indexedNode current = q.poll();
                 if (i==0) {
-                    start=current;
+                    startId=current.index;
                 }
                 else if (i==size-1) {
-                    end=current;
+                    endId=current.index;
                 }
                 
                 // Left child index is 2*parentIndex
@@ -53,8 +53,8 @@ class Solution {
                     q.add(new indexedNode(current.node.right,2*current.index+1));
             }
             
-            if (end!=null)
-                maxWidth = Math.max(maxWidth,end.index-start.index+1);
+            if (endId!=0)
+                maxWidth = Math.max(maxWidth,endId-startId+1);
         }
         
         
