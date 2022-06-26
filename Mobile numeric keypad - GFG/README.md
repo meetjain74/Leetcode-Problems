@@ -1,4 +1,4 @@
-# Mobile numeric keypad
+# [Mobile numeric keypad](https://practice.geeksforgeeks.org/problems/mobile-numeric-keypad5456/1/)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given the mobile numeric keypad. You can only press buttons that are up, left, right, or down to the current button. You are not allowed to press bottom row corner buttons (i.e. * and # ). Given a number <strong>N</strong>, the task is to find out the number of possible numbers of the given length.</span></p>
