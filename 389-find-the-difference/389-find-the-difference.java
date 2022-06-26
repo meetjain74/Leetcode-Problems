@@ -1,10 +1,19 @@
 class Solution {
     public char findTheDifference(String s, String t) {
-        int result = 0;
-        for (int i=0;i<s.length();i++) 
-            result = result^(s.charAt(i));
-        for (int i=0;i<t.length();i++)
-            result = result^(t.charAt(i));
-        return (char)result;
+        int[] freq=new int[26];
+        for(int i=0;i<t.length();i++){
+            freq[t.charAt(i)-'a']++;
+        }
+        for(int i=0;i<s.length();i++){
+            freq[s.charAt(i)-'a']--;
+        }
+        
+        for(int i=0;i<26;i++){
+            if(freq[i]==1){
+                return (char)('a'+i);
+            }
+        }
+        
+        return ' ';
     }
 }
