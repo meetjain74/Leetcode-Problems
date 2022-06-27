@@ -92,6 +92,7 @@ Collection of Standard Problems and my solutions
 [Path sum II](https://github.com/meetjain74/Leetcode-Problems/tree/main/113-path-sum-ii)  
 [Path sum III](https://github.com/meetjain74/Leetcode-Problems/tree/main/437-path-sum-iii)  
 [Maximum width of Binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/662-maximum-width-of-binary-tree)   
+[Count complete tree nodes](https://github.com/meetjain74/Leetcode-Problems/tree/main/222-count-complete-tree-nodes)    
 
 ## Backtracking
 
