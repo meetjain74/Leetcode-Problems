@@ -6,7 +6,7 @@ class Solution {
         }
         
         int ans=0;
-        TreeSet<Integer> set = new TreeSet<>(); // Store different frequencies
+        Set<Integer> set = new HashSet<>(); // Store different frequencies
         for (int i=0;i<26;i++) {
             if (freq[i]==0)
                 continue;
