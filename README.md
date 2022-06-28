@@ -185,6 +185,7 @@ Collection of Standard Problems and my solutions
 [Find all duplicates in an array](https://github.com/meetjain74/Leetcode-Problems/tree/main/442-find-all-duplicates-in-an-array)  
 [The celebrity problem](https://github.com/meetjain74/Leetcode-Problems/tree/main/The%20Celebrity%20Problem%20-%20GFG)  
 [Triangle](https://github.com/meetjain74/Leetcode-Problems/tree/main/120-triangle)   
+[Josephus problem](https://github.com/meetjain74/Leetcode-Problems/tree/main/1823-find-the-winner-of-the-circular-game)   
 
 
 ## Extras
