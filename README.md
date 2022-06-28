@@ -96,6 +96,7 @@ Collection of Standard Problems and my solutions
 [Count complete tree nodes](https://github.com/meetjain74/Leetcode-Problems/tree/main/222-count-complete-tree-nodes)    
 [All nodes distance K in a binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/863-all-nodes-distance-k-in-binary-tree)   
 [Construct binary tree from preorder and inorder traversal](https://github.com/meetjain74/Leetcode-Problems/tree/main/105-construct-binary-tree-from-preorder-and-inorder-traversal)  
+[Construct binary tree from inorder and postorder traversal](https://github.com/meetjain74/Leetcode-Problems/tree/main/106-construct-binary-tree-from-inorder-and-postorder-traversal)  
 
 ## Backtracking
 
