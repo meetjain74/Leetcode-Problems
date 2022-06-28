@@ -76,6 +76,7 @@ Collection of Standard Problems and my solutions
 [Binary tree level order traversal](https://github.com/meetjain74/Leetcode-Problems/tree/main/102-binary-tree-level-order-traversal)   
 [Binary tree zingzag level order traversal](https://github.com/meetjain74/Leetcode-Problems/tree/main/103-binary-tree-zigzag-level-order-traversal)   
 [Convert Sorted Array to Binary Search Tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/108-convert-sorted-array-to-binary-search-tree)  
+[Convert Sorted List to Binary Search Tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/109-convert-sorted-list-to-binary-search-tree)   
 [Diameter of binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/543-diameter-of-binary-tree)   
 [Invert binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/226-invert-binary-tree)   
 [Delete node in a BST](https://github.com/meetjain74/Leetcode-Problems/tree/main/450-delete-node-in-a-bst)   
