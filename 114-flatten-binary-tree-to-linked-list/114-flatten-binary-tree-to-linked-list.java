@@ -16,7 +16,7 @@
 class Solution {
     TreeNode previous = null; // To store the previous node
     public void flatten(TreeNode root) {
-        flatten2(root);
+        flatten3(root);
     }
     
     // Method 1 : Reverse postorder
@@ -59,6 +59,31 @@ class Solution {
             
             // Set left child of current to null
             curr.left=null;
+        }
+    }
+    
+    
+    // Method 3 : Using Morris traversal
+    // Time complexity- O(N)
+    // Space complexity- O(1)
+    private void flatten3(TreeNode root) {
+        if (root==null)
+            return;
+        
+        TreeNode curr = root;
+        while(curr!=null) {
+            if (curr.left!=null) {
+                // Find rightmost node in left subtree
+                TreeNode prev = curr.left;
+                while (prev.right!=null) {
+                    prev=prev.right;
+                }
+                
+                prev.right = curr.right; // Threaded connection
+                curr.right = curr.left;
+                curr.left = null;
+            }
+            curr=curr.right;
         }
     }
 }
