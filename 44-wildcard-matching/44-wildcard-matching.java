@@ -1,6 +1,6 @@
 class Solution {
     public boolean isMatch(String s, String p) {
-        int dp[][] = new int[s.length()+1][p.length()+1];
+        int dp[][] = new int[s.length()][p.length()];
         for (int i=0;i<s.length();i++) {
             Arrays.fill(dp[i],-1);
         }
