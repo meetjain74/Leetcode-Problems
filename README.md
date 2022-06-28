@@ -199,7 +199,7 @@ Collection of Standard Problems and my solutions
 [Minimum moves to equal array elements](https://github.com/meetjain74/Leetcode-Problems/tree/main/453-minimum-moves-to-equal-array-elements)   
 [Subarray sum divisible by K](https://github.com/meetjain74/Leetcode-Problems/tree/main/974-subarray-sums-divisible-by-k)   
 [Minimum number of flips to make binary string alternating](https://github.com/meetjain74/Leetcode-Problems/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating)   
-[Minimum number of swaps to make string alternating](https://github.com/meetjain74/Leetcode-Problems/tree/main/1963-minimum-number-of-swaps-to-make-the-string-balanced)   
+[Minimum number of swaps to make the string balanced](https://github.com/meetjain74/Leetcode-Problems/tree/main/1963-minimum-number-of-swaps-to-make-the-string-balanced)   
 
 ## Group of Questions
 
