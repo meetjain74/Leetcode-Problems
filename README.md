@@ -197,6 +197,7 @@ Collection of Standard Problems and my solutions
 [Find minimum time to finish all jobs](https://github.com/meetjain74/Leetcode-Problems/tree/main/1723-find-minimum-time-to-finish-all-jobs)  
 [Minimum moves to equal array elements](https://github.com/meetjain74/Leetcode-Problems/tree/main/453-minimum-moves-to-equal-array-elements)   
 [Subarray sum divisible by K](https://github.com/meetjain74/Leetcode-Problems/tree/main/974-subarray-sums-divisible-by-k)   
+[Minimum number of flips to make binary string alternating](https://github.com/meetjain74/Leetcode-Problems/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating)   
 
 ## Group of Questions
 
