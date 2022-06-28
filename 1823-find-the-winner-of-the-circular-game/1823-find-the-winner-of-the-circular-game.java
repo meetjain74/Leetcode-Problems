@@ -4,7 +4,6 @@ class Solution {
         if (n==1)
             return 1;
         
-        int x = (findTheWinner(n-1,k)+k)%n;
-        return x==0 ? n : x;
+        return 1+(findTheWinner(n-1,k)+k-1)%n;
     }
 }
