@@ -98,6 +98,7 @@ Collection of Standard Problems and my solutions
 [All nodes distance K in a binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/863-all-nodes-distance-k-in-binary-tree)   
 [Construct binary tree from preorder and inorder traversal](https://github.com/meetjain74/Leetcode-Problems/tree/main/105-construct-binary-tree-from-preorder-and-inorder-traversal)  
 [Construct binary tree from inorder and postorder traversal](https://github.com/meetjain74/Leetcode-Problems/tree/main/106-construct-binary-tree-from-inorder-and-postorder-traversal)  
+[Construct binary search tree from preorder traversal](https://github.com/meetjain74/Leetcode-Problems/tree/main/1008-construct-binary-search-tree-from-preorder-traversal)   
 [Flatten binary tree to linked list](https://github.com/meetjain74/Leetcode-Problems/tree/main/114-flatten-binary-tree-to-linked-list)   
 [Binary search tree iterator](https://github.com/meetjain74/Leetcode-Problems/tree/main/173-binary-search-tree-iterator)   
 [Two Sum IV - Input is a BST](https://github.com/meetjain74/Leetcode-Problems/tree/main/653-two-sum-iv-input-is-a-bst)   
