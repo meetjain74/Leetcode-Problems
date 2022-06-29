@@ -46,9 +46,9 @@ The algorithm approach can be stated as:
 
 ### Dry run
 
-![image](https://user-images.githubusercontent.com/56895638/176276555-810b316e-e2fd-4a5c-8f57-4d6cd067699b.png)
-
 ![image](https://user-images.githubusercontent.com/56895638/176276526-c8511d23-8ed7-4f03-97ac-ed7bd5144e22.png)
+
+![image](https://user-images.githubusercontent.com/56895638/176276555-810b316e-e2fd-4a5c-8f57-4d6cd067699b.png)
 
 ### Time Complexity: O(N)
 
