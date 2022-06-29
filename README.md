@@ -102,6 +102,7 @@ Collection of Standard Problems and my solutions
 [Flatten binary tree to linked list](https://github.com/meetjain74/Leetcode-Problems/tree/main/114-flatten-binary-tree-to-linked-list)   
 [Binary search tree iterator](https://github.com/meetjain74/Leetcode-Problems/tree/main/173-binary-search-tree-iterator)   
 [Two Sum IV - Input is a BST](https://github.com/meetjain74/Leetcode-Problems/tree/main/653-two-sum-iv-input-is-a-bst)   
+[Recover binary search tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/99-recover-binary-search-tree)    
 
 ## Backtracking
 
