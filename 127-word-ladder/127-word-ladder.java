@@ -1,5 +1,10 @@
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        HashSet<String> wordSet = new HashSet<>();
+        for (String w: wordList) {
+            wordSet.add(w);
+        }
+        
         HashSet<String> visited = new HashSet<>();
         
         // BFS
@@ -15,10 +20,15 @@ class Solution {
                 if (curr.equals(endWord))
                     return moves;
                 
-                for (String w: wordList) {
-                    if (areAdjacent(curr,w) && !visited.contains(w)) {
-                        q.add(w);
-                        visited.add(w);
+                for (int j=0;j<curr.length();j++) {
+                    char[] chars = curr.toCharArray();
+                    for (char ch='a';ch<='z';ch++) {
+                        chars[j] = ch;
+                        String temp = new String(chars);
+                        if (wordSet.contains(temp) && !visited.contains(temp)) {
+                            q.add(temp);
+                            visited.add(temp);
+                        }
                     }
                 }
             }
@@ -27,17 +37,5 @@ class Solution {
         }
         
         return 0;
-    }
-    
-    private boolean areAdjacent(String s1,String s2) {
-        int n = s1.length();
-        int count = 0;
-        for (int i=0;i<n;i++) {
-            count += ( s1.charAt(i)!=s2.charAt(i) ? 1 : 0 );
-            if (count>1)
-                return false;
-        }
-        
-        return count==1;
     }
 }
