@@ -28,7 +28,7 @@ class Solution {
     }
     
     private TreeNode buildTree(HashMap<Integer,Integer> map,int[] preorder,
-                              int[] postorder,int preStart,int preEnd,
+                              int[] inorder,int preStart,int preEnd,
                               int inStart,int inEnd) {
         
         if (preStart>preEnd || inStart>inEnd)
@@ -39,10 +39,10 @@ class Solution {
         // Index of this value in inorder
         int index = map.get(root.val);
         
-        root.left = buildTree(map,preorder,postorder,
+        root.left = buildTree(map,preorder,inorder,
                               preStart+1,preStart+index-inStart,inStart,index-1);
         
-        root.right = buildTree(map,preorder,postorder,
+        root.right = buildTree(map,preorder,inorder,
                               preStart+index-inStart+1,preEnd,index+1,inEnd);
         
         return root;
