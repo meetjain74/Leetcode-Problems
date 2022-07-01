@@ -50,7 +50,7 @@ class TreeAncestor {
         int currPower = this.maxPower-1;
         
         while (k!=0 && node!=-1) {
-            // Move to node ancestors in steps of binary notation of node
+            // Move to node ancestors in steps of binary notation of k
             // Ex - 13 i.e 1101 i.e first go to 8th ancestor then 4th and then first
             // In steps of 2^currPower, 2^(currPower-1) and so on...
             if ( k >= (1<<currPower) ) {
