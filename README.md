@@ -108,6 +108,7 @@ Collection of Standard Problems and my solutions
 [Binary tree maximum path sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/124-binary-tree-maximum-path-sum)    
 [House robber III](https://github.com/meetjain74/Leetcode-Problems/tree/main/337-house-robber-iii)   
 [Binary tree cameras](https://github.com/meetjain74/Leetcode-Problems/tree/main/968-binary-tree-cameras)   
+[Min distance between two given nodes of a binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/Min%20distance%20between%20two%20given%20nodes%20of%20a%20Binary%20Tree%20-%20GFG)   
 
 ## Backtracking
 
