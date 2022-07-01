@@ -109,6 +109,7 @@ Collection of Standard Problems and my solutions
 [House robber III](https://github.com/meetjain74/Leetcode-Problems/tree/main/337-house-robber-iii)   
 [Binary tree cameras](https://github.com/meetjain74/Leetcode-Problems/tree/main/968-binary-tree-cameras)   
 [Min distance between two given nodes of a binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/Min%20distance%20between%20two%20given%20nodes%20of%20a%20Binary%20Tree%20-%20GFG)   
+[Kth ancestor of a tree node](https://github.com/meetjain74/Leetcode-Problems/tree/main/1483-kth-ancestor-of-a-tree-node)    
 
 ## Backtracking
 
