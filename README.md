@@ -159,6 +159,10 @@ Collection of Standard Problems and my solutions
 [Shortest path in a grid with obstacles elimination](https://github.com/meetjain74/Leetcode-Problems/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination)   
 [Open the lock](https://github.com/meetjain74/Leetcode-Problems/tree/main/752-open-the-lock)   
 
+## Graphs
+
+[Find the town judge](https://github.com/meetjain74/Leetcode-Problems/tree/main/997-find-the-town-judge)   
+
 ## Bit manipulation
 
 [Single number](https://github.com/meetjain74/Leetcode-Problems/tree/main/136-single-number)   
