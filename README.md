@@ -126,6 +126,7 @@ Collection of Standard Problems and my solutions
 [N queens](https://github.com/meetjain74/Leetcode-Problems/tree/main/51-n-queens)  
 [Sudoko solver](https://github.com/meetjain74/Leetcode-Problems/tree/main/37-sudoku-solver)  
 [Unique Binary search trees II](https://github.com/meetjain74/Leetcode-Problems/tree/main/95-unique-binary-search-trees-ii)   
+[Restore IP addresses](https://github.com/meetjain74/Leetcode-Problems/tree/main/93-restore-ip-addresses)   
 
 ## Dynamic programming
 
