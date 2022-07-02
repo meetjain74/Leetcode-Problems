@@ -162,6 +162,7 @@ Collection of Standard Problems and my solutions
 ## Graphs
 
 [Find the town judge](https://github.com/meetjain74/Leetcode-Problems/tree/main/997-find-the-town-judge)   
+[Number of islands](https://github.com/meetjain74/Leetcode-Problems/tree/main/200-number-of-islands)   
 
 ## Bit manipulation
 
