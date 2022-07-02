@@ -19,11 +19,25 @@ class Node {
 
 class Solution {
     public List<Integer> postorder(Node root) {
-        List<Integer> ans = new ArrayList<>();
-        naryPostorder(ans,root);
+        LinkedList<Integer> ans = new LinkedList<>();
+        if (root==null)
+            return ans;
+        
+        // Iterative solution
+        Stack<Node> s = new Stack<>();
+        s.add(root);
+        while (!s.isEmpty()) {
+            Node x = s.pop();
+            ans.addFirst(x.val);
+            for (Node child: x.children) {
+                s.add(child);
+            }
+        }
+        
         return ans;
     }
     
+    // Recursive
     private void naryPostorder(List<Integer> ans,Node root) {
         if (root==null)
             return;
