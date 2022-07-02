@@ -1,4 +1,4 @@
-# Closest Number
+# [Closest Number](https://practice.geeksforgeeks.org/problems/closest-number5728/1#)
 ## Easy
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given <strong>non-zero</strong> two integers <strong>N</strong> and <strong>M</strong>. The problem is to find the number closest to <strong>N</strong> and divisible by <strong>M</strong>. If there are more than one such number, then output the one having <strong>maximum absolute value</strong>.</span></p>
