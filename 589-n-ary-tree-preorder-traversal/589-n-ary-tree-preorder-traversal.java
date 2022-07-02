@@ -20,7 +20,21 @@ class Node {
 class Solution {
     public List<Integer> preorder(Node root) {
         LinkedList<Integer> ans = new LinkedList<>();
-        naryPreorder(ans,root);
+        if (root==null)
+            return ans;
+        
+        // Iterative solution
+        Stack<Node> s = new Stack<>();
+        s.add(root);
+        while (!s.isEmpty()) {
+            Node x = s.pop();
+            ans.addLast(x.val);
+            Collections.reverse(x.children);
+            for (Node child: x.children) {
+                s.add(child);
+            }
+        }
+        
         return ans;
     }
     
