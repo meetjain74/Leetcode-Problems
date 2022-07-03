@@ -1,4 +1,4 @@
-# Rearrange an array with O(1) extra space
+# [Rearrange an array with O(1) extra space](https://practice.geeksforgeeks.org/problems/rearrange-an-array-with-o1-extra-space3142/1)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given an array&nbsp;<strong>arr[]</strong>&nbsp;of size <strong>N</strong> where every element is in the range from&nbsp;<strong>0&nbsp;to&nbsp;n-1</strong>. Rearrange the given array so that&nbsp;<strong>arr[i]&nbsp;</strong>becomes&nbsp;<strong>arr[arr[i]]</strong>.</span></p>
