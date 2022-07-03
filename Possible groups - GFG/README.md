@@ -1,4 +1,4 @@
-# Possible groups
+# [Possible groups](https://practice.geeksforgeeks.org/problems/possible-groups2013/1)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given an array of positive integers of size N, form groups of two or three such that the sum of all elements in a group is a multiple of 3. Count all possible number of groups that can be generated in this way. </span></p>
