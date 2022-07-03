@@ -14,6 +14,7 @@ Collection of Standard Problems and my solutions
 [Global and local inversions](https://github.com/meetjain74/Leetcode-Problems/tree/main/775-global-and-local-inversions)  
 [Reverse pairs](https://github.com/meetjain74/Leetcode-Problems/tree/main/493-reverse-pairs)   
 [Squares of a sorted array](https://github.com/meetjain74/Leetcode-Problems/tree/main/977-squares-of-a-sorted-array)   
+[Rearrange an array with O(1) space](https://github.com/meetjain74/Leetcode-Problems/tree/main/Rearrange%20an%20array%20with%20O(1)%20extra%20space%20-%20GFG)    
 
 ## Two pointer approach / Sliding window
 
