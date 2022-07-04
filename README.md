@@ -9,6 +9,7 @@ Collection of Standard Problems and my solutions
 [Sort colors](https://github.com/meetjain74/Leetcode-Problems/tree/main/75-sort-colors)  
 [First missing positive](https://github.com/meetjain74/Leetcode-Problems/tree/main/41-first-missing-positive)   
 [Maximum subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/53-maximum-subarray)  
+[Maximum sum circular subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/918-maximum-sum-circular-subarray)    
 [Smallest range II](https://github.com/meetjain74/Leetcode-Problems/tree/main/910-smallest-range-ii)  
 [Merge intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/56-merge-intervals)  
 [Global and local inversions](https://github.com/meetjain74/Leetcode-Problems/tree/main/775-global-and-local-inversions)  
@@ -245,6 +246,7 @@ Maximum sum subarray of size K
 Longest subarray with sum K with array containing only positive numbers    
 Longest subarray with sum K with array containing both positive and negative numbers   
 Maximum sum subarray in an array   
+Maximum sum circular subarray    
 Subarray product less than K    
 Subarray sum divisible by K   
 
