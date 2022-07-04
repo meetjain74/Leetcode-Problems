@@ -1,13 +1,6 @@
 class Solution {
     public int maxSubarraySumCircular(int[] nums) {
         
-        // If array contains all negative elements
-        int neg = isNegative(nums);
-        if (neg!=0)
-            return neg;
-        
-        // Now find maximum circular subarray sum
-        
         // Find maximum circular subarray sum in normal array (not circular)
         int max1 = maxSubarraySum(nums);
         
@@ -18,28 +11,12 @@ class Solution {
         int min = minSubarraySum(nums);
         int max2 = sum-min;
         
+        if (max2==0) // Array contain all negative elements
+            return max1;
+        
         return Math.max(max1,max2);
     }
-    
-    // Check if array contains all negative elements
-    // Then returns the max value else return 0
-    private int isNegative(int[] nums) {
-        int maxNegative = Integer.MIN_VALUE;
-        boolean isNegative = true;
-        for (int num: nums) {
-            if (num>0) {
-                isNegative=false;
-                break;
-            }
-            maxNegative = Math.max(maxNegative,num);
-        }
-        
-        if (isNegative)
-            return maxNegative;
-        
-        return 0;
-    }
-    
+
     private int getSumArray(int[] nums) {
         int sum = 0;
         for (int num: nums) {
