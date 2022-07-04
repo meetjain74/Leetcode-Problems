@@ -164,6 +164,7 @@ Collection of Standard Problems and my solutions
 [Shortest path in a grid with obstacles elimination](https://github.com/meetjain74/Leetcode-Problems/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination)   
 [Open the lock](https://github.com/meetjain74/Leetcode-Problems/tree/main/752-open-the-lock)   
 [Sequential digits](https://github.com/meetjain74/Leetcode-Problems/tree/main/1291-sequential-digits)    
+[Longest increasing path in a matrix](https://github.com/meetjain74/Leetcode-Problems/tree/main/329-longest-increasing-path-in-a-matrix)    
 
 ## Graphs
 
