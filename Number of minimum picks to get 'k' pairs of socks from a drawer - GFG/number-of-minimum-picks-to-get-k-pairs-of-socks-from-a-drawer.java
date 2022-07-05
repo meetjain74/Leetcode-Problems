@@ -56,11 +56,11 @@ class Solution {
 	    // Hence in the worst case we will have k-1 pairs available with us
 	    // Now Choose 1 more to complete the Kth pair 
 	    
-	    // If g2Pairs<=k-1
+	    // If g2Pairs<k
 	    // The group 2 does not have enough socks to form k pairs
 	    // Take all socks from g2Pairs 
+	    // Now these 2*(g2Pairs) socks guarantee that there are g2Pairs pairs of socks
 	    // Now choose N socks from group 1 (Each color sock once)
-	    // Now these 2*(g2Pairs-1)+N socks guarantee that there are g2Pairs pairs of socks
 	    // Now Choose (k-g2Pairs) more to complete all the K pairs
 	    
 	    int g2Pairs = 0;
