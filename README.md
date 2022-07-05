@@ -205,6 +205,7 @@ Collection of Standard Problems and my solutions
 ## Standard problems
 
 [Container with most water](https://github.com/meetjain74/Leetcode-Problems/tree/main/11-container-with-most-water)  
+[Number of minimum picks to get 'k' pairs of socks from a drawer](https://github.com/meetjain74/Leetcode-Problems/tree/main/Number%20of%20minimum%20picks%20to%20get%20'k'%20pairs%20of%20socks%20from%20a%20drawer%20-%20GFG)    
 [Next permutation](https://github.com/meetjain74/Leetcode-Problems/tree/main/31-next-permutation)  
 [Majority element](https://github.com/meetjain74/Leetcode-Problems/tree/main/169-majority-element)  
 [Majority element II](https://github.com/meetjain74/Leetcode-Problems/tree/main/229-majority-element-ii)  
