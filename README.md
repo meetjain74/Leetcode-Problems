@@ -175,6 +175,7 @@ Collection of Standard Problems and my solutions
 [Number of operations to make network connected](https://github.com/meetjain74/Leetcode-Problems/tree/main/1319-number-of-operations-to-make-network-connected)    
 [Detect cycle in an undirected graph](https://github.com/meetjain74/Leetcode-Problems/tree/main/Detect%20cycle%20in%20an%20undirected%20graph%20-%20GFG)       
 [Detect cycles in 2d grid](https://github.com/meetjain74/Leetcode-Problems/tree/main/1559-detect-cycles-in-2d-grid)    
+[Detect cycle in a directed graph](https://github.com/meetjain74/Leetcode-Problems/tree/main/Detect%20cycle%20in%20a%20directed%20graph%20-%20GFG)     
 
 ## Bit manipulation
 
