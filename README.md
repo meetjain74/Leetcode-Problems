@@ -163,8 +163,9 @@ Collection of Standard Problems and my solutions
 ## BFS and DFS
 
 [Keys and rooms](https://github.com/meetjain74/Leetcode-Problems/tree/main/841-keys-and-rooms)    
-[Shortest path in a grid with obstacles elimination](https://github.com/meetjain74/Leetcode-Problems/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination)   
 [Open the lock](https://github.com/meetjain74/Leetcode-Problems/tree/main/752-open-the-lock)   
+[Nearest exit from entrance in maze](https://github.com/meetjain74/Leetcode-Problems/tree/main/1926-nearest-exit-from-entrance-in-maze)   
+[Shortest path in a grid with obstacles elimination](https://github.com/meetjain74/Leetcode-Problems/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination)      
 [Sequential digits](https://github.com/meetjain74/Leetcode-Problems/tree/main/1291-sequential-digits)    
 [Longest increasing path in a matrix](https://github.com/meetjain74/Leetcode-Problems/tree/main/329-longest-increasing-path-in-a-matrix)    
 
