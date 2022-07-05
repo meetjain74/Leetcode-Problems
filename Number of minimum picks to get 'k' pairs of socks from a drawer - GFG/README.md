@@ -1,4 +1,4 @@
-# Number of minimum picks to get 'k' pairs of socks from a drawer
+# [Number of minimum picks to get 'k' pairs of socks from a drawer](https://practice.geeksforgeeks.org/problems/620fb6456d6515faddd77050dfbf2821d7a94b8a/1#)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">A drawer contains socks of <strong>n</strong>&nbsp;different colours. The number of socks available of i<sup>th</sup>&nbsp;colour is given by <strong>a[i]</strong> where <strong>a</strong>&nbsp;is an array of <strong>n</strong> elements. Tony wants to take <strong>k</strong>&nbsp;pairs of socks out of the drawer. However, he&nbsp;cannot see the colour of the sock that he is picking. You have to tell what is the minimum number of socks Tony has to pick in one attempt from the drawer such that&nbsp;he can be absolutely sure, without seeing their colours,&nbsp;that he will have at least k matching pairs.</span></p>
