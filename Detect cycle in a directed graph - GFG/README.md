@@ -1,4 +1,4 @@
-# Detect cycle in a directed graph
+# [Detect cycle in a directed graph](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1/)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given a Directed Graph with <strong>V</strong> vertices (Numbered from <strong>0</strong> to <strong>V-1</strong>) and <strong>E</strong> edges, check whether it contains any cycle or not.</span></p>
