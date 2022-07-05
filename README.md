@@ -173,6 +173,7 @@ Collection of Standard Problems and my solutions
 [Find the town judge](https://github.com/meetjain74/Leetcode-Problems/tree/main/997-find-the-town-judge)   
 [Number of islands](https://github.com/meetjain74/Leetcode-Problems/tree/main/200-number-of-islands)   
 [Number of operations to make network connected](https://github.com/meetjain74/Leetcode-Problems/tree/main/1319-number-of-operations-to-make-network-connected)    
+[Detect cycle in an undirected graph](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1)    
 
 ## Bit manipulation
 
