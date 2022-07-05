@@ -1,4 +1,4 @@
-# Detect cycle in an undirected graph
+# [Detect cycle in an undirected graph](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given an undirected graph with V vertices and E edges, check whether it contains any cycle or not.<strong>&nbsp;<img alt="" src="C:\Users\Mukul kumar\Desktop\GFG_PIC.JPG" class="img-responsive"></strong></span></p>
