@@ -5,7 +5,8 @@ class Solution {
         Arrays.fill(color,-1); // No color
         
         for (int i=0;i<n;i++) {
-            if (color[i]==-1 && !bipartiteBFS(graph,color,i))
+            //if (color[i]==-1 && !bipartiteBFS(graph,color,i))
+            if (color[i]==-1 && !bipartiteDFS(graph,color,i))
                 return false;
         }
         
@@ -31,6 +32,27 @@ class Solution {
                     // Same color to neighbor- not bipartite
                     return false;
                 }
+            }
+        }
+        
+        return true;
+    }
+    
+    private boolean bipartiteDFS(int[][] graph,int[] color,int node) {
+        if (color[node]==-1) {
+            color[node]=1;
+        }
+     
+        for (int neighbor: graph[node]) {
+            if (color[neighbor]==-1) {
+                // Neighbor not colored yet - Color opposite color
+                color[neighbor]=1-color[node];
+                if (!bipartiteDFS(graph,color,neighbor))
+                    return false;
+            }
+            else if (color[neighbor]==color[node]) {
+                // Same color to neighbor- not bipartite
+                return false;
             }
         }
         
