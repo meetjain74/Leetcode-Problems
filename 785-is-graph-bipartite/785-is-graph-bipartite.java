@@ -5,14 +5,14 @@ class Solution {
         Arrays.fill(color,-1); // No color
         
         for (int i=0;i<n;i++) {
-            if (color[i]==-1 && !bipartiteBFS(graph,color,i,n))
+            if (color[i]==-1 && !bipartiteBFS(graph,color,i))
                 return false;
         }
         
         return true;
     }
     
-    private boolean bipartiteBFS(int[][] graph,int[] color,int node,int n) {
+    private boolean bipartiteBFS(int[][] graph,int[] color,int node) {
         Queue<Integer> q = new LinkedList<>();
         q.add(node);
         color[node]=1; // First color-1 and second color-0
