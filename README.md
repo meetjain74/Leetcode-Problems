@@ -182,6 +182,7 @@ Collection of Standard Problems and my solutions
 [Detect cycle in a directed graph](https://github.com/meetjain74/Leetcode-Problems/tree/main/Detect%20cycle%20in%20a%20directed%20graph%20-%20GFG)     
 [Course schedule](https://github.com/meetjain74/Leetcode-Problems/tree/main/207-course-schedule)    
 [Clone graph](https://github.com/meetjain74/Leetcode-Problems/tree/main/133-clone-graph)    
+[Is graph bipartite](https://github.com/meetjain74/Leetcode-Problems/tree/main/785-is-graph-bipartite)    
 
 ## Bit manipulation
 
