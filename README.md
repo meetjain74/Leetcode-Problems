@@ -184,6 +184,7 @@ Collection of Standard Problems and my solutions
 [Clone graph](https://github.com/meetjain74/Leetcode-Problems/tree/main/133-clone-graph)    
 [Is graph bipartite](https://github.com/meetjain74/Leetcode-Problems/tree/main/785-is-graph-bipartite)    
 [Topological sort](https://github.com/meetjain74/Leetcode-Problems/tree/main/Topological%20sort%20-%20GFG)    
+[Minimum height trees](https://github.com/meetjain74/Leetcode-Problems/tree/main/310-minimum-height-trees)     
 
 ## Bit manipulation
 
