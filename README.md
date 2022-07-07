@@ -159,6 +159,7 @@ Collection of Standard Problems and my solutions
 [Search in rotated sorted array](https://github.com/meetjain74/Leetcode-Problems/tree/main/33-search-in-rotated-sorted-array)   
 [Kth missing positive number](https://github.com/meetjain74/Leetcode-Problems/tree/main/1539-kth-missing-positive-number)   
 [Find peak element](https://github.com/meetjain74/Leetcode-Problems/tree/main/162-find-peak-element)  
+[Median of two sorted arrays](https://github.com/meetjain74/Leetcode-Problems/tree/main/4-median-of-two-sorted-arrays)    
 
 ## BFS and DFS
 
