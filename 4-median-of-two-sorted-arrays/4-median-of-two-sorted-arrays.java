@@ -1,221 +1,61 @@
+//Time complexity - O(log(min(n1,n2)))
+
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int left1=0,right1=nums1.length-1;
-        int left2=0,right2=nums2.length-1;
+        int n1 = nums1.length;
+        int n2 = nums2.length;
         
-        double median = getMedian(nums1,nums2,left1,right1,left2,right2);
-        return median;
-    }
-    
-    private double getMedian(int[] nums1, int[] nums2,
-                            int left1,int right1,int left2,int right2)
-    {
-        // Size of both arrays
-        int size1=right1-left1+1;
-        int size2=right2-left2+1;
+        if (n1>n2)
+            return findMedianSortedArrays(nums2,nums1);
         
-        // printArray(nums1,left1,right1);
-        // printArray(nums2,left2,right2);
+        // nums1 is smaller array than nums2 - Apply binary search on small array
+        // Divide merged array into two parts - left part and right part
+        // For even no of elements both parts should have (n1+n2)/2 elements
+        // For odd no of elements left part has (n1+n2+1)/2 elements and rest in right part
         
-        // Base cases
+        // Find the partition in the first array to determine left part
+        int low = 0;
+        int high = n1;
         
-        // If size of any one array is zero directly return median of other array
-        if (size1==0)
-            return medianOfArray(nums2,left2,right2);
-        else if (size2==0)
-            return medianOfArray(nums1,left1,right1);
-        
-        // If size of any one array is one
-        if (size1==1)
-        {
-            // If other array also has size 1 
-            if (size2==1)
-                return (double) (nums1[left1]+nums2[left2])/2;
+        while(low<=high) {
+            // Determine cut to be made in both the arrays
             
-            // If other array has odd nuber of elements 
-            // Merged array would have even number of elements
-            // Hence we have to find average of two median numbers
-            // The median will be the average of the two numbers -
-            // (1) median of other array say array[m]
-            // (2) median of three numbers - array[m-1],array[m+1] and 
-            // the single element from another element array
-            int mid=size2/2;
-            if (size2%2!=0)
-                return (double) (nums2[mid]+
-                                 medianOfThreeNumbers
-                                 (nums1[left1],nums2[left2+mid-1],
-                                  nums2[left2+mid+1]))/2;
+            int cut1 = (low+high)/2; // In nums1
+            int cut2 = ((n1+n2+1)/2)-cut1; // In nums2
             
-            // If other array has even number of elements
-            // Merged array will have odd number of elements
-            // Hence only need to find one median element
-            // Median will be the median of three numbers -
-            // Two median numbers of even array and 
-            // the single element from another element array
-            else
-                return medianOfThreeNumbers
-                (nums1[left1],nums2[left2+mid],nums2[left2+mid-1]);
-        }
-           
-        // Do the same if other array has size 1
-        else if (size2==1)
-        {
-            // size1 cannot be 1 now as already considered
-            int mid=size1/2;
-            if (size1%2!=0)
-                return (double) (nums1[mid]+
-                                medianOfThreeNumbers
-                                (nums2[left2],nums1[left1+mid-1],
-                                nums1[left1+mid+1]))/2;
+            // According to both cuts, both array is divided into two parts
+            // Left part: [0,cut1) of nums1 & [0,cut2) of nums2
+            // Right part: [cut1,n1) of nums1 & [cut2,n2) of nums2
+            // Find the end points of left part and start point of right part
             
-            else
-                return medianOfThreeNumbers
-                (nums2[left2],nums1[left1+mid],nums1[left1+mid-1]);
+            int left1 = cut1==0 ? Integer.MIN_VALUE : nums1[cut1-1];
+            int left2 = cut2==0 ? Integer.MIN_VALUE : nums2[cut2-1];
+            
+            int right1 = cut1==n1 ? Integer.MAX_VALUE : nums1[cut1];
+            int right2 = cut2==n2 ? Integer.MAX_VALUE : nums2[cut2];
+            
+            // Is the partition to left and right part correct
+            if (left1<=right2 && left2<=right1) {
+                
+                // Get median
+                if ((n1+n2)%2==0) { // Even no of elements
+                    double median = (Math.max(left1,left2)+Math.min(right1,right2))/2.0;
+                    return median;
+                }
+                else { // Odd no of elements
+                    return Math.max(left1,left2);   
+                }
+            }
+            
+            // Incorrect partition
+            else if (left1>right2) {
+                high=cut1-1;
+            }
+            else {
+                low=cut1+1;
+            }
         }
         
-        // If size of any one array is 2
-        if (size1==2)
-        {
-            // If other array also has size 2
-            if (size2==2)
-                return medianOfFourNumbers(nums1[left1],nums1[right1],
-                                          nums2[left2],nums2[right2]);
-            
-            // If other array has odd number of elements
-            // Merged array will also have odd number of elements
-            // We need to find one median element
-            // The median will be median of the three numbers -
-            // (1) median of this array say array[mid]
-            // (2) maximum of array[mid-1] and first number of 2 elements array
-            // (3) minimum of array[mid+1] and second number of 2 elements array
-            int mid=size2/2;
-            if (size2%2!=0)
-                return medianOfThreeNumbers(nums2[left2+mid],
-                                Math.max(nums2[left2+mid-1],nums1[left1]),
-                                Math.min(nums2[left2+mid+1],nums1[right1]));
-            
-            // If other array has even number of elements
-            // Merged array will also have even number of elements
-            // The median will be the median of the four numbers - 
-            // (1 & 2) two mdeian numbers of array say array[mid] and array[mid-1]
-            // (3) maximum of array[mid-2] and first number of 2 elements array
-            // (4) minimum of array[mid+1] and second number of 2 elements array       
-            else
-                return medianOfFourNumbers(nums2[left2+mid],nums2[left2+mid-1],
-                                Math.max(nums2[left2+mid-2],nums1[left1]),
-                                Math.min(nums2[left2+mid+1],nums1[right1]));    
-        }
-        
-        // Do the same if other array has size 2
-        else if (size2==2)
-        {
-            // size1 cannot be 2 now as already considered 
-            int mid=size1/2;
-            if (size1%2!=0)
-                return medianOfThreeNumbers(nums1[left1+mid],
-                                Math.max(nums1[left1+mid-1],nums2[left2]),
-                                Math.min(nums1[left1+mid+1],nums2[right2]));
-            
-            else 
-                return medianOfFourNumbers(nums1[left1+mid],nums1[left1+mid-1],
-                                Math.max(nums1[left1+mid-2],nums2[left2]),
-                                Math.min(nums1[left1+mid+1],nums2[right2]));
-        }
-        
-        // Recursive case
-        
-        // Now both arrays have size greater than 2
-        // Compare the median of both the arrays and 
-        // divide arrays to compute recursilvely
-        // Also the array after divide should be even if before even and
-        // similarly odd if previoulsy odd therefore choosing the first median
-        // for an even array and hence using (size-1)
-        int med1 = left1+(size1-1)/2;
-        int med2 = left2+(size2-1)/2;
-        
-        // If median of first array is greater than equal to median of second array
-        // We divide both array as -
-        // First array -> left1 to med1
-        // Second array -> med2 to right2
-        if (nums1[med1] >= nums2[med2])
-        {
-            // Add second median for an even array
-            if (size1%2==0)
-                med1=med1+1;
-            
-            // Make no of elements removed same from both array
-            int newSize1=med1-left1+1;
-            int newSize2=right2-med2+1;
-            int remove1=size1-newSize1;
-            int remove2=size2-newSize2;
-            if (remove1>remove2)
-                med1=med1+(remove1-remove2);
-            else if (remove1<remove2)
-                med2=med2-(remove2-remove1);
-            
-            return getMedian(nums1,nums2,left1,med1,med2,right2);
-        }
-        
-        // Else if median of first array is less than median of econd array
-        // We divide both array as -
-        // First array -> med1 to right1
-        // Second array -> left2 to med2
-        else
-        {
-            // Add second median for an even array
-            if (size2%2==0)
-                med2=med2+1;
-            
-            // Make no of elements removed same from both array
-            int newSize1=right1-med1+1;
-            int newSize2=med2-left2+1;
-            int remove1=size1-newSize1;
-            int remove2=size2-newSize2;
-            if (remove1>remove2)
-                med1=med1-(remove1-remove2);
-            else if (remove1<remove2)
-                med2=med2+(remove2-remove1);
-            
-            return getMedian(nums1,nums2,med1,right1,left2,med2);
-        }
-    }
-    
-    private double medianOfArray(int nums[],int left,int right)
-    {
-        int size=right-left+1;
-        if (size==0)
-            return -1; // Return invalid value
-        
-        else if (size%2==0) // Size is even
-            return (double) (nums[left+size/2]+nums[left+size/2-1])/2;
-        
-        else // Size is odd
-            return nums[left+size/2];     
-    }
-    
-    private double medianOfThreeNumbers(int a,int b,int c)
-    {
-        if ((a>b && a<c) || (a<b && a>c))
-            return a;
-        else if ((b>a && b<c) || (b<a && b>c))
-            return b;
-        else
-            return c;
-    }
-    
-    private double medianOfFourNumbers(int a,int b,int c,int d)
-    {
-        int maximum=Math.max(a,Math.max(b,Math.max(c,d)));
-        int minimum=Math.min(a,Math.min(b,Math.min(c,d)));
-        
-        double median = (double) (a+b+c+d-maximum-minimum)/2.0;
-        return median;
-    }
-
-    private void printArray(int nums[],int left,int right)
-    {
-        for (int i=left;i<=right;i++)
-            System.out.print(nums[i]+" ");
-        System.out.println();
+        return 0.0;
     }
 }
