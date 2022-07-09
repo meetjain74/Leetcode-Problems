@@ -148,6 +148,7 @@ Collection of Standard Problems and my solutions
 [Subset sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/Subset%20Sum%20Problem%20-%20GFG)     
 [Partition equal subset sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/416-partition-equal-subset-sum)  
 [Minimum sum partition](https://github.com/meetjain74/Leetcode-Problems/tree/main/Minimum%20sum%20partition%20-%20GFG)     
+[Target sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/494-target-sum)     
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 
 ## Binary search
