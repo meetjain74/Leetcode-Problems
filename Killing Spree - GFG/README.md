@@ -1,4 +1,4 @@
-# Killing Spree
+# [Killing Spree](https://practice.geeksforgeeks.org/problems/killing-spree3020/1#)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">There are Infinite People Standing in a row, indexed from 1.<br>
