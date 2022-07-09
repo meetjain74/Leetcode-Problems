@@ -1,4 +1,4 @@
-# Subset Sum Problem
+# [Subset Sum Problem](https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1/)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given an array of non-negative integers, and a value <em>sum</em>, determine if there is a subset of the given set with sum equal to given <em>sum</em>.&nbsp;</span></p>
