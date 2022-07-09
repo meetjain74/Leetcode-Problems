@@ -252,6 +252,7 @@ Collection of Standard Problems and my solutions
 [Subarray sum divisible by K](https://github.com/meetjain74/Leetcode-Problems/tree/main/974-subarray-sums-divisible-by-k)   
 [Minimum number of flips to make binary string alternating](https://github.com/meetjain74/Leetcode-Problems/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating)   
 [Minimum number of swaps to make the string balanced](https://github.com/meetjain74/Leetcode-Problems/tree/main/1963-minimum-number-of-swaps-to-make-the-string-balanced)   
+[Count array pairs divisible by k](https://github.com/meetjain74/Leetcode-Problems/tree/main/2183-count-array-pairs-divisible-by-k)     
 
 ## Group of Questions
 
@@ -265,6 +266,8 @@ Maximum sum subarray in an array
 Maximum sum circular subarray    
 Subarray product less than K    
 Subarray sum divisible by K   
+Count array pairs whose sum is divisible by K   
+Count array pairs whose product is divisible by K    
 
 ### Traversals and view of Binary Tree
 
