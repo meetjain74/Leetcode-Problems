@@ -1,4 +1,4 @@
-# Knapsack with Duplicate Items
+# [Knapsack with Duplicate Items](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1)
 ## Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given a set of <strong>N</strong> items, each with a weight and a value, represented by the array <strong>w[]</strong>&nbsp;and&nbsp;<strong>val[]</strong>&nbsp;respectively.&nbsp;Also, a knapsack with weight limit <strong>W</strong>.<br>
