@@ -149,7 +149,8 @@ Collection of Standard Problems and my solutions
 [Partition equal subset sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/416-partition-equal-subset-sum)  
 [Minimum sum partition](https://github.com/meetjain74/Leetcode-Problems/tree/main/Minimum%20sum%20partition%20-%20GFG)     
 [Target sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/494-target-sum)     
-[Knapsack with duplicate items](https://github.com/meetjain74/Leetcode-Problems/tree/main/Knapsack%20with%20Duplicate%20Items%20-%20GFG)      
+[Knapsack with duplicate items](https://github.com/meetjain74/Leetcode-Problems/tree/main/Knapsack%20with%20Duplicate%20Items%20-%20GFG)   
+[Rod cutting](https://github.com/meetjain74/Leetcode-Problems/tree/main/Rod%20Cutting%20-%20GFG)     
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 
 ## Binary search
