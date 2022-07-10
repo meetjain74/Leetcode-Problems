@@ -1,4 +1,4 @@
-# Rod Cutting
+# [Rod Cutting](https://practice.geeksforgeeks.org/problems/rod-cutting0840/1/)
 ## Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given a rod of length <strong>N</strong> inches and an array of prices,&nbsp;<strong>price[]</strong> that contains prices of all pieces of size smaller than <strong>N</strong>. Determine the maximum value obtainable by cutting up the rod and selling the pieces.</span></p>
