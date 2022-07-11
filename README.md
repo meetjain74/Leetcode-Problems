@@ -153,6 +153,7 @@ Collection of Standard Problems and my solutions
 [Rod cutting](https://github.com/meetjain74/Leetcode-Problems/tree/main/Rod%20Cutting%20-%20GFG)     
 [Coin change 2: Max number of ways](https://github.com/meetjain74/Leetcode-Problems/tree/main/518-coin-change-2)    
 [Coin change: Min number of coins](https://github.com/meetjain74/Leetcode-Problems/tree/main/322-coin-change)    
+[Perfect squares](https://github.com/meetjain74/Leetcode-Problems/tree/main/279-perfect-squares)    
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 
 ## Binary search
