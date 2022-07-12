@@ -1,4 +1,4 @@
-# Longest Common Substring
+# [Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1/)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given two strings. The task is to find the length of the longest common substring.</span></p>
