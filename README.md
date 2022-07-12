@@ -200,6 +200,10 @@ Collection of Standard Problems and my solutions
 [Topological sort](https://github.com/meetjain74/Leetcode-Problems/tree/main/Topological%20sort%20-%20GFG)    
 [Minimum height trees](https://github.com/meetjain74/Leetcode-Problems/tree/main/310-minimum-height-trees)     
 
+## Greedy  
+
+[Fractional knapsack](https://github.com/meetjain74/Leetcode-Problems/tree/main/Fractional%20Knapsack%20-%20GFG)     
+
 ## Bit manipulation
 
 [Single number](https://github.com/meetjain74/Leetcode-Problems/tree/main/136-single-number)   
