@@ -159,6 +159,7 @@ Collection of Standard Problems and my solutions
 [Minimum cost for tickets](https://github.com/meetjain74/Leetcode-Problems/tree/main/983-minimum-cost-for-tickets)    
 [Ones and zeroes](https://github.com/meetjain74/Leetcode-Problems/tree/main/474-ones-and-zeroes)     
 [Longest common subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/1143-longest-common-subsequence)    
+[Longest common substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/Longest%20Common%20Substring%20-%20GFG)    
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 
 ## Binary search
