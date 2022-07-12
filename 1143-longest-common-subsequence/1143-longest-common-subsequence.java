@@ -1,23 +1,24 @@
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
-        int dp[][] = new int[text1.length()][text2.length()];
-        for (int i=0;i<text1.length();i++) {
-            Arrays.fill(dp[i],-1);
+        int m = text1.length();
+        int n = text2.length();
+        
+        // dp[i][j] represents the LCS for string1 upto length i
+        // and string2 upto length j
+        int dp[][] = new int[m+1][n+1];
+        
+        // dp[i][0] is 0 as LCS of string1 with empty string is 0
+        // dp[0][j] is 0 as LCS of string2 with empty string is 0
+        
+        for (int i=1;i<=m;i++) {
+            for (int j=1;j<=n;j++) {
+                if (text1.charAt(i-1)==text2.charAt(j-1))
+                    dp[i][j] = 1 + dp[i-1][j-1];
+                else
+                    dp[i][j] = Math.max(dp[i][j-1],dp[i-1][j]);
+            }
         }
-        return LCS(text1,text2,0,0,dp);
-    }
-    
-    private int LCS(String text1,String text2,int index1,int index2,int[][] dp) {
-        if (index1==text1.length() || index2==text2.length())
-            return 0;
         
-        if (dp[index1][index2]!=-1)
-            return dp[index1][index2];
-        
-        if (text1.charAt(index1)==text2.charAt(index2))
-            return dp[index1][index2] = 1+LCS(text1,text2,index1+1,index2+1,dp);
-        else
-            return dp[index1][index2] = Math.max(LCS(text1,text2,index1+1,index2,dp),
-                                            LCS(text1,text2,index1,index2+1,dp));
+        return dp[m][n];
     }
 }
