@@ -156,6 +156,7 @@ Collection of Standard Problems and my solutions
 [Perfect squares](https://github.com/meetjain74/Leetcode-Problems/tree/main/279-perfect-squares)    
 [Integer break](https://github.com/meetjain74/Leetcode-Problems/tree/main/343-integer-break)     
 [Minimum cost for tickets](https://github.com/meetjain74/Leetcode-Problems/tree/main/983-minimum-cost-for-tickets)    
+[https://github.com/meetjain74/Leetcode-Problems/tree/main/474-ones-and-zeroes](https://github.com/meetjain74/Leetcode-Problems/tree/main/474-ones-and-zeroes)     
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 
 ## Binary search
