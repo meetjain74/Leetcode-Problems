@@ -163,6 +163,7 @@ Collection of Standard Problems and my solutions
 [Maximum length of repeated subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/718-maximum-length-of-repeated-subarray)    
 [Shortest common supersequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/Shortest%20Common%20Supersequence%20-%20GFG)     
 [Print shortest common supersequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/1092-shortest-common-supersequence)    
+[Minimum number of deletions and insertions](https://github.com/meetjain74/Leetcode-Problems/tree/main/Minimum%20number%20of%20deletions%20and%20insertions.%20-%20GFG)   
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 
 ## Binary search
