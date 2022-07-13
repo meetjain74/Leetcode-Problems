@@ -161,6 +161,7 @@ Collection of Standard Problems and my solutions
 [Longest common subsequence and Print LCS](https://github.com/meetjain74/Leetcode-Problems/tree/main/1143-longest-common-subsequence)    
 [Longest common substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/Longest%20Common%20Substring%20-%20GFG)    
 [Maximum length of repeated subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/718-maximum-length-of-repeated-subarray)    
+[Shortest common supersequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/Shortest%20Common%20Supersequence%20-%20GFG)     
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 
 ## Binary search
