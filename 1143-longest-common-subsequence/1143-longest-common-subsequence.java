@@ -19,6 +19,30 @@ class Solution {
             }
         }
         
+        //printLCS(dp,text1,text2,m,n);
+        
         return dp[m][n];
+    }
+    
+    private void printLCS(int[][] dp,String text1,String text2,int m,int n) {
+        int i=m;
+        int j=n;
+        
+        String str="";
+        while(i>0 && j>0) {
+            if (text1.charAt(i-1)==text2.charAt(j-1)) {
+                str = text1.charAt(i-1)+str;
+                i--;
+                j--;
+            }
+            else {
+                if (dp[i-1][j]>dp[i][j-1])
+                    i--;
+                else
+                    j--;
+            }
+        }
+        
+        System.out.println(str);
     }
 }
