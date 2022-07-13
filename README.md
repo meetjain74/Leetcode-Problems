@@ -166,8 +166,9 @@ Collection of Standard Problems and my solutions
 [Minimum number of deletions and insertions](https://github.com/meetjain74/Leetcode-Problems/tree/main/Minimum%20number%20of%20deletions%20and%20insertions.%20-%20GFG)   
 [Delete operations for two strings](https://github.com/meetjain74/Leetcode-Problems/tree/main/583-delete-operation-for-two-strings)    
 [Longest palindromic subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/516-longest-palindromic-subsequence)    
-[Minimum number of deletions to make string palindrome](https://github.com/meetjain74/Leetcode-Problems/tree/main/Minimum%20number%20of%20deletions.%20-%20GFG)     
+[Minimum number of deletions to make a string palindrome](https://github.com/meetjain74/Leetcode-Problems/tree/main/Minimum%20number%20of%20deletions.%20-%20GFG)     
 [Longest repeating subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/Longest%20Repeating%20Subsequence%20-%20GFG)     
+[Minimum number of insertions to make a string palindrome](https://github.com/meetjain74/Leetcode-Problems/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome)    
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 
 ## Binary search
