@@ -1,4 +1,4 @@
-# String Subsequence
+# [String Subsequence](https://practice.geeksforgeeks.org/problems/find-number-of-times-a-string-occurs-as-a-subsequence3020/1/)
 ## Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given two strings <strong>S1</strong> and <strong>S2</strong>, find the number of times the second string occurs in the first string, whether continuous or discontinuous.</span></p>
