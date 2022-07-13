@@ -1,4 +1,4 @@
-# Minimum number of deletions and insertions.
+# [Minimum number of deletions and insertions](https://practice.geeksforgeeks.org/problems/minimum-number-of-deletions-and-insertions0209/1)
 ## Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given two strings <strong>str1</strong> and <strong>str2</strong>. The task is to remove or insert the minimum number of characters from/in <strong>str1</strong> so as to transform it into <strong>str2</strong>. It could be possible that the same character needs to be removed/deleted from one point of str1 and inserted to some another point.</span></p>
