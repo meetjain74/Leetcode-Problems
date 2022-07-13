@@ -1,4 +1,4 @@
-# Find length of longest subsequence
+# [Find length of longest subsequence](https://practice.geeksforgeeks.org/problems/find-length-of-longest-subsequence4905/1/)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given two string&nbsp;<strong>X</strong>&nbsp;and&nbsp;<strong>Y </strong>of length <strong>N </strong>and<strong> M </strong>respectively. The task is to find the length of the longest subsequence of string X which is a substring in sequence Y.</span></p>
