@@ -41,6 +41,10 @@ class Solution
     //Function to find length of shortest common supersequence of two strings.
     public static int shortestCommonSupersequence(String X,String Y,int m,int n)
     {
+        return method2(X,Y,m,n);
+    }
+    
+    private static int method1(String X,String Y,int m,int n) {
         // dp[i][j] represents length of shortest common supersequence
         // of X upto length i and Y upto length j
         int dp[][] = new int[m+1][n+1];
@@ -58,6 +62,7 @@ class Solution
         for (int i=1;i<=m;i++) {
             for (int j=1;j<=n;j++) {
                 if (X.charAt(i-1)==Y.charAt(j-1)) {
+                    // Both characters are equal - Take only one in supersequence
                     dp[i][j]=1+dp[i-1][j-1];
                 }
                 else {
@@ -67,5 +72,32 @@ class Solution
         }
         
         return dp[m][n];
+    }
+    
+    // Using LCS
+    private static int method2(String X,String Y,int m,int n) {
+        // Find the LCS of the two strings
+        
+        // dp[i][j] represents the LCS for string1 upto length i
+        // and string2 upto length j
+        int dp[][] = new int[m+1][n+1];
+        
+        // dp[i][0] is 0 as LCS of string1 with empty string is 0
+        // dp[0][j] is 0 as LCS of string2 with empty string is 0
+        
+        for (int i=1;i<=m;i++) {
+            for (int j=1;j<=n;j++) {
+                if (X.charAt(i-1)==Y.charAt(j-1))
+                    dp[i][j] = 1 + dp[i-1][j-1];
+                else
+                    dp[i][j] = Math.max(dp[i][j-1],dp[i-1][j]);
+            }
+        }
+        
+        // Shortest common supersequence length is equal to
+        // Sum of length of both strings minus length of LCS
+        int scs = m+n-dp[m][n];
+        
+        return scs;
     }
 }
