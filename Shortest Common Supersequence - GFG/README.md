@@ -1,4 +1,4 @@
-# Shortest Common Supersequence
+# [Shortest Common Supersequence](https://practice.geeksforgeeks.org/problems/shortest-common-supersequence0322/1/)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given two&nbsp;strings X and Y&nbsp;of lengths&nbsp;m and n&nbsp;respectively, find the length of the smallest string which has both, X and Y as its sub-sequences.<br>
