@@ -165,6 +165,7 @@ Collection of Standard Problems and my solutions
 [Print shortest common supersequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/1092-shortest-common-supersequence)    
 [Minimum number of deletions and insertions](https://github.com/meetjain74/Leetcode-Problems/tree/main/Minimum%20number%20of%20deletions%20and%20insertions.%20-%20GFG)   
 [Delete operations for two strings](https://github.com/meetjain74/Leetcode-Problems/tree/main/583-delete-operation-for-two-strings)    
+[Longest palindromic subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/516-longest-palindromic-subsequence)    
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 
 ## Binary search
