@@ -1,4 +1,4 @@
-# Minimum number of deletions.
+# [Minimum number of deletions](https://practice.geeksforgeeks.org/problems/minimum-number-of-deletions4610/1/)
 ## Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given a string 'str'&nbsp;of size ‘n’. The task is to remove or delete the minimum number of characters from the string so that the resultant string is a palindrome. Find the minimum numbers of characters we need to remove.</span><br>
