@@ -1,4 +1,4 @@
-# Longest Repeating Subsequence
+# [Longest Repeating Subsequence](https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence2004/1)
 ## Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given string str, find the length of the longest repeating subsequence such that it can be found twice in the given string. </span></p>
