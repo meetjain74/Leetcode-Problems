@@ -162,6 +162,7 @@ Collection of Standard Problems and my solutions
 [Longest common substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/Longest%20Common%20Substring%20-%20GFG)    
 [Maximum length of repeated subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/718-maximum-length-of-repeated-subarray)    
 [Length of longest subsequence of a string which is substring of another string](https://github.com/meetjain74/Leetcode-Problems/tree/main/Find%20length%20of%20longest%20subsequence%20-%20GFG)    
+[Number of times a string occurs as subsequence in another string](https://github.com/meetjain74/Leetcode-Problems/tree/main/String%20Subsequence%20-%20GFG)   
 [Shortest common supersequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/Shortest%20Common%20Supersequence%20-%20GFG)     
 [Print shortest common supersequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/1092-shortest-common-supersequence)    
 [Minimum number of deletions and insertions](https://github.com/meetjain74/Leetcode-Problems/tree/main/Minimum%20number%20of%20deletions%20and%20insertions.%20-%20GFG)   
