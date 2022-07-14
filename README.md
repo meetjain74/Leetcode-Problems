@@ -173,6 +173,7 @@ Collection of Standard Problems and my solutions
 [Minimum number of insertions to make a string palindrome](https://github.com/meetjain74/Leetcode-Problems/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome)    
 [Count common subsequence in two strings (Need not necessarily be distinct)](https://www.geeksforgeeks.org/count-common-subsequence-in-two-strings/#:~:text=To%20find%20the%20number%20of,j%2D1%5D.)    
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
+[Count palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/Count%20Palindromic%20Subsequences%20-%20GFG)    
 
 ## Binary search
 
