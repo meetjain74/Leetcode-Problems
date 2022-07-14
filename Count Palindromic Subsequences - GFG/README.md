@@ -1,4 +1,4 @@
-# Count Palindromic Subsequences
+# [Count Palindromic Subsequences](https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1#)
 ## Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given a string str of length N,&nbsp;you have to find number&nbsp;of&nbsp;palindromic subsequence (need not necessarily be distinct) which could be formed&nbsp;from the string str.<br>
