@@ -41,13 +41,13 @@ class Solution
         // Length 2 substrings 
         // If both characters equal - 3 palindromic subsequences
         // Else - 2 palindromic sequences
-        for (int i=0;i<n-1;i++) {
-            int j = i+1;
-            dp[i][j] = str.charAt(i)==str.charAt(j) ? 3 : 2;
-        }
+        // for (int i=0;i<n-1;i++) {
+        //     int j = i+1;
+        //     dp[i][j] = str.charAt(i)==str.charAt(j) ? 3 : 2;
+        // }
         
         // g represents length-1
-        for (int g=2;g<n;g++) {
+        for (int g=1;g<n;g++) {
             for (int i=0,j=g;j<n;i++,j++) {
                 if (str.charAt(i)==str.charAt(j)) {
                     dp[i][j] = (dp[i+1][j] + dp[i][j-1] + 1)%MOD;
