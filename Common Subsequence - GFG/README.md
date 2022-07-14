@@ -1,4 +1,4 @@
-# Common Subsequence
+# [Common Subsequence](https://practice.geeksforgeeks.org/problems/common-subsequence4049/1)
 ## Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given two strings<strong> a</strong> and<strong> b.</strong> Check&nbsp;whether they contain any common subsequence (non empty)&nbsp;or not.</span></p>
