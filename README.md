@@ -171,6 +171,7 @@ Collection of Standard Problems and my solutions
 [Minimum number of deletions to make a string palindrome](https://github.com/meetjain74/Leetcode-Problems/tree/main/Minimum%20number%20of%20deletions.%20-%20GFG)     
 [Longest repeating subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/Longest%20Repeating%20Subsequence%20-%20GFG)     
 [Minimum number of insertions to make a string palindrome](https://github.com/meetjain74/Leetcode-Problems/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome)    
+[Count common subsequence in two strings (Need not necessarily be distinct)](https://www.geeksforgeeks.org/count-common-subsequence-in-two-strings/#:~:text=To%20find%20the%20number%20of,j%2D1%5D.)    
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 
 ## Binary search
