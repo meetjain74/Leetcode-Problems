@@ -174,7 +174,8 @@ Collection of Standard Problems and my solutions
 [Count common subsequence in two strings (Need not necessarily be distinct)](https://www.geeksforgeeks.org/count-common-subsequence-in-two-strings/#:~:text=To%20find%20the%20number%20of,j%2D1%5D.)    
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 [Count palindromic substrings](https://github.com/meetjain74/Leetcode-Problems/tree/main/647-palindromic-substrings)   
-[Count palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/Count%20Palindromic%20Subsequences%20-%20GFG)    
+[Count palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/Count%20Palindromic%20Subsequences%20-%20GFG)   
+[Distinct subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/115-distinct-subsequences)    
 [Distinct subsequences II](https://github.com/meetjain74/Leetcode-Problems/tree/main/940-distinct-subsequences-ii)    
 
 ## Binary search
