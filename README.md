@@ -175,6 +175,7 @@ Collection of Standard Problems and my solutions
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 [Count palindromic substrings](https://github.com/meetjain74/Leetcode-Problems/tree/main/647-palindromic-substrings)   
 [Count palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/Count%20Palindromic%20Subsequences%20-%20GFG)    
+[Distinct subsequences II](https://github.com/meetjain74/Leetcode-Problems/tree/main/940-distinct-subsequences-ii)    
 
 ## Binary search
 
