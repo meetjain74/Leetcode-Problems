@@ -19,6 +19,7 @@ Collection of Standard Problems and my solutions
 [Rearrange array elements by sign](https://github.com/meetjain74/Leetcode-Problems/tree/main/2149-rearrange-array-elements-by-sign)    
 [Count and say](https://github.com/meetjain74/Leetcode-Problems/tree/main/38-count-and-say)    
 [Add strings](https://github.com/meetjain74/Leetcode-Problems/tree/main/415-add-strings)   
+[Multiply strings](https://github.com/meetjain74/Leetcode-Problems/tree/main/43-multiply-strings)   
 
 ## Two pointer approach / Sliding window
 
