@@ -1,4 +1,4 @@
-# Matrix Chain Multiplication
+# [Matrix Chain Multiplication](https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1)
 ## Hard 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given a sequence of matrices, find the most efficient way to multiply these matrices together.&nbsp;The efficient way is the one that involves&nbsp;the least number of&nbsp;multiplications. </span></p>
