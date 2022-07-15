@@ -1,7 +1,7 @@
 # Problems
 Collection of Standard Problems and my solutions
 
-## Arrays
+## Arrays and Strings
 
 [Sort an array](https://github.com/meetjain74/Leetcode-Problems/tree/main/912-sort-an-array)  
 [Rotate array](https://github.com/meetjain74/Leetcode-Problems/tree/main/189-rotate-array)  
@@ -17,6 +17,7 @@ Collection of Standard Problems and my solutions
 [Squares of a sorted array](https://github.com/meetjain74/Leetcode-Problems/tree/main/977-squares-of-a-sorted-array)   
 [Rearrange an array with O(1) space](https://github.com/meetjain74/Leetcode-Problems/tree/main/Rearrange%20an%20array%20with%20O(1)%20extra%20space%20-%20GFG)    
 [Rearrange array elements by sign](https://github.com/meetjain74/Leetcode-Problems/tree/main/2149-rearrange-array-elements-by-sign)    
+[Count and say](https://github.com/meetjain74/Leetcode-Problems/tree/main/38-count-and-say)    
 
 ## Two pointer approach / Sliding window
 
