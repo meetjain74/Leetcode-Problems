@@ -177,6 +177,7 @@ Collection of Standard Problems and my solutions
 [Count palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/Count%20Palindromic%20Subsequences%20-%20GFG)   
 [Distinct subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/115-distinct-subsequences)    
 [Distinct subsequences II](https://github.com/meetjain74/Leetcode-Problems/tree/main/940-distinct-subsequences-ii)    
+[Count different palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/730-count-different-palindromic-subsequences)   
 
 ## Binary search
 
