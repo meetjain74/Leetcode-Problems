@@ -63,6 +63,7 @@ Collection of Standard Problems and my solutions
 [Maximal rectangle](https://github.com/meetjain74/Leetcode-Problems/tree/main/85-maximal-rectangle)  
 [Smallest subsequence of distinct characters](https://github.com/meetjain74/Leetcode-Problems/tree/main/1081-smallest-subsequence-of-distinct-characters)   
 [Steps to make array non decreasing](https://github.com/meetjain74/Leetcode-Problems/tree/main/2289-steps-to-make-array-non-decreasing)    
+[Longest valid parentheses](https://github.com/meetjain74/Leetcode-Problems/tree/main/32-longest-valid-parentheses)    
 
 ## Heap
 
