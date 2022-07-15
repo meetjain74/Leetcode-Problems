@@ -182,6 +182,7 @@ Collection of Standard Problems and my solutions
 [Distinct subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/115-distinct-subsequences)    
 [Distinct subsequences II](https://github.com/meetjain74/Leetcode-Problems/tree/main/940-distinct-subsequences-ii)    
 [Count different palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/730-count-different-palindromic-subsequences)   
+[Matrix chain multiplication](https://github.com/meetjain74/Leetcode-Problems/tree/main/Matrix%20Chain%20Multiplication%20-%20GFG)    
 
 ## Binary search
 
