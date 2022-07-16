@@ -187,6 +187,7 @@ Collection of Standard Problems and my solutions
 [Palindrome partitioning IV](https://github.com/meetjain74/Leetcode-Problems/tree/main/1745-palindrome-partitioning-iv)   
 [Palindrome partitioning III](https://github.com/meetjain74/Leetcode-Problems/tree/main/1278-palindrome-partitioning-iii)    
 [Boolean Parenthesization](https://github.com/meetjain74/Leetcode-Problems/tree/main/Boolean%20Parenthesization%20-%20GFG)     
+[Scramble string](https://github.com/meetjain74/Leetcode-Problems/tree/main/87-scramble-string)   
 
 ## Binary search
 
