@@ -1,28 +1,21 @@
 class Solution {
     public int lengthOfLIS(int[] nums) {
-        int dp[][] = new int[nums.length][nums.length+1];
-        for (int i=0;i<nums.length;i++) {
-            Arrays.fill(dp[i],-1);
-        }
-        return LIS(nums,0,-1,dp);
-    }
-    
-    private int LIS(int[] nums,int index,int prevIndex,int[][] dp) {
-        if (index==nums.length)
-            return 0;
+        int n = nums.length;
         
-        if (dp[index][prevIndex+1]!=-1)
-            return dp[index][prevIndex+1];
+        // dp[i] represents length of longest increasing subsequence
+        // that ends at index i (index i is included in lis at dp[i])
+        int dp[] = new int[n];
+        Arrays.fill(dp,1); // 1 length subsequence
         
-        // Not take current element
-        int notTake = LIS(nums,index+1,prevIndex,dp);
-        
-        // Take current element if possible
-        int take = 0;
-        if (prevIndex==-1 || nums[index]>nums[prevIndex]) {
-            take = 1 + LIS(nums,index+1,index,dp);
+        int lis = 1;
+        for (int i=1;i<n;i++) {
+            for (int prev=0;prev<i;prev++) {
+                if (nums[i]>nums[prev])
+                    dp[i] = Math.max(dp[i],1+dp[prev]);
+            }
+            lis = Math.max(lis,dp[i]); // Update Max length increasing subsequence   
         }
         
-        return dp[index][prevIndex+1]=Math.max(take,notTake);
+        return lis;
     }
 }
