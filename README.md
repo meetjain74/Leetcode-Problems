@@ -190,6 +190,7 @@ Collection of Standard Problems and my solutions
 [Boolean Parenthesization](https://github.com/meetjain74/Leetcode-Problems/tree/main/Boolean%20Parenthesization%20-%20GFG)     
 [Scramble string](https://github.com/meetjain74/Leetcode-Problems/tree/main/87-scramble-string)   
 [Super egg drop](https://github.com/meetjain74/Leetcode-Problems/tree/main/887-super-egg-drop)    
+[Longest increasing subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/300-longest-increasing-subsequence)    
 
 ## Binary search
 
@@ -206,6 +207,7 @@ Collection of Standard Problems and my solutions
 [Kth missing positive number](https://github.com/meetjain74/Leetcode-Problems/tree/main/1539-kth-missing-positive-number)   
 [Find peak element](https://github.com/meetjain74/Leetcode-Problems/tree/main/162-find-peak-element)  
 [Median of two sorted arrays](https://github.com/meetjain74/Leetcode-Problems/tree/main/4-median-of-two-sorted-arrays)    
+[Longest increasing subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/300-longest-increasing-subsequence)    
 
 ## BFS and DFS
 
@@ -284,6 +286,7 @@ Collection of Standard Problems and my solutions
 [Triangle](https://github.com/meetjain74/Leetcode-Problems/tree/main/120-triangle)   
 [Josephus problem](https://github.com/meetjain74/Leetcode-Problems/tree/main/1823-find-the-winner-of-the-circular-game)   
 [Flatten binary tree to linked list](https://github.com/meetjain74/Leetcode-Problems/tree/main/114-flatten-binary-tree-to-linked-list)   
+[Longest increasing subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/300-longest-increasing-subsequence)    
 
 
 ## Extras
