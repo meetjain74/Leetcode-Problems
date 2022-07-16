@@ -191,6 +191,7 @@ Collection of Standard Problems and my solutions
 [Scramble string](https://github.com/meetjain74/Leetcode-Problems/tree/main/87-scramble-string)   
 [Super egg drop](https://github.com/meetjain74/Leetcode-Problems/tree/main/887-super-egg-drop)    
 [Longest increasing subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/300-longest-increasing-subsequence)    
+[Number of longest increasing subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/673-number-of-longest-increasing-subsequence)    
 
 ## Binary search
 
