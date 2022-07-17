@@ -289,6 +289,7 @@ Collection of Standard Problems and my solutions
 [Josephus problem](https://github.com/meetjain74/Leetcode-Problems/tree/main/1823-find-the-winner-of-the-circular-game)   
 [Flatten binary tree to linked list](https://github.com/meetjain74/Leetcode-Problems/tree/main/114-flatten-binary-tree-to-linked-list)   
 [Longest increasing subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/300-longest-increasing-subsequence)    
+[Longest consecutive subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/128-longest-consecutive-sequence)    
 
 
 ## Extras
