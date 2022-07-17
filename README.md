@@ -143,6 +143,7 @@ Collection of Standard Problems and my solutions
 
 ## Dynamic programming
 
+[Climbing stairs](https://github.com/meetjain74/Leetcode-Problems/tree/main/70-climbing-stairs)   
 [Min cost climbing stairs](https://github.com/meetjain74/Leetcode-Problems/tree/main/746-min-cost-climbing-stairs)  
 [House Robber](https://github.com/meetjain74/Leetcode-Problems/tree/main/198-house-robber)  
 [Unique paths](https://github.com/meetjain74/Leetcode-Problems/tree/main/62-unique-paths)  
