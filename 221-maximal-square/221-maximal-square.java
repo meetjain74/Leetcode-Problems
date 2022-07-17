@@ -6,13 +6,12 @@ class Solution {
         // dp[j] stores max side of square possible at j in the matrix
         // of first j columns
         int dp[] = new int[n];
-        int prev[] = new int[n];
-        
         int maxSide = 0;
     
         for (int i=0;i<m;i++) {
-            dp=new int[n];
+            int prev = dp[0];
             for (int j=0;j<n;j++) {
+                int temp=dp[j];
                 if (i==0 || j==0) {
                     dp[j] = matrix[i][j]=='1' ? 1:0;
                 }
@@ -20,11 +19,11 @@ class Solution {
                     if (matrix[i][j]=='0')
                         dp[j]=0;
                     else
-                        dp[j]=1+min(prev[j],prev[j-1],dp[j-1]);
+                        dp[j]=1+min(dp[j],dp[j-1],prev);
                 } 
-                 maxSide=Math.max(maxSide,dp[j]);
+                maxSide=Math.max(maxSide,dp[j]);
+                prev=temp;
             }
-            prev=dp;
         }
         
         return maxSide*maxSide;
