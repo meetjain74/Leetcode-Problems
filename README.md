@@ -150,6 +150,7 @@ Collection of Standard Problems and my solutions
 [Unique paths](https://github.com/meetjain74/Leetcode-Problems/tree/main/62-unique-paths)  
 [Unique paths II](https://github.com/meetjain74/Leetcode-Problems/tree/main/63-unique-paths-ii)  
 [Decode ways](https://github.com/meetjain74/Leetcode-Problems/tree/main/91-decode-ways)   
+[Decode ways II](https://github.com/meetjain74/Leetcode-Problems/tree/main/639-decode-ways-ii)   
 [Unique binary search trees](https://github.com/meetjain74/Leetcode-Problems/tree/main/96-unique-binary-search-trees)   
 [Word Break](https://github.com/meetjain74/Leetcode-Problems/tree/main/139-word-break)   
 [Minimum path sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/64-minimum-path-sum)    
