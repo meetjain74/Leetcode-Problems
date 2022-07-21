@@ -193,6 +193,7 @@ Collection of Standard Problems and my solutions
 [Palindrome partitioning II](https://github.com/meetjain74/Leetcode-Problems/tree/main/132-palindrome-partitioning-ii)    
 [Palindrome partitioning IV](https://github.com/meetjain74/Leetcode-Problems/tree/main/1745-palindrome-partitioning-iv)   
 [Palindrome partitioning III](https://github.com/meetjain74/Leetcode-Problems/tree/main/1278-palindrome-partitioning-iii)    
+[Partition array for maximum sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/1043-partition-array-for-maximum-sum)   
 [Boolean Parenthesization](https://github.com/meetjain74/Leetcode-Problems/tree/main/Boolean%20Parenthesization%20-%20GFG)     
 [Scramble string](https://github.com/meetjain74/Leetcode-Problems/tree/main/87-scramble-string)   
 [Super egg drop](https://github.com/meetjain74/Leetcode-Problems/tree/main/887-super-egg-drop)    
