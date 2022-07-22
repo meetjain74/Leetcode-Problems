@@ -301,6 +301,7 @@ Collection of Standard Problems and my solutions
 [The celebrity problem](https://github.com/meetjain74/Leetcode-Problems/tree/main/The%20Celebrity%20Problem%20-%20GFG)  
 [Triangle](https://github.com/meetjain74/Leetcode-Problems/tree/main/120-triangle)   
 [Josephus problem](https://github.com/meetjain74/Leetcode-Problems/tree/main/1823-find-the-winner-of-the-circular-game)   
+[Push dominoes](https://github.com/meetjain74/Leetcode-Problems/tree/main/838-push-dominoes)    
 [Flatten binary tree to linked list](https://github.com/meetjain74/Leetcode-Problems/tree/main/114-flatten-binary-tree-to-linked-list)   
 [Longest increasing subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/300-longest-increasing-subsequence)    
 [Longest consecutive subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/128-longest-consecutive-sequence)    
