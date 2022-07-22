@@ -14,29 +14,29 @@ class Pair {
 
 class Solution {
     public String removeDuplicates(String s, int k) {
-        Stack<Pair> stack = new Stack<>();
+        Stack<String> stack = new Stack<>();
         for (char ch:s.toCharArray()) {
-            Pair p = new Pair('#',0);
+            String p = "";
             if (!stack.isEmpty())
                 p=stack.peek();
             
-            if (p.ch==ch) {
-                if (p.count+1==k)
+            if (p.length()!=0 && p.charAt(0)==ch) {
+                if (p.length()+1==k)
                     stack.pop();
-                else
-                    p.count++;
+                else {
+                    stack.pop();
+                    stack.push(p+ch);
+                }
             }
             else {
-                stack.push(new Pair(ch,1));
+                stack.push(ch+"");
             }
         }
         
         String ans = "";
         while (!stack.isEmpty()) {
-            Pair p = stack.pop();
-            for (int i=0;i<p.count;i++) {
-                ans = p.ch+ans;
-            }
+            String p = stack.pop();
+            ans = p+ans;
         }
         
         return ans;
