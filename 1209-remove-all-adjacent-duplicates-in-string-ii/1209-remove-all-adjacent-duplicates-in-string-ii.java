@@ -1,17 +1,3 @@
-class Pair {
-    char ch;
-    int count;
-    
-    Pair(char ch,int count) {
-        this.ch=ch;
-        this.count=count;
-    }
-    
-    public String toString() {
-        return this.ch+" "+this.count;
-    }
-}
-
 class Solution {
     public String removeDuplicates(String s, int k) {
         Stack<String> stack = new Stack<>();
