@@ -47,6 +47,7 @@ Collection of Standard Problems and my solutions
 [Palindrome linked list](https://github.com/meetjain74/Leetcode-Problems/tree/main/234-palindrome-linked-list)  
 [Add 1 to a number represented as linked list](https://github.com/meetjain74/Leetcode-Problems/tree/main/Add%201%20to%20a%20number%20represented%20as%20linked%20list%20-%20GFG)   
 [Add two numbers](https://github.com/meetjain74/Leetcode-Problems/tree/main/2-add-two-numbers)   
+[Partition list](https://github.com/meetjain74/Leetcode-Problems/tree/main/86-partition-list)   
 [Intersection of two linked lists](https://github.com/meetjain74/Leetcode-Problems/tree/main/160-intersection-of-two-linked-lists)  
 [Sort Linked list (Merge sort and Quick Sort)](https://github.com/meetjain74/Leetcode-Problems/tree/main/148-sort-list)  
 [Swap nodes in pairs](https://github.com/meetjain74/Leetcode-Problems/tree/main/24-swap-nodes-in-pairs)  
