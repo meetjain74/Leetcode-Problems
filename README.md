@@ -8,6 +8,7 @@ Collection of Standard Problems and my solutions
 [Removing minimum and maximum from array](https://github.com/meetjain74/Leetcode-Problems/tree/main/2091-removing-minimum-and-maximum-from-array)  
 [Sort colors](https://github.com/meetjain74/Leetcode-Problems/tree/main/75-sort-colors)  
 [Shortest distance to a character](https://github.com/meetjain74/Leetcode-Problems/tree/main/821-shortest-distance-to-a-character)   
+[Push dominoes](https://github.com/meetjain74/Leetcode-Problems/tree/main/838-push-dominoes)    
 [First missing positive](https://github.com/meetjain74/Leetcode-Problems/tree/main/41-first-missing-positive)   
 [Maximum subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/53-maximum-subarray)  
 [Maximum sum circular subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/918-maximum-sum-circular-subarray)    
