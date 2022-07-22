@@ -150,6 +150,7 @@ Collection of Standard Problems and my solutions
 [Climbing stairs](https://github.com/meetjain74/Leetcode-Problems/tree/main/70-climbing-stairs)   
 [Min cost climbing stairs](https://github.com/meetjain74/Leetcode-Problems/tree/main/746-min-cost-climbing-stairs)  
 [House Robber](https://github.com/meetjain74/Leetcode-Problems/tree/main/198-house-robber)  
+[Delete and earn](https://github.com/meetjain74/Leetcode-Problems/tree/main/740-delete-and-earn)    
 [Unique paths](https://github.com/meetjain74/Leetcode-Problems/tree/main/62-unique-paths)  
 [Unique paths II](https://github.com/meetjain74/Leetcode-Problems/tree/main/63-unique-paths-ii)  
 [Decode ways](https://github.com/meetjain74/Leetcode-Problems/tree/main/91-decode-ways)   
