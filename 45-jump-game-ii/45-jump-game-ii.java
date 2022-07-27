@@ -1,17 +1,19 @@
 class Solution {
     public int jump(int[] nums) {
-        int n = nums.length;
-        int dp[] = new int[n];
-        Arrays.fill(dp,Integer.MAX_VALUE);
-        dp[n-1]=0;
-        for (int i=n-2;i>=0;i--) {
-            int curr = nums[i];
-            for (int j=1;j<=curr;j++) {
-                if (i+j<n && dp[i+j]!=Integer.MAX_VALUE) {
-                    dp[i]=Math.min(dp[i],1+dp[i+j]);
-                }
+        int jumps = 0;
+        int current = 0;
+        int farthest = 0; // Farthest index where you can reach
+        
+        for (int i=0;i<nums.length-1;i++) {
+            // Farthest index that can be reached from current index
+            farthest = Math.max(farthest,i+nums[i]);
+            
+            if (i==current) {
+                jumps++; // Consider one jump from current to farthest
+                current = farthest; // Update the current now to farthest
             }
         }
-        return dp[0];
+        
+        return jumps;
     }
 }
