@@ -1,28 +1,17 @@
 class Solution {
     public int jump(int[] nums) {
-        int dp[] = new int[nums.length];
-        Arrays.fill(dp,-1);
-        return helper(nums,0,dp);
-    }
-    
-    private int helper(int[] nums,int index,int[] dp) {
-        if (index>=nums.length)
-            return Integer.MAX_VALUE;
-        
-        if (index==nums.length-1)
-            return 0;
-        
-        if (dp[index]!=-1)
-            return dp[index];
-        
-        int curr = nums[index];
-        int minMoves = Integer.MAX_VALUE;
-        for (int i=1;i<=curr;i++) {
-            int h = helper(nums,index+i,dp);
-            if (h!=Integer.MAX_VALUE)
-                minMoves = Math.min(minMoves,1+h);
+        int n = nums.length;
+        int dp[] = new int[n];
+        Arrays.fill(dp,Integer.MAX_VALUE);
+        dp[n-1]=0;
+        for (int i=n-2;i>=0;i--) {
+            int curr = nums[i];
+            for (int j=1;j<=curr;j++) {
+                if (i+j<n && dp[i+j]!=Integer.MAX_VALUE) {
+                    dp[i]=Math.min(dp[i],1+dp[i+j]);
+                }
+            }
         }
-        
-        return dp[index]=minMoves;
+        return dp[0];
     }
 }
