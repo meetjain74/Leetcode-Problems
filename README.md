@@ -259,6 +259,7 @@ Collection of Standard Problems and my solutions
 [Maximum length of pair chain](https://github.com/meetjain74/Leetcode-Problems/tree/main/646-maximum-length-of-pair-chain)    
 [Non overlapping intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/435-non-overlapping-intervals)   
 [Jump Game](https://github.com/meetjain74/Leetcode-Problems/tree/main/55-jump-game)    
+[Jump Game II](https://github.com/meetjain74/Leetcode-Problems/tree/main/45-jump-game-ii)   
 
 ## Bit manipulation
 
