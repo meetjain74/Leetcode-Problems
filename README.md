@@ -257,6 +257,7 @@ Collection of Standard Problems and my solutions
 
 [Fractional knapsack](https://github.com/meetjain74/Leetcode-Problems/tree/main/Fractional%20Knapsack%20-%20GFG)   
 [Maximum length of pair chain](https://github.com/meetjain74/Leetcode-Problems/tree/main/646-maximum-length-of-pair-chain)    
+[Non overlapping intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/435-non-overlapping-intervals)   
 
 ## Bit manipulation
 
