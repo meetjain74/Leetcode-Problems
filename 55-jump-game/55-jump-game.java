@@ -1,29 +1,17 @@
 class Solution {
     public boolean canJump(int[] nums) {
-        int dp[] = new int[nums.length];
-        Arrays.fill(dp,-1);
-        return helper(nums,0,dp);
-    }
-    
-    private boolean helper(int[] nums,int index,int[] dp) {
-        if (index>=nums.length)
-            return false;
-        
-        if (index==nums.length-1)
-            return true;
-        
-        if (dp[index]!=-1) {
-            return dp[index]==1;
-        }
-        
-        for (int i=1;i<=nums[index];i++) {
-            if (helper(nums,index+i,dp)) {
-                dp[index]=1;
-                return true;
+        int n = nums.length;
+        boolean dp[] = new boolean[n];
+        dp[n-1]=true;
+        for (int i=n-2;i>=0;i--) {
+            int curr = nums[i];
+            for (int j=1;j<=curr;j++) {
+                if (i+j<n && dp[i+j]) {
+                    dp[i]=true;
+                    break;
+                }
             }
         }
-        
-        dp[index]=0;
-        return false;
+        return dp[0];
     }
 }
