@@ -232,6 +232,7 @@ Collection of Standard Problems and my solutions
 [Path with maximum gold](https://github.com/meetjain74/Leetcode-Problems/tree/main/1219-path-with-maximum-gold)    
 [Open the lock](https://github.com/meetjain74/Leetcode-Problems/tree/main/752-open-the-lock)   
 [Steps by knight](https://github.com/meetjain74/Leetcode-Problems/tree/main/Steps%20by%20Knight%20-%20GFG)   
+[Jump Game IV](https://github.com/meetjain74/Leetcode-Problems/tree/main/1345-jump-game-iv)    
 [Nearest exit from entrance in maze](https://github.com/meetjain74/Leetcode-Problems/tree/main/1926-nearest-exit-from-entrance-in-maze)   
 [Shortest path in a grid with obstacles elimination](https://github.com/meetjain74/Leetcode-Problems/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination)      
 [Sequential digits](https://github.com/meetjain74/Leetcode-Problems/tree/main/1291-sequential-digits)    
