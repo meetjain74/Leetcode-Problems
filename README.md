@@ -120,6 +120,7 @@ Collection of Standard Problems and my solutions
 [Flatten binary tree to linked list](https://github.com/meetjain74/Leetcode-Problems/tree/main/114-flatten-binary-tree-to-linked-list)   
 [Binary search tree iterator](https://github.com/meetjain74/Leetcode-Problems/tree/main/173-binary-search-tree-iterator)   
 [Two Sum IV - Input is a BST](https://github.com/meetjain74/Leetcode-Problems/tree/main/653-two-sum-iv-input-is-a-bst)   
+[Longest zigzag path in a binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/1372-longest-zigzag-path-in-a-binary-tree)    
 [Recover binary search tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/99-recover-binary-search-tree)    
 [Find duplicate subtrees](https://github.com/meetjain74/Leetcode-Problems/tree/main/652-find-duplicate-subtrees)   
 [Maximum sum BST in binary tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/1373-maximum-sum-bst-in-binary-tree)  
