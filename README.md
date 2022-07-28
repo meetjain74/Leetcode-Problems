@@ -13,9 +13,6 @@ Collection of Standard Problems and my solutions
 [Maximum subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/53-maximum-subarray)  
 [Maximum sum circular subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/918-maximum-sum-circular-subarray)    
 [Smallest range II](https://github.com/meetjain74/Leetcode-Problems/tree/main/910-smallest-range-ii)  
-[Merge intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/56-merge-intervals)   
-[Insert interval](https://github.com/meetjain74/Leetcode-Problems/tree/main/57-insert-interval)    
-[Count integers in intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/2276-count-integers-in-intervals)   
 [Global and local inversions](https://github.com/meetjain74/Leetcode-Problems/tree/main/775-global-and-local-inversions)  
 [Reverse pairs](https://github.com/meetjain74/Leetcode-Problems/tree/main/493-reverse-pairs)   
 [Squares of a sorted array](https://github.com/meetjain74/Leetcode-Problems/tree/main/977-squares-of-a-sorted-array)   
@@ -260,8 +257,6 @@ Collection of Standard Problems and my solutions
 ## Greedy  
 
 [Fractional knapsack](https://github.com/meetjain74/Leetcode-Problems/tree/main/Fractional%20Knapsack%20-%20GFG)   
-[Maximum length of pair chain](https://github.com/meetjain74/Leetcode-Problems/tree/main/646-maximum-length-of-pair-chain)    
-[Non overlapping intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/435-non-overlapping-intervals)   
 [Jump Game](https://github.com/meetjain74/Leetcode-Problems/tree/main/55-jump-game)    
 [Jump Game II](https://github.com/meetjain74/Leetcode-Problems/tree/main/45-jump-game-ii)   
 
@@ -293,7 +288,15 @@ Collection of Standard Problems and my solutions
 [Buy and sell stock with infinite transactions and transaction fee](https://github.com/meetjain74/Leetcode-Problems/tree/main/714-best-time-to-buy-and-sell-stock-with-transaction-fee)   
 [Buy and sell stock with infinite transactions and cooldown](https://github.com/meetjain74/Leetcode-Problems/tree/main/309-best-time-to-buy-and-sell-stock-with-cooldown)   
 [Buy and sell stock with two transactions allowed](https://github.com/meetjain74/Leetcode-Problems/tree/main/123-best-time-to-buy-and-sell-stock-iii)   
-[Buy and sell stock with k transactions allowed](https://github.com/meetjain74/Leetcode-Problems/tree/main/188-best-time-to-buy-and-sell-stock-iv)  
+[Buy and sell stock with k transactions allowed](https://github.com/meetjain74/Leetcode-Problems/tree/main/188-best-time-to-buy-and-sell-stock-iv)   
+
+## Interval questions
+
+[Merge intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/56-merge-intervals)   
+[Insert interval](https://github.com/meetjain74/Leetcode-Problems/tree/main/57-insert-interval)    
+[Count integers in intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/2276-count-integers-in-intervals)    
+[Maximum length of pair chain](https://github.com/meetjain74/Leetcode-Problems/tree/main/646-maximum-length-of-pair-chain)    
+[Non overlapping intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/435-non-overlapping-intervals)   
 
 ## Standard problems
 
