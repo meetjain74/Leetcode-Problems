@@ -14,10 +14,7 @@
  * }
  */
 class Solution {
-    // Store result in map
-    // Index 0 - Prev left and Index 1 - Prev right
-    HashMap<TreeNode,int[]> map = new HashMap<>();
-    
+    int ans = 0;
     public int longestZigZag(TreeNode root) {
         if (root==null)
             return 0;
@@ -25,38 +22,27 @@ class Solution {
         int left = longestZigZag(root.left,true);
         int right = longestZigZag(root.right,false);
         
-        int max = Math.max(left,right);
-        
-        left = longestZigZag(root.left);
-        right = longestZigZag(root.right);
-        
-        max = Math.max(max,Math.max(left,right));
-        
-        return max;
+        ans = Math.max(ans,Math.max(left,right));
+        return ans;
     }
     
-    // left is true if previous is left otherwise false
-    private int longestZigZag(TreeNode root,boolean left) {
+    // isLeft is true if previous is left otherwise false
+    private int longestZigZag(TreeNode root,boolean isLeft) {
         if (root==null)
             return 0;
         
-        int index = left ? 0 : 1;
-        if (map.containsKey(root) && map.get(root)[index]!=-1)
-            return map.get(root)[index];
+        int left = longestZigZag(root.left,true);
+        int right = longestZigZag(root.right,false);
+        
+        ans = Math.max(ans,Math.max(left,right));
         
         int curr = 0;
-        if (left) {
-            curr = 1+longestZigZag(root.right,false);
+        if (isLeft) {
+            curr = 1+right;
         }
         else {
-            curr = 1+longestZigZag(root.left,true);
+            curr = 1+left;
         }
-        
-        if (!map.containsKey(root)) {
-            map.put(root,new int[]{-1,-1});    
-        }
-        int[] val = map.get(root);
-        val[index] = curr;
         
         return curr;
     }
