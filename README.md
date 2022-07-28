@@ -237,6 +237,7 @@ Collection of Standard Problems and my solutions
 [Jump Game V](https://github.com/meetjain74/Leetcode-Problems/tree/main/1340-jump-game-v)   
 [Nearest exit from entrance in maze](https://github.com/meetjain74/Leetcode-Problems/tree/main/1926-nearest-exit-from-entrance-in-maze)   
 [Shortest path in a grid with obstacles elimination](https://github.com/meetjain74/Leetcode-Problems/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination)      
+[Rotting oranges](https://github.com/meetjain74/Leetcode-Problems/tree/main/994-rotting-oranges)   
 [Sequential digits](https://github.com/meetjain74/Leetcode-Problems/tree/main/1291-sequential-digits)    
 [Word ladder](https://github.com/meetjain74/Leetcode-Problems/tree/main/127-word-ladder)    
 [Longest increasing path in a matrix](https://github.com/meetjain74/Leetcode-Problems/tree/main/329-longest-increasing-path-in-a-matrix)    
