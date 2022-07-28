@@ -15,6 +15,7 @@ Collection of Standard Problems and my solutions
 [Smallest range II](https://github.com/meetjain74/Leetcode-Problems/tree/main/910-smallest-range-ii)  
 [Merge intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/56-merge-intervals)   
 [Insert interval](https://github.com/meetjain74/Leetcode-Problems/tree/main/57-insert-interval)    
+[Count integers in intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/2276-count-integers-in-intervals)   
 [Global and local inversions](https://github.com/meetjain74/Leetcode-Problems/tree/main/775-global-and-local-inversions)  
 [Reverse pairs](https://github.com/meetjain74/Leetcode-Problems/tree/main/493-reverse-pairs)   
 [Squares of a sorted array](https://github.com/meetjain74/Leetcode-Problems/tree/main/977-squares-of-a-sorted-array)   
