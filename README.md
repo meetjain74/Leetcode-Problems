@@ -7,6 +7,7 @@ Collection of Standard Problems and my solutions
 [Rotate array](https://github.com/meetjain74/Leetcode-Problems/tree/main/189-rotate-array)  
 [Removing minimum and maximum from array](https://github.com/meetjain74/Leetcode-Problems/tree/main/2091-removing-minimum-and-maximum-from-array)  
 [Sort colors](https://github.com/meetjain74/Leetcode-Problems/tree/main/75-sort-colors)  
+[Minimum steps to make product equal to one](https://github.com/meetjain74/Leetcode-Problems/tree/main/Minimum%20steps%20to%20make%20product%20equal%20to%20one%20-%20GFG)    
 [Shortest distance to a character](https://github.com/meetjain74/Leetcode-Problems/tree/main/821-shortest-distance-to-a-character)   
 [Push dominoes](https://github.com/meetjain74/Leetcode-Problems/tree/main/838-push-dominoes)    
 [First missing positive](https://github.com/meetjain74/Leetcode-Problems/tree/main/41-first-missing-positive)   
