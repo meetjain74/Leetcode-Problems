@@ -297,6 +297,7 @@ Collection of Standard Problems and my solutions
 [Count integers in intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/2276-count-integers-in-intervals)    
 [Maximum length of pair chain](https://github.com/meetjain74/Leetcode-Problems/tree/main/646-maximum-length-of-pair-chain)    
 [Non overlapping intervals](https://github.com/meetjain74/Leetcode-Problems/tree/main/435-non-overlapping-intervals)   
+[Minimum number of arrows to burst balloons](https://github.com/meetjain74/Leetcode-Problems/tree/main/452-minimum-number-of-arrows-to-burst-balloons)   
 
 ## Standard problems
 
