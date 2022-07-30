@@ -245,6 +245,7 @@ Collection of Standard Problems and my solutions
 [Longest increasing path in a matrix](https://github.com/meetjain74/Leetcode-Problems/tree/main/329-longest-increasing-path-in-a-matrix)    
 [Out of boundary paths](https://github.com/meetjain74/Leetcode-Problems/tree/main/576-out-of-boundary-paths)   
 [Minesweeper](https://github.com/meetjain74/Leetcode-Problems/tree/main/529-minesweeper)    
+[Race car](https://github.com/meetjain74/Leetcode-Problems/tree/main/818-race-car)   
 
 ## Graphs
 
