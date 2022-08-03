@@ -3,29 +3,29 @@ class Solution {
         int i=a.length()-1;
         int j=b.length()-1;
         char carry='0';
-        String res="";
+        StringBuilder res=new StringBuilder();
         
         while (i>=0 && j>=0) {
             char x = a.charAt(i);
             char y = b.charAt(j);
             if (x=='0' && y=='0') {
-                res = carry + res;
+                res.append(carry);
                 carry = '0';
             }
             else if ((x=='0' && y=='1') || (x=='1' && y=='0')) {
                 if (carry=='1') {
-                    res = '0' + res;
+                    res.append('0');
                 }
                 else {
-                    res = '1' + res;
+                    res.append('1');
                 }
             }
             else { //x and y both 1
                 if (carry=='0') {
-                    res = '0' + res;
+                    res.append('0');
                 }
                 else {
-                    res = '1' + res;
+                    res.append('1');
                 }
                 carry = '1';
             }
@@ -36,14 +36,14 @@ class Solution {
         while (i>=0) {
             char x = a.charAt(i);
             if (x=='0' && carry=='0') {
-                res = '0' + res;
+                res.append('0');
             }
             else if ((x=='0' && carry=='1') || (x=='1' && carry=='0')) {
-                res = '1' + res;
+                res.append('1');
                 carry = '0';
             }
             else { //x and carry both 1
-                res = '0' + res;
+                res.append('0');
                 carry = '1';
             }
             i--;
@@ -52,23 +52,23 @@ class Solution {
         while (j>=0) {
             char y = b.charAt(j);
             if (y=='0' && carry=='0') {
-                res = '0' + res;
+                res.append('0');
             }
             else if ((y=='0' && carry=='1') || (y=='1' && carry=='0')) {
-                res = '1' + res;
+                res.append('1');
                 carry = '0';
             }
             else { //y and carry both 1
-                res = '0' + res;
+                res.append('0');
                 carry = '1';
             }
             j--;
         }
         
         if (carry=='1') {
-            res = '1' + res;
+            res.append('1');
         }
         
-        return res;
+        return res.reverse().toString();
     }
 }
