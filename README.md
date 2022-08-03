@@ -332,6 +332,7 @@ Collection of Standard Problems and my solutions
 [Longest increasing subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/300-longest-increasing-subsequence)    
 [Longest consecutive subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/128-longest-consecutive-sequence)    
 [Water and jug problem](https://github.com/meetjain74/Leetcode-Problems/tree/main/365-water-and-jug-problem)    
+[Maximum product subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/152-maximum-product-subarray)   
 
 ## Extras
 
@@ -367,6 +368,7 @@ Subarray product less than K
 Subarray sum divisible by K   
 Count array pairs whose sum is divisible by K   
 Count array pairs whose product is divisible by K    
+Maximum product subarray
 
 ### Traversals and view of Binary Tree
 
