@@ -330,7 +330,7 @@ Collection of Standard Problems and my solutions
 [Flatten binary tree to linked list](https://github.com/meetjain74/Leetcode-Problems/tree/main/114-flatten-binary-tree-to-linked-list)   
 [Longest increasing subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/300-longest-increasing-subsequence)    
 [Longest consecutive subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/128-longest-consecutive-sequence)    
-
+[Water and jug problem](https://github.com/meetjain74/Leetcode-Problems/tree/main/365-water-and-jug-problem)    
 
 ## Extras
 
