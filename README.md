@@ -278,7 +278,8 @@ Collection of Standard Problems and my solutions
 [Divide two integers](https://github.com/meetjain74/Leetcode-Problems/tree/main/29-divide-two-integers)  
 [Reverse bits](https://github.com/meetjain74/Leetcode-Problems/blob/main/190-reverse-bits/190-reverse-bits.java)  
 [Bitwise AND of Numbers Range](https://github.com/meetjain74/Leetcode-Problems/tree/main/201-bitwise-and-of-numbers-range)   
-[Maximum XOR of two numbers in an array](https://github.com/meetjain74/Leetcode-Problems/tree/main/421-maximum-xor-of-two-numbers-in-an-array)  
+[Maximum XOR of two numbers in an array](https://github.com/meetjain74/Leetcode-Problems/tree/main/421-maximum-xor-of-two-numbers-in-an-array)   
+[Super Pow](https://github.com/meetjain74/Leetcode-Problems/tree/main/372-super-pow)    
 
 ## Matrix
 
