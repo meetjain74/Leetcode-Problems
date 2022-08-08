@@ -5,37 +5,33 @@ class Solution {
         if (word2.length()==0)
             return word1.length(); // Delete all characters
         
-        int dp[][] = new int[word1.length()][word2.length()];
-        for (int i=0;i<word1.length();i++) {
-            Arrays.fill(dp[i],-1);
+        // dp[i][j] represents minimum number of operations to convert
+        // word1 of length i to word2 of length j
+        int dp[][] = new int[word1.length()+1][word2.length()+1];
+        
+        for (int i=0;i<=word1.length();i++) {
+            dp[i][0]=i;
+        }
+        for (int j=0;j<=word2.length();j++) {
+            dp[0][j]=j;
         }
         
-        return match(word1,word2,0,0,dp);
+        for (int i=1;i<=word1.length();i++) {
+            for (int j=1;j<=word2.length();j++) {
+                if (word1.charAt(i-1)==word2.charAt(j-1)) {
+                    dp[i][j] = dp[i-1][j-1];
+                }
+                else {
+                    // Order is delete, insert, update
+                    dp[i][j] = 1 + min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1]);
+                }
+            }
+        }
+        
+        return dp[word1.length()][word2.length()];
     }
-    
-    private int match(String word1,String word2,int i,int j,int[][] dp) {
-        if (i==word1.length()) {
-            return word2.length()-j; //Insert remaining chars
-        }
-        else if (j==word2.length()) {
-            return word1.length()-i; // Delete remaining chars
-        }
-        
-        if (dp[i][j]!=-1)
-            return dp[i][j];
-            
-        if (word1.charAt(i)==word2.charAt(j)) {
-            return dp[i][j]=match(word1,word2,i+1,j+1,dp);
-        }
-        else {
-            //Insert
-            int a = match(word1,word2,i,j+1,dp);
-            //Delete
-            int b = match(word1,word2,i+1,j,dp);
-            //Replace
-            int c = match(word1,word2,i+1,j+1,dp);
-            
-            return dp[i][j]=1+Math.min(a,Math.min(b,c));
-        }
+
+    private int min(int a,int b,int c) {
+        return Math.min(a,Math.min(b,c));
     }
 }
