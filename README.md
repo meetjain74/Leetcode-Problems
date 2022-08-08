@@ -194,6 +194,7 @@ Collection of Standard Problems and my solutions
 [Longest palindromic substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/5-longest-palindromic-substring)  
 [Count palindromic substrings](https://github.com/meetjain74/Leetcode-Problems/tree/main/647-palindromic-substrings)   
 [Count palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/Count%20Palindromic%20Subsequences%20-%20GFG)   
+[Edit distance](https://github.com/meetjain74/Leetcode-Problems/tree/main/72-edit-distance)    
 [Distinct subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/115-distinct-subsequences)    
 [Distinct subsequences II](https://github.com/meetjain74/Leetcode-Problems/tree/main/940-distinct-subsequences-ii)    
 [Count different palindromic subsequences](https://github.com/meetjain74/Leetcode-Problems/tree/main/730-count-different-palindromic-subsequences)   
