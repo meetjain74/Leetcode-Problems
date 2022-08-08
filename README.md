@@ -255,6 +255,7 @@ Collection of Standard Problems and my solutions
 
 [Find the town judge](https://github.com/meetjain74/Leetcode-Problems/tree/main/997-find-the-town-judge)   
 [Number of islands](https://github.com/meetjain74/Leetcode-Problems/tree/main/200-number-of-islands)   
+[Number of provinces](https://github.com/meetjain74/Leetcode-Problems/tree/main/547-number-of-provinces)   
 [Number of operations to make network connected](https://github.com/meetjain74/Leetcode-Problems/tree/main/1319-number-of-operations-to-make-network-connected)    
 [Detect cycle in an undirected graph](https://github.com/meetjain74/Leetcode-Problems/tree/main/Detect%20cycle%20in%20an%20undirected%20graph%20-%20GFG)       
 [Detect cycles in 2d grid](https://github.com/meetjain74/Leetcode-Problems/tree/main/1559-detect-cycles-in-2d-grid)    
