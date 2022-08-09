@@ -299,6 +299,7 @@ Collection of Standard Problems and my solutions
 [Search in a 2d matrix II](https://github.com/meetjain74/Leetcode-Problems/tree/main/240-search-a-2d-matrix-ii)  
 [Kth smallest element in a sorted matrix](https://github.com/meetjain74/Leetcode-Problems/tree/main/378-kth-smallest-element-in-a-sorted-matrix)  
 [Maximum sum rectangle in a 2d matrix](https://github.com/meetjain74/Leetcode-Problems/tree/main/Maximum%20Sum%20Rectangle%20-%20GFG)   
+[Largest rectangular submatrix with sum 0](https://github.com/meetjain74/Leetcode-Problems/tree/main/Largest%20rectangular%20sub-matrix%20whose%20sum%20is%200%20-%20GFG)   
   
 ## Buy and sell stock Problems
 
