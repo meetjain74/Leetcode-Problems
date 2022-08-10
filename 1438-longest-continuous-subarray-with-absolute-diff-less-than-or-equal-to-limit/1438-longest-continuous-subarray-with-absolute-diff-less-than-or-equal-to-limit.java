@@ -4,17 +4,26 @@ class Solution {
         int start = 0;
         int min = nums[0];
         int max = nums[0];
-        PriorityQueue<Integer> minpq = new PriorityQueue<>();
-        PriorityQueue<Integer> maxpq = 
-            new PriorityQueue<>(Collections.reverseOrder());
-        minpq.add(min);
-        maxpq.add(max);
+        Deque<Integer> mindq = new ArrayDeque<>();
+        Deque<Integer> maxdq = new ArrayDeque<>();
+        mindq.add(min);
+        maxdq.add(max);
         
         for (int end=1;end<nums.length;end++) {
             min = Math.min(min,nums[end]);
             max = Math.max(max,nums[end]);
-            minpq.add(nums[end]);
-            maxpq.add(nums[end]);
+            
+            // Remove values less than min in mindq
+            while (mindq.size()!=0 && mindq.peekLast()>nums[end]) {
+                mindq.pollLast();
+            }
+            mindq.add(nums[end]);
+            
+            // Remove values greater than max in maxdq
+            while (maxdq.size()!=0 && maxdq.peekLast()<nums[end]) {
+                maxdq.pollLast();
+            }
+            maxdq.add(nums[end]);
             
             if (max-min<=limit) {
                 maxLen = Math.max(maxLen,end-start+1);
@@ -23,13 +32,13 @@ class Solution {
             else {
                 // Reduce window size
                 while (start<=end && max-min>limit) {
-                    minpq.remove(nums[start]);
-                    maxpq.remove(nums[start]);
                     if (nums[start]==min) {
-                        min = minpq.peek();
+                        min = mindq.pollFirst();
+                        min = mindq.peekFirst();
                     }
                     if (nums[start]==max) {
-                        max = maxpq.peek();
+                        max = maxdq.pollFirst();
+                        max = maxdq.peekFirst();
                     }
                     start++;
                 }
