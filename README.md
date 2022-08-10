@@ -272,6 +272,7 @@ Collection of Standard Problems and my solutions
 [Sum of distances in tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/834-sum-of-distances-in-tree)    
 [Redundant connection](https://github.com/meetjain74/Leetcode-Problems/tree/main/684-redundant-connection)    
 [Redundant connection II](https://github.com/meetjain74/Leetcode-Problems/tree/main/685-redundant-connection-ii)    
+[Network delay time](https://github.com/meetjain74/Leetcode-Problems/tree/main/743-network-delay-time)    
 
 ## Greedy  
 
