@@ -37,7 +37,8 @@ Collection of Standard Problems and my solutions
 [First negative integer in every window of size k](https://github.com/meetjain74/Leetcode-Problems/tree/main/First%20negative%20integer%20in%20every%20window%20of%20size%20k%20-%20GFG)  
 [Minimum size subarray sum](https://github.com/meetjain74/Leetcode-Problems/tree/main/209-minimum-size-subarray-sum)    
 [Find all anagrams in a string](https://github.com/meetjain74/Leetcode-Problems/tree/main/438-find-all-anagrams-in-a-string)  
-[Sliding window maximum](https://github.com/meetjain74/Leetcode-Problems/tree/main/239-sliding-window-maximum)  
+[Sliding window maximum](https://github.com/meetjain74/Leetcode-Problems/tree/main/239-sliding-window-maximum)   
+[Longest continuous subarray with absolute difference less than or equal to limit](https://github.com/meetjain74/Leetcode-Problems/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit)     
 [Minimum window substring](https://github.com/meetjain74/Leetcode-Problems/tree/main/76-minimum-window-substring)  
 
 ## Linked list 
