@@ -274,6 +274,7 @@ Collection of Standard Problems and my solutions
 [Redundant connection II](https://github.com/meetjain74/Leetcode-Problems/tree/main/685-redundant-connection-ii)    
 [Network delay time](https://github.com/meetjain74/Leetcode-Problems/tree/main/743-network-delay-time)    
 [Path with maximum probability](https://github.com/meetjain74/Leetcode-Problems/tree/main/1514-path-with-maximum-probability)    
+[Cheapest flight within k stops](https://github.com/meetjain74/Leetcode-Problems/tree/main/787-cheapest-flights-within-k-stops)    
 
 ## Greedy  
 
