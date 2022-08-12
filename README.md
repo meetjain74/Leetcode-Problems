@@ -283,6 +283,7 @@ Collection of Standard Problems and my solutions
 [Jump Game](https://github.com/meetjain74/Leetcode-Problems/tree/main/55-jump-game)    
 [Jump Game II](https://github.com/meetjain74/Leetcode-Problems/tree/main/45-jump-game-ii)   
 [Gas station](https://github.com/meetjain74/Leetcode-Problems/tree/main/134-gas-station)     
+[Minimum number of taps to open to water a garden](https://github.com/meetjain74/Leetcode-Problems/tree/main/1326-minimum-number-of-taps-to-open-to-water-a-garden)   
 
 ## Bit manipulation
 
