@@ -355,6 +355,7 @@ Collection of Standard Problems and my solutions
 [Longest consecutive subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/128-longest-consecutive-sequence)    
 [Water and jug problem](https://github.com/meetjain74/Leetcode-Problems/tree/main/365-water-and-jug-problem)    
 [Maximum product subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/152-maximum-product-subarray)   
+[Minimum number of removals to make mountain array](https://github.com/meetjain74/Leetcode-Problems/tree/main/1671-minimum-number-of-removals-to-make-mountain-array)   
 
 ## Extras
 
