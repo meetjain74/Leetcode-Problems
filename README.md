@@ -270,6 +270,7 @@ Collection of Standard Problems and my solutions
 [Topological sort](https://github.com/meetjain74/Leetcode-Problems/tree/main/Topological%20sort%20-%20GFG)    
 [Minimum height trees](https://github.com/meetjain74/Leetcode-Problems/tree/main/310-minimum-height-trees)     
 [Detonate the maximum bombs](https://github.com/meetjain74/Leetcode-Problems/tree/main/2101-detonate-the-maximum-bombs)    
+[Find eventual safe states](https://github.com/meetjain74/Leetcode-Problems/tree/main/802-find-eventual-safe-states)    
 [Sum of distances in tree](https://github.com/meetjain74/Leetcode-Problems/tree/main/834-sum-of-distances-in-tree)    
 [Redundant connection](https://github.com/meetjain74/Leetcode-Problems/tree/main/684-redundant-connection)    
 [Redundant connection II](https://github.com/meetjain74/Leetcode-Problems/tree/main/685-redundant-connection-ii)    
