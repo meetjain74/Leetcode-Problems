@@ -278,6 +278,7 @@ Collection of Standard Problems and my solutions
 [Path with maximum probability](https://github.com/meetjain74/Leetcode-Problems/tree/main/1514-path-with-maximum-probability)    
 [Cheapest flight within k stops](https://github.com/meetjain74/Leetcode-Problems/tree/main/787-cheapest-flights-within-k-stops)    
 [Evaluate division](https://github.com/meetjain74/Leetcode-Problems/tree/main/399-evaluate-division)     
+[Flower planting with no adjacent](https://github.com/meetjain74/Leetcode-Problems/tree/main/1042-flower-planting-with-no-adjacent)    
 
 ## Greedy  
 
