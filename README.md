@@ -232,6 +232,7 @@ Collection of Standard Problems and my solutions
 [Find peak element](https://github.com/meetjain74/Leetcode-Problems/tree/main/162-find-peak-element)  
 [Median of two sorted arrays](https://github.com/meetjain74/Leetcode-Problems/tree/main/4-median-of-two-sorted-arrays)    
 [Longest increasing subsequence](https://github.com/meetjain74/Leetcode-Problems/tree/main/300-longest-increasing-subsequence)    
+[Successful pairs of spells and potions](https://github.com/meetjain74/Leetcode-Problems/tree/main/2300-successful-pairs-of-spells-and-potions)     
 
 ## BFS and DFS
 
