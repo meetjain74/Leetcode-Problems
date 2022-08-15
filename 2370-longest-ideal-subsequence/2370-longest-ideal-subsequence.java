@@ -1,29 +1,24 @@
 class Solution {
     public int longestIdealString(String s, int k) {
-        int dp[][] = new int[27][s.length()];
-        for (int i=0;i<27;i++) {
-            Arrays.fill(dp[i],-1);
-        }
-        return solve(s,0,'#',k,dp);
-    }
-    
-    private int solve(String s,int index,char prev,int k,int[][] dp) {
-        if (index==s.length())
-            return 0;
+        int n=s.length();
+        int dp[]=new int[26];
         
-        int idx = prev=='#' ? 0 : prev-'a'+1;
-        
-        if (dp[idx][index]!=-1)
-            return dp[idx][index];
-        
-        char ch = s.charAt(index);
-        int s1 = 0;
-        if (prev=='#' || Math.abs(ch-prev)<=k) {
-            s1 = 1+solve(s,index+1,ch,k,dp);
+        for(int i=0;i<n;i++) {
+            int curr=s.charAt(i)-'a';
+            int temp=dp[curr];
+            for(int c=0;c<26;c++) {
+                if(Math.abs(c-curr)<=k) {
+                    temp=Math.max(temp,dp[c]+1);
+                }
+            }
+            dp[curr]=temp;
         }
         
-        int s2 = solve(s,index+1,prev,k,dp);
+        int max=0;
+        for (int i=0;i<26;i++) {
+            max = Math.max(max,dp[i]);
+        }
         
-        return dp[idx][index]=Math.max(s1,s2);
+        return max;
     }
 }
