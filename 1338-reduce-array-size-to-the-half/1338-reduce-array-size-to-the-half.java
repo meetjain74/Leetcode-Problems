@@ -5,15 +5,18 @@ class Solution {
             map.put(num,map.getOrDefault(num,0)+1);
         }
         
-        PriorityQueue<Integer> pq=new PriorityQueue<>(Collections.reverseOrder());
+        List<Integer> l=new ArrayList<>();
         for (Map.Entry<Integer,Integer> e: map.entrySet()) {
-            pq.add(e.getValue());
+            l.add(e.getValue());
         }
+        
+        Collections.sort(l,Collections.reverseOrder());
         
         int count = 0;
         int target = arr.length/2;
-        while (target>0 && !pq.isEmpty()) {
-            int curr = pq.poll();
+        int i = 0;
+        while (target>0 && !l.isEmpty()) {
+            int curr = l.get(i++);
             count++;
             target -= curr;
         }
