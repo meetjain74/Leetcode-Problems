@@ -294,6 +294,7 @@ Collection of Standard Problems and my solutions
 [Minimum number of fibonacci numbers whose sum is k](https://github.com/meetjain74/Leetcode-Problems/tree/main/1414-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k)     
 [Candy](https://github.com/meetjain74/Leetcode-Problems/tree/main/135-candy)   
 [Integer replacement](https://github.com/meetjain74/Leetcode-Problems/tree/main/397-integer-replacement)   
+[Shortest unsorted continuous subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/581-shortest-unsorted-continuous-subarray)    
 
 ## Bit manipulation
 
