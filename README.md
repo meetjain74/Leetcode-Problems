@@ -292,6 +292,7 @@ Collection of Standard Problems and my solutions
 [Gas station](https://github.com/meetjain74/Leetcode-Problems/tree/main/134-gas-station)     
 [Minimum number of taps to open to water a garden](https://github.com/meetjain74/Leetcode-Problems/tree/main/1326-minimum-number-of-taps-to-open-to-water-a-garden)   
 [Minimum number of fibonacci numbers whose sum is k](https://github.com/meetjain74/Leetcode-Problems/tree/main/1414-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k)     
+[Candy](https://github.com/meetjain74/Leetcode-Problems/tree/main/135-candy)   
 
 ## Bit manipulation
 
