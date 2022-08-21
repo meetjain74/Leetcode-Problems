@@ -1,18 +1,31 @@
 class Solution {
     public int integerReplacement(int n) {
-        return steps(n);
-    }
-    
-    public int steps(int n) {
-        if (n==1)
-            return 0;
+        if (n==Integer.MAX_VALUE)
+            return 32;
         
-        if (n%2==0)
-            return 1+steps(n/2);
+        // If n is even- 1 operation n/2
+        // If n is odd- (n-1) or (n+1)
+        // If n is odd i.e n=2k+1
+        // n+1 = 2k+2 and n-1 = 2k
+        // (n+1)/2 = k+1 and (n-1)/2=k
+        // i.e (n+1)/2 and (n-1)/2 are consecutive and hence one is even and other odd
+        // We move to the even side
+        // Check one case for n=3
         
-        if (n!=Integer.MAX_VALUE)
-            return 1+Math.min(steps(n-1),steps(n+1));
-        else
-            return Math.min(1+steps(n-1),2+steps(n/2+1));
+        int count = 0;
+        while (n>1) {
+            if (n%2==0) {
+                n = n/2;
+            }
+            else {
+                if (n!=3 && (n+1)%4==0)
+                    n++;
+                else
+                    n--;
+            }
+            count++;
+        }
+        
+        return count;
     }
 }
