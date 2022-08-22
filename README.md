@@ -295,6 +295,7 @@ Collection of Standard Problems and my solutions
 [Candy](https://github.com/meetjain74/Leetcode-Problems/tree/main/135-candy)   
 [Integer replacement](https://github.com/meetjain74/Leetcode-Problems/tree/main/397-integer-replacement)   
 [Shortest unsorted continuous subarray](https://github.com/meetjain74/Leetcode-Problems/tree/main/581-shortest-unsorted-continuous-subarray)    
+[Maximum number of events that can be attended](https://github.com/meetjain74/Leetcode-Problems/tree/main/1353-maximum-number-of-events-that-can-be-attended)    
 
 ## Bit manipulation
 
