@@ -17,7 +17,6 @@ class Solution {
         // Stores end day of events in ascending order
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         int curr = 0;
-        int day[] = new int[maxDay+1];
         int count = 0;
         
         for (int d=1;d<=maxDay;d++) {
