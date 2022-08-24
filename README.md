@@ -215,6 +215,7 @@ Collection of Standard Problems and my solutions
 [Student attendance record II](https://github.com/meetjain74/Leetcode-Problems/tree/main/552-student-attendance-record-ii)    
 [Word wrap](https://github.com/meetjain74/Leetcode-Problems/tree/main/Word%20Wrap%20-%20GFG)    
 [Domino and tromino tiling](https://github.com/meetjain74/Leetcode-Problems/tree/main/790-domino-and-tromino-tiling)    
+[Maximum earnings from taxi](https://github.com/meetjain74/Leetcode-Problems/tree/main/2008-maximum-earnings-from-taxi)    
 
 ## Binary search
 
