@@ -85,6 +85,7 @@ Collection of Standard Problems and my solutions
 [K closest points to origin](https://github.com/meetjain74/Leetcode-Problems/tree/main/973-k-closest-points-to-origin)  
 [Merge k sorted lists](https://github.com/meetjain74/Leetcode-Problems/tree/main/23-merge-k-sorted-lists)  
 [Reorganize string](https://github.com/meetjain74/Leetcode-Problems/tree/main/767-reorganize-string)   
+[Find k pairs with smallest sums](https://github.com/meetjain74/Leetcode-Problems/tree/main/373-find-k-pairs-with-smallest-sums)    
 
 ## Tree
 
