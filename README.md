@@ -255,6 +255,7 @@ Collection of Standard Problems and my solutions
 [Shortest bridge](https://github.com/meetjain74/Leetcode-Problems/tree/main/934-shortest-bridge)   
 [Minesweeper](https://github.com/meetjain74/Leetcode-Problems/tree/main/529-minesweeper)    
 [Race car](https://github.com/meetjain74/Leetcode-Problems/tree/main/818-race-car)   
+[Minimum jumps to reach home](https://github.com/meetjain74/Leetcode-Problems/tree/main/1654-minimum-jumps-to-reach-home)    
 
 ## Graphs
 
