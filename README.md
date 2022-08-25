@@ -23,6 +23,7 @@ Collection of Standard Problems and my solutions
 [Count and say](https://github.com/meetjain74/Leetcode-Problems/tree/main/38-count-and-say)    
 [Add strings](https://github.com/meetjain74/Leetcode-Problems/tree/main/415-add-strings)   
 [Multiply strings](https://github.com/meetjain74/Leetcode-Problems/tree/main/43-multiply-strings)   
+[Equal sum arrays with minimum number of operations](https://github.com/meetjain74/Leetcode-Problems/tree/main/1775-equal-sum-arrays-with-minimum-number-of-operations)     
 
 ## Two pointer approach / Sliding window
 
